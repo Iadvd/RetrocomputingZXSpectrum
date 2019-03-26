@@ -35,7 +35,7 @@ We are providing the .tap files directly so you do not need to recompile the pro
 
 https://creativecommons.org/licenses/by-nc-sa/3.0/es/
 
-# Ok, let us test the Virtual Joystick! how does tcpipsrv_basic.c (ZX Spectrum program tcpipsrv_basic.tap file) works? 
+# Ok, let us test the Virtual Joystick! How does tcpipsrv_basic.c (ZX Spectrum program tcpipsrv_basic.tap file) works? 
 
 The Android TCP/IP Virtual Joystick is able to connect to a TCP/IP server application listening at port 8081. And that is what tcpipsrv_basic.tap does. 
 
