@@ -10,6 +10,7 @@ The Android TCP/IP Virtual Joystick will ask you for an IP address of your local
 The example file "tcpipsrv_basic.c" when compiled creates a .tap file that is a server side TCP/IP listener on the port 8081 for a ZX Spectrum computer. The tcpipsrv_basic.tap file (is already available in the repository if you do not want to compile it again by yourself) can be run in the Fuse Spectrum Emulator with the Spectranet peripheral emulation. It is expected also to run in a real ZX Spectrum with a real Spectranet peripheral (if converted to a tape or a wav file for the EAR input channel of the ZX Spectrum).
 
 You will need to install in your computer both the Fuse Spectrum emulator:
+
 http://fuse-emulator.sourceforge.net/
 
 and its Spectranet peripheral emulator:
