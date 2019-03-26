@@ -43,17 +43,23 @@ The connection protocol is as follows:
 
 1) First start (open in Fuse emulator that has the Spectranet peripheral emulator working and the TCP/IP port 8081 open without firewalls) the server side application tcpipsrv_basic.tap, that will be listening to the port 8081.
 
+![alt text](https://github.com/Iadvd/RetrocomputingZXSpectrum/blob/master/tcpipsrv_basic.tap_image1.png)
+
 2) Then open the Android TCP/IP Virtual Joystick.
 
 3) The Virtual Joystick app. will look for a valid TCP connection into the provided IP (where the ZX Spectrum machine or the Fuse emulator is), at port 8081.
 
 4) The server side app. tcpipsrv_basic.tap will detect the request for connection and will create a TCP/IP socket and will open it. Once the connection is obtained, the Virtual Joystick will send a test message to the server side app. with the word 'START'. Then tcpipsrv_basic.tap can use that first incoming message to know that the connected aplication is an Android TCP/IP Virtual Joystick (in the example tcpipsrv_basic.tap we are just accepting the message and assuming that it is a Virtual Joystick without any special check).
 
+![alt text](https://github.com/Iadvd/RetrocomputingZXSpectrum/blob/master/tcpipsrv_basic.tap_image2.png)
+
 5) Then the Virtual Joystick will expect the server side app. tcpipsrv_basic.tap to send the word 'TCPIPJOYSTICK' or 'TCPIPJOYSTICKSPECTRUM' in this case (to show a nice background image in the Android application side).
 
 6) If the word arrives, then we have found a server side Virtual Joystick application; in other case, it is not a correct TCP connection so the Virtual Joystick will close the connection.
 
 7) Once the correct connection has been confirmed, the Android TCP/IP Virtual Joystick application will start sending messages to the server side app. tcpipsrv_basic.tap each time an event happens (UP, RIGHT, BUTTON1, etc.)\n\n8. tcpipsrv_basic.tap will read those messages and will show the actions on the ZX Spectrum monitor screen (Fuse emulator window or a TV in case of using a real machine). 
+
+![alt text](https://github.com/Iadvd/RetrocomputingZXSpectrum/blob/master/tcpipsrv_basic.tap_image3.png)
 
 If the TCP connection is lost, the server application tcpipsrv_basic.tap detects it and enter again in a listening for a new connection status. You will need to close the Android TCP/IP Virtual Joystick app. (at least in the present version), and then open it again to create again a TCP/IP channel with the server side application.
 
