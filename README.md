@@ -41,7 +41,7 @@ The Android TCP/IP Virtual Joystick is able to connect to a TCP/IP server applic
 
 The connection protocol is as follows:
 
-1) First start (open in Fuse emulator) the server side application tcpipsrv_basic.tap, that will be listening to the port 8081.
+1) First start (open in Fuse emulator that has the Spectranet peripheral emulator working and the TCP/IP port 8081 open without firewalls) the server side application tcpipsrv_basic.tap, that will be listening to the port 8081.
 
 2) Then open the Android TCP/IP Virtual Joystick.
 
