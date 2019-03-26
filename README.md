@@ -23,7 +23,7 @@ http://spectrum.alioth.net/doc/index.php/Main_Page
 
 So basically, a ZX Spectrum (emulated or real) with a Spectranet peripheral can manage a TCP/IP connection, thus we can use an Android TCP/IP Virtual Joystick and send the information of the actions of the joystick to the Spectrum application (usually it is an 8-bit game, of course!).
 
-We use several tools to make the examples, but the main ones are the Z80 Development Kit:
+We use several tools to make the examples, but the main ones are the Spectranet socket libraries and the Z80 Development Kit:
 
 https://www.z88dk.org/forum/
 
@@ -35,7 +35,7 @@ We are providing the .tap files directly so you do not need to recompile the pro
 
 https://creativecommons.org/licenses/by-nc-sa/3.0/es/
 
-# How does tcpipsrv_basic.c (ZX Spectrum program tcpipsrv_basic.tap file) works? 
+# Ok, let us test the Virtual Joystick! how does tcpipsrv_basic.c (ZX Spectrum program tcpipsrv_basic.tap file) works? 
 
 The Android TCP/IP Virtual Joystick is able to connect to a TCP/IP server application listening at port 8081. And that is what tcpipsrv_basic.tap does. 
 
