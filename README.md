@@ -45,9 +45,9 @@ The connection protocol is as follows:
 
 2) Then open the Android TCP/IP Virtual Joystick.
 
-3) The Virtual Joystick app. will look for a valid TCP connection into the provided IP, port 8081.
+3) The Virtual Joystick app. will look for a valid TCP connection into the provided IP (where the ZX Spectrum machine or the Fuse emulator is), at port 8081.
 
-4) Once the connection is obtained, it will send a test message to the server side app. with the word 'START'. tcpipsrv_basic.tap can use that first incoming message to know that the connected aplication is an Android TCP/IP Virtual Joystick (in the example we are just accepting the message and assuming that it is a Virtual Joystick).
+4) The server side app. tcpipsrv_basic.tap will detect the request for connection and will create a TCP/IP socket and will open it. Once the connection is obtained, the Virtual Joystick will send a test message to the server side app. with the word 'START'. Then tcpipsrv_basic.tap can use that first incoming message to know that the connected aplication is an Android TCP/IP Virtual Joystick (in the example tcpipsrv_basic.tap we are just accepting the message and assuming that it is a Virtual Joystick without any special check).
 
 5) Then the Virtual Joystick will expect the server side app. tcpipsrv_basic.tap to send the word 'TCPIPJOYSTICK' or 'TCPIPJOYSTICKSPECTRUM' in this case (to show a nice background image in the Android application side).
 
