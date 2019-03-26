@@ -27,7 +27,9 @@ We use several tools to make the examples, but the main ones are the Spectranet 
 
 https://www.z88dk.org/forum/
 
-Remark: the library used by the Spectranet C projects, libsocket, needs to be recopiled if it is going to be used with newer versions of the compiler. For this reason we are including the compiler too in the projects, because there are compatibility issues between old libraries (not so well mantained currently) and new compiler versions.
+https://sourceforge.net/projects/z88dk/files/
+
+Remark: the library used by the Spectranet C projects, libsocket, needs to be recopiled if it is going to be used with newer versions of the compiler (as the one we link above). For this reason we are including the compiler too in those example projects where the latest version will not work, because there are compatibility issues between old libraries (not so well mantained currently) and new compiler versions.
 
 Please review the comments on each project to understand the correct environment for the compiler. 
 
