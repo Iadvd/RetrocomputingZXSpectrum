@@ -18,9 +18,10 @@ and its Spectranet peripheral emulator:
 https://sourceforge.net/p/fuse-emulator/wiki/Spectranet%20Emulation/
 
 The Spectranet preripheral is a ZX Spectrum device able to provide network connection for a ZX Spectrum machine. More info here:
+
 http://spectrum.alioth.net/doc/index.php/Main_Page
 
-So basically, a ZX Spectrum with a Spectranet peripheral can manage TCP/IP connection, thus we can use an Android TCP/IP Virtual Joystick and send the information of the actions of the joystick to the Spectrum application (usually 8-bit games of course!).
+So basically, a ZX Spectrum (emulated or real) with a Spectranet peripheral can manage TCP/IP connection, thus we can use an Android TCP/IP Virtual Joystick and send the information of the actions of the joystick to the Spectrum application (usually 8-bit games of course!).
 
 We use several tools to make the examples, but the main ones are the Z80 Development Kit:
 
