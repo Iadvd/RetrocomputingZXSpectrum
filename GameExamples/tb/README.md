@@ -10,7 +10,7 @@ http://www.mojontwins.com/juegos_mojonos/trabajo-basura-dire-job/
 
 # How to play the .tap file?
 
-1. Install Fuse ZX Spectrum emulator (use the emulation of the 48K version)  + Spectranet emulator. If Spectranet is correctly installed you will get a local IP for the Spectrum.
+1. Install Fuse ZX Spectrum emulator (use the emulation of the 48K version)  + Spectranet emulator. If Spectranet is correctly installed you will get a local IP for the Spectrum. You will need to verify that the computer is not using a firewall or at least that the port 8081 is open and available to be used for a TCP/IP protocol connection.
 
 2. Download tb.tap and load it into Fuse. You will see the loading screen and then a text screen saying: "Trabajo Basura. Android Virtual Joystick compatible version. Wait or any key to cancel."
 
