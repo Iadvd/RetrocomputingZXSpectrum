@@ -24,7 +24,7 @@ http://www.mojontwins.com/juegos_mojonos/trabajo-basura-dire-job/
 
 # For developers: How to compile/reuse the .tap file again? (not required to play the game)
 
-1. In your Z88dk folder (e.g. C:\z88dk10) unrar or unzip directly the content of "Mojon-Twins--Trabajo-Basura--src.zip". You should be using The Mojon Twins adapted version of the compiler (all credits to The Mojon Twins):
+1. In your Z88dk folder (e.g. C:\z88dk10) unzip directly the content of "Mojon-Twins--Trabajo-Basura--src.zip". You should be using The Mojon Twins adapted version of the compiler (all credits to The Mojon Twins):
 
 https://github.com/mojontwins/MK1
 
