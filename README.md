@@ -82,9 +82,11 @@ http://www.mojontwins.com/juegos_mojonos/
 All of them Powered by The Mojon Twins La Churrera and also copyleft The Mojon Twins under a CC BY-NC-SA 3.0 license. So all credits go to them. These are the games: 
 
 Trabajo Basura (Dire Job) Android TCP/IP Virtual Joystick compatible version:
+
 https://github.com/Iadvd/RetrocomputingZXSpectrum/tree/master/GameExamples/tb
 
-Original version from the Mojon Twins (including an explanation of the game):
+Original version from the Mojon Twins (not compatible with the Android TCP/IP Virtual Joystick) including an explanation of the game):
+
 http://www.mojontwins.com/juegos_mojonos/trabajo-basura-dire-job/
 
 In the same way, you can download and reuse our code for your own projects (copyleft license CC BY-SA 4.0).
