@@ -18,7 +18,12 @@ http://www.mojontwins.com/juegos_mojonos/trabajo-basura-dire-job/
 
 4. When the Virtual Joystick app. arrives to the IP that is using Spectranet, the game wil detect the joystick and connect to it. The game's Main Menu will appear. 
 
-5. Select keyboard or any other input, it does not matter, the virtual joystick will be available in any case.
+5. Select keyboard or any other input, it does not matter, the virtual joystick will be available in any case. The actions are:
+
+O / joystick left: run left.
+P / joystick right: run right.
+SPACE / joystick fire (Red Button): jump.
+A / joystick fire (Green Button): Activate terminal (if you are carrying a diskette)
 
 6. If you close the Android application, the connection is lost. You will need to load again the game and start from step 2.
 
