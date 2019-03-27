@@ -3,7 +3,7 @@ Example applications to be use with Android TCP/IP Virtual Joystick
 
 This examples are ZX Spectrum (48K or above) emulation files, to test the functionalities of the Android TCP/IP Virtual Joystick application. So you will need our Android TCP/IP Virtual Joystick to test them (its totally free!). Download it for your Android device at:
 
-
+https://play.google.com/store/apps/details?id=com.iadvd.android.tcpipvirtualjoystick
 
 The Android TCP/IP Virtual Joystick will ask you for an IP address of your local network where there must be an application (for instance see tcpipsrv_basic.c) already listening to the 8081 port to negotiate a TCP connection with the Android Virtual Joystick.
 
