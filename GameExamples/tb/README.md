@@ -12,6 +12,8 @@ http://www.mojontwins.com/juegos_mojonos/trabajo-basura-dire-job/
 
 1. Install Fuse ZX Spectrum emulator (use the emulation of the 48K version)  + Spectranet emulator. If Spectranet is correctly installed you will get a local IP for the Spectrum. You will need to verify that the computer is not using a firewall or at least that the port 8081 is open and available to be used for a TCP/IP protocol connection.
 
+1b. Of course if you are the lucky possesor of a real Spectrum 48k (or greater version) and a real Spectranet peripheral, then you can also continue to step 2!!
+
 2. Download tb.tap and load it into Fuse. You will see the loading screen and then a text screen saying: "Trabajo Basura. Android Virtual Joystick compatible version. Wait or any key to cancel." (if you press any kay in this moment, the game will not use the Virtual Joystick, so just wait).
 
 3. Now open your Android TCP/IP Virtual Joystick application. Your Android device must be in the same local network (using WiFi) than the computer where the Fuse emulator is or the ZX Spectrum connected through Spectranet is. The application will ask you the IP that Spectranet is using (or if you do not know it you can write an IP of the same local network to start searching from it).
