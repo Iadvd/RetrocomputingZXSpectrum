@@ -6,7 +6,7 @@ This folder contains the game Trabajo Basura (Dire Job), Android TCP/IP Virtual 
 
 Original version from the Mojon Twins (including an explanation of the game): 
 
-http://www.mojontwins.com/juegos_mojonos/trabajo-basura-dire-job/
+http://www.mojontwins.com/juegos_mojonos/cadaverion/
 
 # How to play the .tap file?
 
