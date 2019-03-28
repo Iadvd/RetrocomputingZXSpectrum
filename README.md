@@ -73,9 +73,11 @@ You just need the Android device where the Virtual Joystick is running connected
 
 Be aware that you will need to review if the server side application computer (e.g. if you are using Fuse Zpectrum emulator this can happen) is using a firewall. You will need to open at least the TCP port 8081 if there is a firewall. If not, the application will not be able to negotiate the TCP/IP protocol.
 
-It is possible to play homebrew games that have been adapted to this TCP/IP interface, connected through the Spectranet peripheral (e.g. if your 8-bit game can be played by using a keyboard, a Kempston Joystick or a Sinclair Joystick you can also add another option for an Android TCP/IP Virtual Joystick). It should work as well with a real ZX Spectrum computer and a real Spectranet peripheral.
+# Great, but I want to play games! Are there cool games adapted to use the Android TCP/IP Virtual Joystick? 
 
-For instance, we are adapted several games from the famous Spanish Spectrum scene group The Mojon Twins:
+Yes!!!! It is possible to play homebrew games that have been adapted to this TCP/IP interface, connected through the Spectranet peripheral (e.g. if your 8-bit game can be played by using a keyboard, a Kempston Joystick or a Sinclair Joystick you can also add another option for an Android TCP/IP Virtual Joystick). It should work as well with a real ZX Spectrum computer and a real Spectranet peripheral.
+
+And here they are the first ones! We have adapted several games from the famous Spanish Spectrum scene group The Mojon Twins:
 
 http://www.mojontwins.com/juegos_mojonos/
 
