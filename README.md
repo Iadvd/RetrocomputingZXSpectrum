@@ -149,6 +149,14 @@ http://www.mojontwins.com/2013/10/31/tenebra-macabre-nuestro-juego-para-hallowee
 
 In the same way, you can download and reuse our code for your own projects (copyleft license CC BY-SA 4.0).
 
+# I can see games in my tv screen and play wireless with the app. Spectacol for Android + Google Chromecast... so what is the point of using the Android TCP/IP Virtual Joystick?
+
+Spectacol is a great emulator for Android (indeed is based on the Fuse emulator), and you can use it to play wireless using Google Chromecast to share your device screen with your TV screen. The difference is that in that case, a) Spectacle is the owner of the virtual joystick, and it is emulating a Kempston, Sinclair or other type of joystick, it is not adding a new interface. And b) you will see in the screen the virtual joystick under the game, and that sometimes will not let you focus on playing the game. 
+
+In the case of the Android TCP/IP Virtual Joystick, it is directly the Spectrum game / application the owner of the control of the peripheral, so you will not see the virtual joystick over the image of the game. The joystick remains in your Android device, and the television or the Fuse simulator screen will only show the game (as it happens with the standard / classical joysticks!). 
+
+Besides, our application and the adapted games can be played in a real ZX Spectrum using a Spectranet peripheral, so you can play wireless using a real ZX Spectrum machine and not an emulation. We think that this is an interesting and new approach.
+
 # A final message to ZX Spectrum game developers
 
 The Android TCP/IP Virtual Joystick functions are written in C for the z88dk compiler. They are really very easy to use, do not be afraid and add them to your Spectrum games, it is cool to have a wireless joystick version, isn't it? If you make some Spectrum 8-bit games or apps. using our code please let us know, we will be very happy to know that this is useful for retrocomputing fans!
