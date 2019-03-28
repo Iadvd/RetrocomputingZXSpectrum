@@ -14,9 +14,9 @@
 
       P / joystick right: run right.
 
-      Q / joystick fire (Red Button): jump.
+      Q / joystick fire (Green Button): jump.
 
-      A / joystick fire (Green Button): shoot
+      A / joystick fire (Red Button): shoot
 
 6. If you close the Android application, the connection is lost. You will need to load again the game and start from step 2.
 
