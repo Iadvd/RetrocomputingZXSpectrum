@@ -2,7 +2,7 @@
 
 # Powered by The Mojon Twins La Churrera and also copyleft The Mojon Twins under a CC BY-NC-SA 3.0 license. So all credits go to them.
 
-This folder contains the game Trabajo Basura (Dire Job), Android TCP/IP Virtual Joystick compatible version.
+This folder contains the game Trabajo Basura (Dire Job), Android TCP/IP Virtual Joystick compatible version. Caveat: It does not include the main music theme.
 
 Original version from the Mojon Twins (including an explanation of the game): 
 
