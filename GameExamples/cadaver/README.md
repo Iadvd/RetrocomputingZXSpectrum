@@ -20,14 +20,18 @@ http://www.mojontwins.com/juegos_mojonos/cadaverion/
 
 5. Select keyboard or any other input, it does not matter, the virtual joystick will be available in any case. The controls are:
 
-      O / joystick left: run left.
+      O / joystick left: move left.
 
-      P / joystick right: run right.
+      P / joystick right: move right.
+      
+      Q / joystick left: move up.
 
-      SPACE / joystick fire (Red Button): jump.
+      A / joystick right: move down.
 
-      A / joystick fire (Green Button): Activate terminal (if you are carrying a diskette)
-
+      SPACE + Movement / joystick fire (Red or Green Buttons) + Movement: push statue.
+      
+      SPACE / joystick fire (Red or Green Buttons) over a blueish tile: reset screen (useful if you get stuck).
+      
 6. If you close the Android application, the connection is lost. You will need to load again the game and start from step 2.
 
 # For developers: How to compile/reuse the .tap file again? (not required to play the game)
