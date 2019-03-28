@@ -42,6 +42,6 @@ https://github.com/mojontwins/MK1
 
 2. Then download the rest of individual files and copy them to the same folder (this will overwrite some files, do not worry).
 
-3. Use "make.bat tb" command to create again the .tap file if you wish so.
+3. Use "make.bat cadaver" command to create again the .tap file if you wish so.
 
 
