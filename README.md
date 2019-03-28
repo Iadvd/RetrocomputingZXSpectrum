@@ -125,6 +125,6 @@ http://www.mojontwins.com/juegos_mojonos/zombie-calavera-prologue/
 
 In the same way, you can download and reuse our code for your own projects (copyleft license CC BY-SA 4.0).
 
-# A final message to game developers
+# A final message to ZX Spectrum game developers
 
-These libraries are very easy to use, do not be afraid and add them to your games, it is cool to have a wireless joystick version, isn't it? If you make some Spectrum 8-bit games or apps. using our code please let us know, we will be very happy to know that this is useful for retrocomputing fans!
+The Android TCP/IP Virtual Joystick functions are written in C for the z88dk compiler. They are really very easy to use, do not be afraid and add them to your Spectrum games, it is cool to have a wireless joystick version, isn't it? If you make some Spectrum 8-bit games or apps. using our code please let us know, we will be very happy to know that this is useful for retrocomputing fans!
