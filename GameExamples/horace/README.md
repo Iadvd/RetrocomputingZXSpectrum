@@ -1,3 +1,13 @@
+# Horace Goes To The Tower
+
+# Powered by The Mojon Twins La Churrera and also copyleft The Mojon Twins under a CC BY-NC-SA 3.0 license. So all credits go to them.
+
+This folder contains the game Horace Goes To The Tower, Android TCP/IP Virtual Joystick compatible version.
+
+Original version from the Mojon Twins (including an explanation of the game): 
+
+http://www.mojontwins.com/juegos_mojonos/1773-2/
+
 # How to play the .tap file?
 
 1. Install Fuse ZX Spectrum emulator (use the emulation of the 48K version)  + Spectranet emulator. If Spectranet is correctly installed you will get a local IP for the Spectrum. You will need to verify that the computer is not using a firewall or at least that the port 8081 is open and available to be used for a TCP/IP protocol connection. And of course: if you are the lucky possesor of a real Spectrum 48k machine (or greater version) and a real Spectranet peripheral, then you can also continue to step 2!!
