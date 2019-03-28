@@ -109,7 +109,7 @@ http://www.mojontwins.com/juegos_mojonos/cheril_perils/
 
 4. "Horace Goes To The Tower" Android TCP/IP Virtual Joystick compatible version:
 
-https://github.com/Iadvd/RetrocomputingZXSpectrum/tree/master/GameExamples/ababol
+https://github.com/Iadvd/RetrocomputingZXSpectrum/tree/master/GameExamples/horace
 
 Original version from the Mojon Twins (not compatible with the Android TCP/IP Virtual Joystick) including an explanation of the game):
 
