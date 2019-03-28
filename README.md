@@ -81,7 +81,7 @@ http://www.mojontwins.com/juegos_mojonos/
 
 All of them Powered by The Mojon Twins La Churrera and also copyleft The Mojon Twins under a CC BY-NC-SA 3.0 license. So all credits go to them. These are the games: 
 
-1. Trabajo Basura (Dire Job) Android TCP/IP Virtual Joystick compatible version:
+1. "Trabajo Basura (Dire Job)" Android TCP/IP Virtual Joystick compatible version:
 
 https://github.com/Iadvd/RetrocomputingZXSpectrum/tree/master/GameExamples/tb
 
@@ -89,13 +89,37 @@ Original version from the Mojon Twins (not compatible with the Android TCP/IP Vi
 
 http://www.mojontwins.com/juegos_mojonos/trabajo-basura-dire-job/
 
-2. Sir Ababol Android TCP/IP Virtual Joystick compatible version:
+2. "Sir Ababol" Android TCP/IP Virtual Joystick compatible version:
 
 https://github.com/Iadvd/RetrocomputingZXSpectrum/tree/master/GameExamples/ababol
 
 Original version from the Mojon Twins (not compatible with the Android TCP/IP Virtual Joystick) including an explanation of the game):
 
 http://www.mojontwins.com/juegos_mojonos/sir-ababol/
+
+3. "Cheril Perils" Android TCP/IP Virtual Joystick compatible version:
+
+https://github.com/Iadvd/RetrocomputingZXSpectrum/tree/master/GameExamples/perils
+
+Original version from the Mojon Twins (not compatible with the Android TCP/IP Virtual Joystick) including an explanation of the game):
+
+http://www.mojontwins.com/juegos_mojonos/cheril_perils/
+
+4. "Horace Goes To The Tower" Android TCP/IP Virtual Joystick compatible version:
+
+https://github.com/Iadvd/RetrocomputingZXSpectrum/tree/master/GameExamples/ababol
+
+Original version from the Mojon Twins (not compatible with the Android TCP/IP Virtual Joystick) including an explanation of the game):
+
+http://www.mojontwins.com/juegos_mojonos/1773-2/
+
+5. "Zombie Calavera" Android TCP/IP Virtual Joystick compatible version:
+
+https://github.com/Iadvd/RetrocomputingZXSpectrum/tree/master/GameExamples/calavera
+
+Original version from the Mojon Twins (not compatible with the Android TCP/IP Virtual Joystick) including an explanation of the game):
+
+http://www.mojontwins.com/juegos_mojonos/zombie-calavera-prologue/
 
 In the same way, you can download and reuse our code for your own projects (copyleft license CC BY-SA 4.0).
 
