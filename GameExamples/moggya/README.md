@@ -24,9 +24,9 @@ http://www.mojontwins.com/juegos_mojonos/moggy-adventure/
 
       P / joystick right: right.
       
-      Q / joystick right: up.
+      Q / joystick up: up.
       
-      A / joystick right: down.
+      A / joystick down: down.
 
       SPACE+O,P,Q,A / joystick fire (Red or Green buttons): Push a cyan box.
  
