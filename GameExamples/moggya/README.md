@@ -28,7 +28,7 @@ http://www.mojontwins.com/juegos_mojonos/moggy-adventure/
       
       A / joystick down: down.
 
-      SPACE+O,P,Q,A / joystick fire (Red or Green buttons): Push a cyan box.
+      SPACE+O,P,Q,A / joystick fire+left,right,up,down (Red or Green buttons): Push a cyan box.
  
 6. If you close the Android application, the connection is lost. You will need to load again the game and start from step 2.
 
