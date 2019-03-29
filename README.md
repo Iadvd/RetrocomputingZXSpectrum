@@ -155,6 +155,14 @@ Original version from the Mojon Twins (not compatible with the Android TCP/IP Vi
 
 http://www.mojontwins.com/juegos_mojonos/lala-prologue/
 
+10. "Moggy Adventure" Android TCP/IP Virtual Joystick compatible version:
+
+https://github.com/Iadvd/RetrocomputingZXSpectrum/tree/master/GameExamples/moggya
+
+Original version from the Mojon Twins (not compatible with the Android TCP/IP Virtual Joystick) including an explanation of the game):
+
+http://www.mojontwins.com/juegos_mojonos/moggy-adventure/
+
 In the same way, you can download and reuse our code for your own projects (copyleft license CC BY-SA 4.0).
 
 # I can see games in my tv screen and play wireless with the app. Spectacol for Android + Google Chromecast... so what is the point of using the Android TCP/IP Virtual Joystick?
