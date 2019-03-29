@@ -24,7 +24,7 @@ http://www.mojontwins.com/juegos_mojonos/lala-prologue/
 
       P / joystick right: run right.
 
-      SPACE / joystick fire (Red Button or Green Button): jump.
+      Q,SPACE / joystick fire (Red Button or Green Button): jump.
 
 6. If you close the Android application, the connection is lost. You will need to load again the game and start from step 2.
 
