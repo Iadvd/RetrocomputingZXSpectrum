@@ -147,6 +147,14 @@ Original version from the Mojon Twins (not compatible with the Android TCP/IP Vi
 
 http://www.mojontwins.com/2013/10/31/tenebra-macabre-nuestro-juego-para-halloween/
 
+9. "Lala Prologue" Android TCP/IP Virtual Joystick compatible version:
+
+https://github.com/Iadvd/RetrocomputingZXSpectrum/tree/master/GameExamples/lala
+
+Original version from the Mojon Twins (not compatible with the Android TCP/IP Virtual Joystick) including an explanation of the game):
+
+http://www.mojontwins.com/juegos_mojonos/lala-prologue/
+
 In the same way, you can download and reuse our code for your own projects (copyleft license CC BY-SA 4.0).
 
 # I can see games in my tv screen and play wireless with the app. Spectacol for Android + Google Chromecast... so what is the point of using the Android TCP/IP Virtual Joystick?
