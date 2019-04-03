@@ -1,5 +1,5 @@
 # Retrocomputing ZX Spectrum
-Example applications to be use with Android TCP/IP Virtual Joystick
+Example applications to be used with Android TCP/IP Virtual Joystick
 
 These examples are ZX Spectrum (48K or above) emulation files, to test the functionalities of the Android TCP/IP Virtual Joystick application. So you will need our Android TCP/IP Virtual Joystick to test them (its totally free!). Download it for your Android device at:
 
