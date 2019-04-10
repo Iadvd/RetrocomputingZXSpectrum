@@ -65,7 +65,7 @@ When you get rid of all the Rade Blunners and Octobots, go back with your precio
 
 # How to play the .tap file?
 
-If you do not have an Android TCP/IP device just open the file Rade Blunner Ep1_by_iadvd_2019_classic_ver.tap in your Spectrum emulator (mode 48K) and have fun! If you want to use an Android device as a wireless joystick do as follows:
+If you do not have an Android TCP/IP device just open the file Rade Blunner Ep1_by_iadvd_2019_classic_ver.tap in your Spectrum emulator (mode 48K) and have fun! Or if you have a real Spectrum 48K or greater, and you have a .tap loading peripheral, you can load this game as well. If you want to use an Android device as a wireless joystick do as follows:
 
 1. Install Fuse ZX Spectrum emulator (use the emulation of the 48K version)  + Spectranet emulator. If Spectranet is correctly installed you will get a local IP for the Spectrum. You will need to verify that the computer is not using a firewall or at least that the port 8081 is open and available to be used for a TCP/IP protocol connection. And of course: if you are the lucky possesor of a real Spectrum 48k machine (or greater version) and a real Spectranet peripheral, then you can also continue to step 2!!
 
