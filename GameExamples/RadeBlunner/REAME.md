@@ -21,12 +21,15 @@ Sounds: BeepFX (by Shiru)
 Version: Spectrum 48K (or greater in 48K mode)
 
 Powered by La Churrera by The Mojon Twins and splib2 by Alvin Albrecht:
+
 https://github.com/mojontwins/MK1
 
 Dylan Smith's Spectranet compatible:
+
 http://spectrum.alioth.net/doc/index.php/Main_Page
 
 Iadvd's Android TCP/IP Virtual Joystick compatible:
+
 https://play.google.com/store/apps/details?id=com.iadvd.android.tcpipvirtualjoystick
 
 Uses aPPack decompressor by dwedit, adapted by Utopian & optimized by Metalbrain
