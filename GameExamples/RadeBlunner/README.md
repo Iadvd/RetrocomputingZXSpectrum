@@ -81,7 +81,7 @@ If you do not have an Android TCP/IP device just open the file Rade Blunner Ep1_
 
       P / joystick right: run right.
 
-      Q, SPACE / joystick fire (Red or Green Buttons): jump.
+      Q, SPACE / joystick fire (Red or Green button): jump.
 
 6. If you close the Android application, the connection is lost. You will need to load again the game and start from step 2.
 
