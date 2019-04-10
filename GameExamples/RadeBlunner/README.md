@@ -85,6 +85,8 @@ If you do not have an Android TCP/IP device just open the file Rade Blunner Ep1_
 
 6. If you close the Android application, the connection is lost. You will need to load again the game and start from step 2.
 
+![alt text](https://github.com/Iadvd/RetrocomputingZXSpectrum/blob/master/GameExamples/RadeBlunner/RB5.png)
+
 # For developers: How to compile/reuse the .tap file again? (not required to play the game)
 
 1. In your Z88dk folder (e.g. C:\z88dk10) copy the contents of this folder. You should be using The Mojon Twins adapted version of the compiler (all credits to The Mojon Twins):
