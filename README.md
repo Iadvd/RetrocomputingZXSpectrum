@@ -165,6 +165,13 @@ http://www.mojontwins.com/juegos_mojonos/moggy-adventure/
 
 In the same way, you can download and reuse our code for your own projects (copyleft license CC BY-SA 4.0).
 
+We have also developed the following games (well, so far one!) explicity to promote the use of the Android TCP/IP Virtual Joystick and show that is quite easy to prepare some games to use the wireless joystick:
+
+1. "Rade Blunner" Android TCP/IP Virtual Joystick compatible version (in case you do not have the Android joystick we have prepared as well a .tap file with a "classical" version for the usual Keyboard, Kempston and Sinclair joysticks, so everybode can play this game!):
+
+https://github.com/Iadvd/RetrocomputingZXSpectrum/tree/master/GameExamples/RadeBlunner
+
+
 # I can see games in my tv screen and play wireless with the app. Spectacol for Android + Google Chromecast... so what is the point of using the Android TCP/IP Virtual Joystick?
 
 We really love and enjoy Spectacol! It is a great emulator for Android (indeed is based on the Fuse emulator), and you can use it to play wireless using Google Chromecast to share your device screen with your TV screen. The difference is that in that case, a) Spectacle is the owner of the virtual joystick, and it is emulating a Kempston, Sinclair or other type of joystick, it is not adding a new interface. And b) you will see in the screen the virtual joystick under the game, and that sometimes will not let you focus on playing the game. 
