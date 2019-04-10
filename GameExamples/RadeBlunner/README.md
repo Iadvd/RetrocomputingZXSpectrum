@@ -10,7 +10,7 @@ This is a first release, is you find bugs please let us know (should be fine, we
 
 # Technical details:
 
-Game concept: Iadvd (after watching some film noir movies)
+Game concept: Iadvd (after watching some film noir futuristic movies...)
 
 Loading, Title and Ending Screens: Iadvd (Powered by La Churrera by The Mojon Twins)
 
