@@ -57,7 +57,7 @@ Rytell's main junk recycling facility is the only place where they recycle the K
 
 Get rid of the 80 Rade Blunners and Octobots along Rytell's junk recycling facility jumping over them, while you try to recover your precious 17 photos. Sometimes you will find security doors that require an access card. Fortunately Agff seems to have let some of them here and there for you to take. 
 
-Be careful with getting too close to the junk Koight-Vampff machines or you will lose your energy. If you find some Agff's origami chikens take them asap!
+Be careful getting too close to the junk Koight-Vampff machines or you will lose your energy. If you find some Agff's origami chikens take them asap!
 
 When you get rid of all the Rade Blunners and Octobots, go back with your precious photos to the room where you started your quest. Agff will open a secret passage to the bus station for you. You will be able to run away and have a new life.
 
