@@ -6,6 +6,8 @@ This folder contains the game Rade Blunner, Episode 1 in two versions: the Andro
 
 This is a first release, is you find bugs please let us know (shoulkd be fine, we have tested it, but who knows...)
 
+![alt text](https://github.com/Iadvd/RetrocomputingZXSpectrum/blob/master/GameExamples/RadeBlunner/RB1.png)
+
 # Technical details:
 
 Game concept: Iadvd
@@ -35,6 +37,8 @@ https://play.google.com/store/apps/details?id=com.iadvd.android.tcpipvirtualjoys
 Uses aPPack decompressor by dwedit, adapted by Utopian & optimized by Metalbrain
 Music tracks composed in Beepola
 
+![alt text](https://github.com/Iadvd/RetrocomputingZXSpectrum/blob/master/GameExamples/RadeBlunner/RB2.png)
+
 # Story
 
 (From Weon Kolalski's diary) 
@@ -47,6 +51,8 @@ I have decided to access the facility tonight to get back my photos and escape f
 
 Rytell's main junk recycling facility is the only place where they recycle the Koight-Vampff machines. For some reason when I am close to them I feel dizzy and I lose my strength. Why...? Anyway, it seems that my anonymous ally is helping me tonight. From time to time I find little origami chiken figures, and when I take them I feel better. I suspect that my anonymous ally is that Agff guy from the Information Security Deparment. He was good at origami!
 
+![alt text](https://github.com/Iadvd/RetrocomputingZXSpectrum/blob/master/GameExamples/RadeBlunner/RB3.png)
+
 # The Game
 
 Get rid of the 80 Rade Blunners and Octobots along Rytell's junk recycling facility jumping over them, while you try to recover your precious 17 photos. Sometimes you will find security doors that requiere an access cards. Fortunately Agff seems to have let some of them here and there for you to take. 
@@ -54,6 +60,8 @@ Get rid of the 80 Rade Blunners and Octobots along Rytell's junk recycling facil
 Be careful with getting too close to the junk Koight-Vampff machines or you will lose your energy. If you find some Agff's origami chikens take them asap!
 
 When you get rid of all the Rade Blunners and Octobots, go back with your precious photos to the room where you started your quest. Agff will open a secret passage to the bus station for you. You will be able to run away and have a new life.
+
+![alt text](https://github.com/Iadvd/RetrocomputingZXSpectrum/blob/master/GameExamples/RadeBlunner/RB4.png)
 
 # How to play the .tap file?
 
