@@ -2,7 +2,9 @@
 
 # Powered by The Mojon Twins La Churrera and also copyleft Iadvd under a CC BY-NC-SA 3.0 license.
 
-This folder contains the game Rade Blunner, Episode 1 in two versions: the Android TCP/IP Virtual Joystick compatible version and a normal version for those who do not have the Spectranet comatible TCP/IP Virtual Joystick.
+This folder contains the game Rade Blunner, Episode 1 in two versions: the Android TCP/IP Virtual Joystick compatible version and a normal version for those who do not have the Spectranet compatible TCP/IP Virtual Joystick.
+
+This is a first release, is you find bugs please let us know (shoulkd be fine, we have tested it but who knows...)
 
 # Technical details:
 
