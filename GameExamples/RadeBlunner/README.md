@@ -75,7 +75,7 @@ If you do not have an Android TCP/IP device just open the file Rade Blunner Ep1_
 
 4. When the Virtual Joystick app. arrives to the IP that is using Spectranet, the game wil detect the joystick and connect to it. The game's Main Menu will appear. 
 
-5. Select option 4 (A = Android TCP/IP Virtual Joystick) and the virtual joystick will be available. The controls are:
+5. At the main menu, please select option 4 (A = Android TCP/IP Virtual Joystick) and the virtual joystick will be available. The controls are:
 
       O / joystick left: run left.
 
