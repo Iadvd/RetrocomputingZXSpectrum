@@ -43,7 +43,7 @@ Music tracks composed in Beepola
 
 (From Weon Kolalski's diary) 
 
-I was an average guy, working as a recycler at one of the junk recycling facilities of the Rytell Corporation. Everything was boringly routinary until those Rade Bluners of the corporation came to my desk! they told me that I am a Lepricant, not a human! This is so crazy... they stole my precious photos, they are my treasure. And they also tried to kidnap me! But I was able to run away. 
+I was an average guy, working as a recycler at one of the junk recycling facilities of the Rytell Corporation. Everything was boringly routinary until those Rade Blunners of the corporation came to my desk! they told me that I am a Lepricant, not a human! This is so crazy... they stole my precious photos, they are my treasure. And they also tried to kidnap me! But I was able to run away. 
 
 Later, somebody sent me anonymously a message telling me that my photos are in Rytell's main junk recycling facility. 
 
