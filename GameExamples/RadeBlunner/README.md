@@ -55,7 +55,7 @@ Rytell's main junk recycling facility is the only place where they recycle the K
 
 # The Game
 
-Get rid of the 80 Rade Blunners and Octobots along Rytell's junk recycling facility jumping over them, while you try to recover your precious 17 photos. Sometimes you will find security doors that require an access card. Fortunately Agff seems to have let some of them here and there for you to take. 
+Get rid of the 80 Rade Blunners and Octobots along Rytell's junk recycling facility by jumping over them, while you try to recover your precious 17 photos. Sometimes you will find security doors that require an access card. Fortunately Agff seems to have let some of them here and there for you to take. 
 
 Be careful getting too close to the junk Koight-Vampff machines or you will lose your energy. If you find some Agff's origami chikens take them asap!
 
