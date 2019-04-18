@@ -45,7 +45,7 @@ If you want to load a snap .sna file into your machine, write:
 
 It should take two or three seconds only, please be patient. 
 
-If you want to load a tape file .tap into your machine, we suggest to write the following lines (we have found for some reason this solution more stable that the direct use of the %tapein command):
+If you want to load a tape file .tap into your machine, we suggest to write the following lines (we have found for some reason this solution more stable than the direct use of the %tapein command):
 
 10%tapein"nameofthetapfile.tap" (enter)
 
