@@ -3,7 +3,7 @@ This folder contains some ZX Spectrum 48K games and a Android TCP/IP Virtual Joy
 
 https://play.google.com/store/apps/details?id=com.iadvd.android.tcpipvirtualjoystick
 
-The ones ending with an "A" are to be played with the Android TCP/IP Virtual Joystick.
+The ones ending with an "A" and the "tcpipjoysticktest.tap" application will run only if the Android TCP/IP Virtual Joystick is available.
 
 1. "radeblunnere1.tap" is our "Rade Blunner" game for Keyboard, Kempston and Sinclair joysticks only.
 
