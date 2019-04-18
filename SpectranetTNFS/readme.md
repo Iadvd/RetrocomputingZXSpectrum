@@ -1,5 +1,5 @@
 # The Android TCP/IP Virtual Joystick application is now Spectranet 8-bit Network File System compatible!
-This folder contains some ZX Spectrum 48K games and a Android TCP/IP Virtual Joystick test application compatible with a Spectranet 8-bit Network File System. They can be copied for instance into the NFS server that is included in the Android TCP/IP Virtual Joystick application:
+This folder contains some ZX Spectrum 48K games and a Android TCP/IP Virtual Joystick test application compatible with a Spectranet 8-bit Network File System (I will try to add some more in the following weeks). They can be copied for instance into the NFS server that is included in the Android TCP/IP Virtual Joystick application:
 
 https://play.google.com/store/apps/details?id=com.iadvd.android.tcpipvirtualjoystick
 
