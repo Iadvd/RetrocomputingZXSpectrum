@@ -48,8 +48,11 @@ It should take two or three seconds only, please be patient.
 If you want to load a tape file .tap into your machine, we suggest to write the following lines (we have found for some reason this solution more stable that the direct use of the %tapein command):
 
 10%tapein"nameofthetapfile.tap" (enter)
+
 20 PAUSE 20 (enter)
+
 30 LOAD "" (enter)
+
 RUN (enter)
 
 This will load the .tap file into the memory. Again, it should take two or three seconds only, so please be patient. 
