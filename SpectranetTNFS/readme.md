@@ -31,7 +31,7 @@ You need a Fuse emulator with a Spectranet peripheral emulation, or a real ZX Sp
 
 %mount 0,"AAA.BBB.CCC.DDD" (enter)
 
-If everything goes well, the message back will be "OK 0:1"
+If everything goes well, the message back will be "0 OK, 0:1"
 
 Now you can have a look at the contents, just write:
 
