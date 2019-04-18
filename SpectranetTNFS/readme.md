@@ -15,6 +15,10 @@ https://github.com/Iadvd/RetrocomputingZXSpectrum/tree/master/GameExamples/RadeB
 
 https://github.com/Iadvd/RetrocomputingZXSpectrum/tree/master/Basic%20ZX%20Spectrum%20TCPIP%20Server%20Project
 
+4. The rest of games are Powered by The Mojon Twins La Churrera and also copyleft The Mojon Twins under a CC BY-NC-SA 3.0 license. So all credits go to them:
+
+4.1 "perilsA.tap" https://github.com/Iadvd/RetrocomputingZXSpectrum/tree/master/GameExamples/perils
+
 # How can I use these files?
 The Android TCP/IP Virtual Joystick application is compatible with the Spectranet 8-bit Network File System. Indeed it contains a file server that you can use in your local network! In the moment that the Android TCP/IP Virtual Joystick is launched, the included local file server becomes active and it is possible to mount it as usual from a ZX Spectrum with a Spectranet peripheral via a %mount command. 
 
