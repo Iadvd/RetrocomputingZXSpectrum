@@ -180,6 +180,12 @@ In the case of the Android TCP/IP Virtual Joystick, it is directly the Spectrum 
 
 Besides, our application and the adapted games can be played in a real ZX Spectrum using a Spectranet peripheral, so you can play wireless using a real ZX Spectrum machine and not an emulation. We think that this is an interesting and new approach.
 
+# The Android TCP/IP Virtual Joystick application is now Spectranet 8-bit Network File System compatible!
+
+Yes!! The Android TCP/IP Virtual Joystick has a 8-bit Spectranet-compatible local network File Server. Please check the details in this link:
+
+https://github.com/Iadvd/RetrocomputingZXSpectrum/tree/master/SpectranetTNFS
+
 # A final message to ZX Spectrum game developers
 
 The Android TCP/IP Virtual Joystick functions are written in C for the z88dk compiler. They are really very easy to use, do not be afraid and add them to your Spectrum games, it is cool to have a wireless joystick version, isn't it? If you make some Spectrum 8-bit games or apps. using our code please let us know, we will be very happy to know that this is useful for retrocomputing fans!
