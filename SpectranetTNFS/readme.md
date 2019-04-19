@@ -77,7 +77,7 @@ This will load the .tap file into the memory. Again, it should take two or three
 
 # Troubleshooting:
 
-1. If by any chance the TNFS server or the Android TCP/IP Virtual Joystick application turns unstable, reset the Spectrum machine, close the Android TCP/IP Virtual Joystick and launch it again. Reseting both sides if enough to have a new connection to %mount. This does not happen very often but sometimes while using the %tapein or %loadsnap it might happen. 
+1. If by any chance the TNFS server or the Android TCP/IP Virtual Joystick application turns unstable, reset the Spectrum machine, close the Android TCP/IP Virtual Joystick and launch it again. Reseting both sides if enough to have a new connection to %mount. This does not happen very often but sometimes while using the %tapein or %loadsnap commands it might happen. 
 
 2. If after %tapein a .tap file compatible with the Android TCP/IP Virtual Joystick, and clicking in the OK button of the Welcome Message of the Android TCP/IP Virtual Joystick to start searching the Spectrum IP, the Android application is not able to find the Spectrum application, closing the Android application, launching it again and clicking the OK button is enough to get connected to the Spectrum game/application safely. 
 
