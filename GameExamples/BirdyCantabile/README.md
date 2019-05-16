@@ -47,13 +47,13 @@ Music tracks composed in Beepola
 
 Birdy is a little sparrow who wants to become a music conductor. Today is his first concert! After a lot of rehearsal, all the little birds gathered in the Main Hall to watch Birdy's performance.
 
-But what is this...!? Due to the flapping wings of all the little birds the score has flown away! Each part of the score is somewhere in the eight rehearsal halls.
+But what is this...!? Due to the flapping wings of all the little birds the score has flown away! Each page of the score is somewhere in the eight rehearsal halls.
 
-Birdy needs to recover the eight parts and put them in the music stand in the correct order, but how can we know which part is the correct one?
+Birdy needs to recover the eight pages and put them in the music stand in the correct order, but how can we know which page is the good one?
 
-Fortunately, some little birds are helping Birdy. On each hall there is a little music stand, there you can listen to the part of the score that is lost in that room. The birds will tell you if it is the part you need to take!
+Fortunately, some little birds are helping Birdy. On each hall there is a little music stand, there you can listen to the page of the score that is lost in that room. The birds will tell you if it is the page you need to take!
 
-Be careful to take the parts of the score in the correct order. If not, when you finally play the score, the music will not make the little birds so happy. 
+Be careful to take the pages of the score in the correct order. If not, when you finally play the score, the music will not make the little birds so happy. 
 
 Somebody has left anti-roosting spike strips here and there! What a shame! Be careful, we are sure you will prevail with the kind support of the little birds. 
 
@@ -61,11 +61,11 @@ Somebody has left anti-roosting spike strips here and there! What a shame! Be ca
 
 # The Game
 
-Each time you play, you need to solve a musical puzzle. There are two different songs / scores (the name of the song that will be played in the next game is shown in the main menu). Each time you play the game the score will be one of those two. The parts of the score are randomly spread along the halls, so each game is a totally different puzzle! 
+Each time you play, you need to solve a musical puzzle. There are two different songs / scores (the name of the song that will be played in the next game is shown in the main menu). Each time you play the game the score will be one of those two. The pages of the score are randomly spread along the halls, so each game is a totally different puzzle! 
 
-Find the eight parts of the music score with the help of the little birds. If you put the parts in the correct order, you will succeed in your performance. If you are not so good do not worry: there are different endings depending on your performance. Try them all for fun! 
+Find the eight pages of the music score with the help of the little birds. If you put the pages in the correct order, you will succeed in your performance. If you are not so good do not worry: there are different endings depending on your performance. Try them all for fun! 
 
-Be careful getting too close to the anti-roosting spike strips or you will lose your energy. The little birds will show you their support leaving some red hearts here and there. Take them if you find them to recover your energy.
+Be careful getting too close to the anti-roosting spike strips or you will lose your energy. The little birds will show you their support leaving some red hearts here and there. Take them when you find them to recover your energy.
 
 ![alt text](https://github.com/Iadvd/RetrocomputingZXSpectrum/blob/master/GameExamples/BirdyCantabile/BC2.png)
 
