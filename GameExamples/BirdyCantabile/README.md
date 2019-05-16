@@ -57,7 +57,7 @@ Fortunately, some little birds are helping Birdy. On each hall there is a little
 
 Be careful to take the pages of the score in the correct order. If not, when you finally play the score, the music will not make the little birds so happy. 
 
-Somebody has left anti-roosting spike strips here and there! What a shame! Be careful, we are sure you will prevail with the kind support of the little birds. 
+Some musical notes have left the score and went crazy, they walk uncontrolled through the halls: do not touch them. And somebody has left anti-roosting spike strips here and there! What a shame! Be careful, we are sure you will prevail with the kind support of the little birds. 
 
 ![alt text](https://github.com/Iadvd/RetrocomputingZXSpectrum/blob/master/GameExamples/BirdyCantabile/BC1.png)
 
