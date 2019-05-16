@@ -6,7 +6,7 @@ This folder contains the game Birdy Cantabile in two versions: the Android TCP/I
 
 This is a first release, is you find bugs please let us know (should be fine, we have tested it, but who knows...)
 
-![alt text](https://github.com/Iadvd/RetrocomputingZXSpectrum/blob/master/GameExamples/BirdyCantabile/BCT1.png)
+![alt text](https://github.com/Iadvd/RetrocomputingZXSpectrum/blob/master/GameExamples/BirdyCantabile/BCT1g.png)
 
 # Technical details:
 
