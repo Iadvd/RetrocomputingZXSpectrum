@@ -11,6 +11,8 @@ There is an interview (in Spanish) with us talking about this project at Javi Or
 
 https://youtu.be/CVln3tfyNt0
 
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/CVln3tfyNt0/0.jpg)](https://www.youtube.com/watch?v=CVln3tfyNt0)
+
 # Basic ZX Spectrum TCP/IP Server Project
 
 The example file "tcpipsrv_basic.c" when compiled creates the tcpipsrv_basic.tap file (ZX Spectrum emulated program) that is a server side TCP/IP listener on the port 8081 for a ZX Spectrum computer. The tcpipsrv_basic.tap file (is already available in the repository if you do not want to compile it again by yourself) can be run in the Fuse Spectrum Emulator with the Spectranet peripheral emulation. It is expected also to run in a real ZX Spectrum with a real Spectranet peripheral (if converted to a tape or a wav file for the EAR input channel of the ZX Spectrum).
