@@ -5,9 +5,9 @@ https://play.google.com/store/apps/details?id=com.iadvd.android.tcpipvirtualjoys
 
 The ones ending with an "A" and the "tcpipjoysticktest.tap" application will run only if the Android TCP/IP Virtual Joystick is available.
 
-1. "radeblunnere1.tap" is our "Rade Blunner" game for Keyboard, Kempston and Sinclair joysticks only.
+1. "radeblunnere1.tap" and "radeblunnere2.tap" are our "Rade Blunner Episode 1" and "Rade Blunner Episode 2" games for Keyboard, Kempston and Sinclair joysticks only.
 
-2. "radeblunnere1A.tap" is our "Rade Blunner" game also compatible with the Android TCP/IP Virtual Joystick.
+2. "radeblunnere1A.tap" and "radeblunnere2A.tap" are our "Rade Blunner Episode 1" and "Rade Blunner Episode 2" games also compatible with the Android TCP/IP Virtual Joystick.
 
 3. "birdycantabile.tap" is our "Birdy Cantabile (a Musical Puzzle)" game for Keyboard, Kempston and Sinclair joysticks only.
 
