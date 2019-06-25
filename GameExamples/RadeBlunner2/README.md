@@ -59,7 +59,7 @@ By the way... one of those Lepricants was that one that appeared on the TV last 
 
 # The Game
 
-Get rid of Clive and the whole team of stubborn robots along Wheh's nose factory by jumping over them, while you try to recover the Nose Kits and the morphology, longevity and incept days for the Lepricants. Sometimes you will find security doors that require an access card here and there. 
+Get rid of Clive and the whole team of stubborn robots along Wheh's nose factory by jumping over them, while you try to recover the Nose Kits and the documents about the morphology, longevity and incept days of the Lepricants. Sometimes you will find security doors that require an access card here and there. 
 
 Some blocked doors can only be opened by a switch combination. Look for the marks in the walls and put the switches in the correct position. This will open those special doors.
 
