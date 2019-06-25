@@ -49,7 +49,7 @@ I used to have an Eye Factory. Well, you know, I made eyes for the Rytell Corpor
 
 They thought that I was frozen... but luckily I survived! Tired of my luck, I decided to work in another business: noses. Big noses, small noses, noses with three holes (please do not ask me about it). Once indeed I did the nose of a lion! Anyway... I thought everything was calm... but then again, a new group of Lepricants found me!
 
-They wanted again that important information about their bodies, and I apologize, but this time I did not want to become an ice cube, so I told them that I would bring them the information. They also obligued me to give them some Nose Kits that they want to sell illegally to get some money and escape from the city. 
+They wanted again that important information about their bodies, and I apologize, but this time I did not want to become an ice cube, so I told them that I would bring them the documents. They also obligued me to give them some Nose Kits that they want to sell illegally to get some money and escape from the city. 
 
 Unfortunately I had stored that info in three different vaults of my factory. Clive is taking care of them... who is Clive? well, you'd better not even ask!  He is my secret experiment...
 
