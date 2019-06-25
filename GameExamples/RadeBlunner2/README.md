@@ -51,7 +51,7 @@ They thought that I was frozen... but luckily I survived! Tired of my luck, I de
 
 They wanted again that important information about their bodies, and I apologize, but this time I did not want to become an ice cube, so I told them that I would bring them the documents. They also obligued me to give them some Nose Kits that they want to sell illegally to get some money and escape from the city. 
 
-Unfortunately I had stored that info in three different vaults of my factory. Clive is taking care of them... who is Clive? well, you'd better not even ask!  He is my secret experiment...
+Unfortunately I had stored that data in three different vaults of my factory. Clive is taking care of them... who is Clive? well, you'd better not even ask!  He is my secret experiment...
 
 My factory is a strongly defended place: toxic bubbles and z-rays are triggered on every room. I have switches that control the access to the secret chambers. Everything would have been easier if those robots that I hired would not have decided to go on strike exactly today!!!
 
