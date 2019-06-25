@@ -2,6 +2,8 @@
 
 # Powered by The Mojon Twins La Churrera and also copyleft Iadvd under a CC BY-NC-SA 3.0 license.
 
+(A presentation in Spanish of this game is available in this link http://foro.speccy.org/viewtopic.php?f=6&t=5369)
+
 This folder contains the game Rade Blunner, Episode 2 in two versions: the Android TCP/IP Virtual Joystick compatible version and a normal version for those who do not have the Spectranet compatible TCP/IP Virtual Joystick.
 
 This is a first release, is you find bugs please let us know (should be fine, we have tested it, but who knows...)
