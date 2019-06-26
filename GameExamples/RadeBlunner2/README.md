@@ -47,7 +47,7 @@ Music tracks composed in Beepola
 
 I used to have an Eye Factory. Well, you know, I made eyes for the Rytell Corporation. Everything was perfect until the day that those Lepricants arrived to my factory! They asked me about their morphology, longevity and incept days. Of course I did not say a word about it... and they got mad and almost finished me!
 
-They thought that I was frozen... but luckily I survived! Tired of my luck, I decided to work in another business: noses. Big noses, small noses, noses with three holes (please do not ask me about it). Once indeed I did the nose of a lion! Anyway... I thought everything was calm... but then again, a new group of Lepricants found me!
+They thought that I was frozen... but I survived! Tired of my luck, I decided to work in another business: noses. Big noses, small noses, noses with three holes (please do not ask me about it). Once indeed I did the nose of a lion! Anyway... I thought everything was calm... but then again, a new group of Lepricants found me!
 
 They wanted again that important information about their bodies, and I apologize, but this time I did not want to become an ice cube, so I told them that I would bring them the documents. They also obligued me to give them some Nose Kits that they want to sell illegally to get some money and escape from the city. 
 
