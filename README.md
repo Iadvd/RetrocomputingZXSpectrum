@@ -171,9 +171,17 @@ In the same way, you can download and reuse our code for your own projects (copy
 
 We have also developed the following games (well, so far one!) explicity to promote the use of the Android TCP/IP Virtual Joystick and show that is quite easy to prepare some games to use the wireless joystick:
 
-1. "Rade Blunner" Android TCP/IP Virtual Joystick compatible version (in case you do not have the Android joystick we have prepared as well a .tap file with a "classical" version for the usual Keyboard, Kempston and Sinclair joysticks, so everybode can play this game!):
+1. "Rade Blunner Ep.1" Android TCP/IP Virtual Joystick compatible version (in case you do not have the Android joystick we have prepared as well a .tap file with a "classical" version for the usual Keyboard, Kempston and Sinclair joysticks, so everybody can play this game!):
 
 https://github.com/Iadvd/RetrocomputingZXSpectrum/tree/master/GameExamples/RadeBlunner
+
+2. "Birdy Cantabile" Android TCP/IP Virtual Joystick compatible version (in case you do not have the Android joystick we have prepared as well a .tap file with a "classical" version for the usual Keyboard, Kempston and Sinclair joysticks, so everybody can play this game!):
+
+https://github.com/Iadvd/RetrocomputingZXSpectrum/tree/master/GameExamples/BirdyCantabile
+
+3. "Rade Blunner Ep.2" Android TCP/IP Virtual Joystick compatible version (in case you do not have the Android joystick we have prepared as well a .tap file with a "classical" version for the usual Keyboard, Kempston and Sinclair joysticks, so everybody can play this game!):
+
+https://github.com/Iadvd/RetrocomputingZXSpectrum/tree/master/GameExamples/RadeBlunner2
 
 
 # I can see games in my tv screen and play wireless with the app. Spectacol for Android + Google Chromecast... so what is the point of using the Android TCP/IP Virtual Joystick?
