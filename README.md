@@ -169,7 +169,7 @@ http://www.mojontwins.com/juegos_mojonos/moggy-adventure/
 
 In the same way, you can download and reuse our code for your own projects (copyleft license CC BY-SA 4.0).
 
-We have also developed the following games (well, so far one!) explicity to promote the use of the Android TCP/IP Virtual Joystick and show that is quite easy to prepare some games to use the wireless joystick:
+We have also developed the following games (well, so far three!) explicity to promote the use of the Android TCP/IP Virtual Joystick and show that is quite easy to prepare some games to use the wireless joystick:
 
 1. "Rade Blunner Ep.1" Android TCP/IP Virtual Joystick compatible version (in case you do not have the Android joystick we have prepared as well a .tap file with a "classical" version for the usual Keyboard, Kempston and Sinclair joysticks, so everybody can play this game!):
 
