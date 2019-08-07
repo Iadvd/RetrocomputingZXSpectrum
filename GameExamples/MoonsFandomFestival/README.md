@@ -55,7 +55,7 @@ These are the owners of the other stands:
 
 - Germione (Parry Hotter fan): the little Germione is a very keen girl that wants to become a sorcerer. She goes everywhere with her cat, Wiskers. He is usually on her head, but Wiskers doesn't seem to mind it!
 
-- Koji Bakuto (Zazinger-M fan): well yeah, he is the héroe of the day. Koji is a very brave, and sometimes painfully rude, teenager. He loves the "mechas" (Japanese style robots) and he knows all about them.
+- Koji Bakuto (Zazinger-M fan): well yeah, he is the heroe of the day. Koji is a very brave, and sometimes painfully rude, teenager. He loves the "mechas" (Japanese style robots) and he knows all about them.
 
 - Dick Reckard (Rade Blunner fan): if you want to know about the Lepricants, well, he is the man. For some reason he suspects everybody, and probably will not be your friend until he truly knows that you are human! 
 
