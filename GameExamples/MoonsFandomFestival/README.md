@@ -79,7 +79,7 @@ having fun near the stands, just stop and speak with them. They will give you ne
 
 - Give them food: a hungry friend is not very friendly, make them happy giving them the food they like... well, not everybody likes the same things, you know.
 
-- Icon task: once you finish the other tasks, finally you will need to put back the main object (named icon) of each stand to their respective places.
+- Icon task: once you finish the other tasks, finally you will need to put back the main objects (named icons) of each stand to their respective places.
 
 If you do all those tasks, you will be able to go to the lockers and get your Speccy and your brand new game!! Then, just go to your stand, sit and enjoy!
 
