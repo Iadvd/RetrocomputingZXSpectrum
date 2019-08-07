@@ -2,6 +2,8 @@
 
 # Powered by MGA (Mini Graphic Adventure engine, by Iadvd) + MK1 (La Churrera by The Mojon Twins) and copyleft Iadvd under a CC BY-NC-SA 3.0 license.
 
+(A presentation in Spanish of this game is available at this link https://foro.speccy.org/viewtopic.php?f=6&t=5395).
+
 This folder contains the game Moon's Fandom Festival, in three versions: the Android TCP/IP Virtual Joystick compatible version (English) and two classical versions in English and Spanish for those who do not have the Spectranet compatible TCP/IP Virtual Joystick.
 
 This is a first release, is you find bugs please let us know (should be fine, we have tested it, but who knows...)
