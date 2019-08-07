@@ -115,9 +115,9 @@ https://github.com/Iadvd/RetrocomputingZXSpectrum/tree/master/SpectranetTNFS
 
       P / joystick right: walk right.
 
-      Q, SPACE / joystick fire (Red or Green button): action / select.
+      SPACE / joystick fire (Red or Green button): action / select.
 
-	  A / joystick down: select an option from the TALK/GIVE menú.
+      A / joystick down: select an option from the TALK/GIVE menú.
 	  
 6. If you close the Android application, the connection is lost. You will need to load again the game and start from step 2.
 
