@@ -67,15 +67,13 @@ These are the owners of the other stands:
 
 # The Game
 
-You can walk along the circular room where the festival is held, to your left or right, it does not matter, you will finish in the same place after a while. There you will find the six stands of your colleagues and your own stand.
-There are also a very famous hamburguer restaurant and the restroom, but you need an access card to open the doors!
+You can walk along the circular room where the festival is held, to your left or right, it does not matter, you will finish in the same place after a while. There you will find the six stands of your colleagues and your own stand. There are also a very famous hamburguer restaurant and the restroom, but you need an access card to open the doors!
  
 You need to gain the respect of your colleagues. For this purpose, you will have to do several tasks:
 
 - Friendship: if you want them to become your friend, you need to show that you know about their favorite themes. 
 Read pamphlets, books, and speak with the fans that are scattered along the event. The random fans are
-having fun near the stands, just stop and speak with them. They will give you new pieces of knowledge. Then try to talk about that new knowledge you have 
-with your colleagues (Bob, Germione, Koji, Dick, Zork or John) until you find one interested on that knowledge.
+having fun near the stands, just stop and speak with them. They will give you new pieces of knowledge. Then try to talk about that new knowledge that you have learnt with your colleagues (Bob, Germione, Koji, Dick, Zork or John) until you find the one interested on that information.
 
 - Needed object: each one of your colleagues needs a special object that you have to find. The objects are hidden into the file cabinets. You will need to search here and there until you find them. You can bring the objects in your pockets, but only three at a time. There are useless objects too, it is not going to be easy! You will need to find also an access card to open the restaurant and the restroom doors!!
 
