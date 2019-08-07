@@ -139,4 +139,4 @@ https://github.com/mojontwins/MK1
 
 4. Use "make.bat moon" command to create again the .tap file if you wish so.
 
-
+![alt text](https://github.com/Iadvd/RetrocomputingZXSpectrum/blob/master/GameExamples/MoonsFandomFestival/MFF6.png)
