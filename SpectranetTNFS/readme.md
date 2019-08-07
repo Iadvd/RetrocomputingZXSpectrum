@@ -17,25 +17,29 @@ These .tap files are the same ones than here:
 
 https://github.com/Iadvd/RetrocomputingZXSpectrum/tree/master/GameExamples/RadeBlunner
 
-5. "tcpipjoysticktest.tap" is our tester application to verify that the Android TCP/IP Virtual Joystick can be used from the ZX Spectrum machine. Exactly the same one that is here:
+5. "moon.tap" is our "Moon's Fandom Festival" mini graphic adventure game for Keyboard, Kempston and Sinclair joysticks only.
+
+6. "moonA.tap" is our "Moon's Fandom Festival" mini graphic adventure game also compatible with the Android TCP/IP Virtual Joystick.
+
+7. "tcpipjoysticktest.tap" is our tester application to verify that the Android TCP/IP Virtual Joystick can be used from the ZX Spectrum machine. Exactly the same one that is here:
 
 https://github.com/Iadvd/RetrocomputingZXSpectrum/tree/master/Basic%20ZX%20Spectrum%20TCPIP%20Server%20Project
 
-6. The rest of games are Powered by The Mojon Twins La Churrera and also copyleft The Mojon Twins under a CC BY-NC-SA 3.0 license. So all credits go to them:
+8. The rest of games are Powered by The Mojon Twins La Churrera and also copyleft The Mojon Twins under a CC BY-NC-SA 3.0 license. So all credits go to them:
 
-6.1 "perilsA.tap" https://github.com/Iadvd/RetrocomputingZXSpectrum/tree/master/GameExamples/perils
+8.1 "perilsA.tap" https://github.com/Iadvd/RetrocomputingZXSpectrum/tree/master/GameExamples/perils
 
-6.2 "tbA.tap" https://github.com/Iadvd/RetrocomputingZXSpectrum/tree/master/GameExamples/tb
+8.2 "tbA.tap" https://github.com/Iadvd/RetrocomputingZXSpectrum/tree/master/GameExamples/tb
 
-6.3 "horaceA.tap" https://github.com/Iadvd/RetrocomputingZXSpectrum/tree/master/GameExamples/horace
+8.3 "horaceA.tap" https://github.com/Iadvd/RetrocomputingZXSpectrum/tree/master/GameExamples/horace
 
-6.4 "viajeA.tap" https://github.com/Iadvd/RetrocomputingZXSpectrum/tree/master/GameExamples/viaje
+8.4 "viajeA.tap" https://github.com/Iadvd/RetrocomputingZXSpectrum/tree/master/GameExamples/viaje
 
-6.5 "ababolA.tap" https://github.com/Iadvd/RetrocomputingZXSpectrum/tree/master/GameExamples/ababol
+8.5 "ababolA.tap" https://github.com/Iadvd/RetrocomputingZXSpectrum/tree/master/GameExamples/ababol
 
-6.6 "lalaA.tap" https://github.com/Iadvd/RetrocomputingZXSpectrum/tree/master/GameExamples/lala
+8.6 "lalaA.tap" https://github.com/Iadvd/RetrocomputingZXSpectrum/tree/master/GameExamples/lala
 
-6.7 "tmA.tap" https://github.com/Iadvd/RetrocomputingZXSpectrum/tree/master/GameExamples/tm
+8.7 "tmA.tap" https://github.com/Iadvd/RetrocomputingZXSpectrum/tree/master/GameExamples/tm
 
 # How can I use these files?
 The Android TCP/IP Virtual Joystick application is compatible with the Spectranet 8-bit Network File System. Indeed it contains a file server that you can use in your local network! In the moment that the Android TCP/IP Virtual Joystick is launched, the included local file server becomes active and it is possible to mount it as usual from a ZX Spectrum with a Spectranet peripheral via a %mount command. 
