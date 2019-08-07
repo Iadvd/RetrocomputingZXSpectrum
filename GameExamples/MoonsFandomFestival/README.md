@@ -91,7 +91,7 @@ Hint 3: the knowledge that the fans have is different from the knowledge that yo
 
 Hint 4: please be patient, sometimes it is difficult to find a specific knowledge to finish the Friendship task, or is difficult to find the needed object that a colleague is looking for. Please insist and do not worry, you eventually will find them all, although sometimes will take longer to find it!
 
-![alt text](https://github.com/Iadvd/RetrocomputingZXSpectrum/blob/master/GameExamples/MoonsFandomFestial/MFF4.png)
+![alt text](https://github.com/Iadvd/RetrocomputingZXSpectrum/blob/master/GameExamples/MoonsFandomFestival/MFF4.png)
 
 # How to play the .tap file?
 
