@@ -13,13 +13,13 @@ The ones ending with an "A" and the "tcpipjoysticktest.tap" application will run
 
 4. "birdycantabileA.tap" is our "Birdy Cantabile (a Musical Puzzle)" game also compatible with the Android TCP/IP Virtual Joystick.
 
-These .tap files are the same ones than here:
-
-https://github.com/Iadvd/RetrocomputingZXSpectrum/tree/master/GameExamples/RadeBlunner
-
 5. "moon.tap" is our "Moon's Fandom Festival" mini graphic adventure game for Keyboard, Kempston and Sinclair joysticks only.
 
 6. "moonA.tap" is our "Moon's Fandom Festival" mini graphic adventure game also compatible with the Android TCP/IP Virtual Joystick.
+
+These .tap files are the same ones than here:
+
+https://github.com/Iadvd/RetrocomputingZXSpectrum/tree/master/GameExamples
 
 7. "tcpipjoysticktest.tap" is our tester application to verify that the Android TCP/IP Virtual Joystick can be used from the ZX Spectrum machine. Exactly the same one that is here:
 
