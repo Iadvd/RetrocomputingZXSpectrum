@@ -83,17 +83,9 @@ RUN (enter)
 
 This will load the .tap file into the memory. Again, it should take two or three seconds only, so please be patient. 
 
-Sometimes the commands above are not enough to load correctly a game, in those cases the solution below usually works well:
+Sometimes the commands above are not enough to load correctly a game, and there is a TAPE ERROR. In those cases the solution below usually works well:
 
-10%tapein"nameofthetapfile.tap" (enter)
-
-20 PAUSE 20 (enter)
-
-30 LOAD "" CODE (enter)
-
-40 RANDOMIZE USR 24000 (enter)
-
-RUN (enter)
+RANDOMIZE USR 24000 (enter)
 
 # Troubleshooting:
 
