@@ -83,7 +83,7 @@ RUN (enter)
 
 This will load the .tap file into the memory. Again, it should take two or three seconds only, so please be patient. 
 
-Sometimes the commands above are not enough to load correctly a game, and there is a TAPE ERROR. In those cases the solution below usually works well:
+Sometimes the commands above are not enough to load correctly a game, and a R Tape loading error happens. In those cases the solution below usually works well:
 
 RANDOMIZE USR 24000 (enter)
 
