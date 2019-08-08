@@ -83,6 +83,18 @@ RUN (enter)
 
 This will load the .tap file into the memory. Again, it should take two or three seconds only, so please be patient. 
 
+Sometimes the commands above are not enough to load correctly a game, in those cases the solution below usually works well:
+
+10%tapein"nameofthetapfile.tap" (enter)
+
+20 PAUSE 20 (enter)
+
+30 LOAD "" CODE (enter)
+
+40 RANDOMIZE USR 24000 (enter)
+
+RUN (enter)
+
 # Troubleshooting:
 
 1. If by any chance the TNFS server or the Android TCP/IP Virtual Joystick application turns unstable, reset the Spectrum machine, close the Android TCP/IP Virtual Joystick and launch it again. Reseting both sides if enough to have a new connection to %mount. This does not happen very often but sometimes while using the %tapein or %loadsnap commands it might happen. 
