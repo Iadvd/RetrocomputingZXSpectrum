@@ -9,7 +9,11 @@ The Android TCP/IP Virtual Joystick will ask you for an IP address of your local
 
 There are two interviews in Spanish talking about this project at "El Spectrumero" Javi Ortiz's Videoblog (click on the image):
 
+2019/08/18:
+
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/gfIxj7Wk8Kk/0.jpg)](https://www.youtube.com/watch?v=gfIxj7Wk8Kk)
+
+2019/05/26:
 
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/CVln3tfyNt0/0.jpg)](https://www.youtube.com/watch?v=CVln3tfyNt0)
 
