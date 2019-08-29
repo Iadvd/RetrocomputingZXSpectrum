@@ -4,7 +4,7 @@
 
 (A presentation in Spanish of this game is available in this link http://foro.speccy.org/viewtopic.php?f=6&t=5369). (The map of the game, just in case you get lost, is available in this link https://maps.speccy.cz/map.php?id=RadeBlunner2)
 
-This folder contains the game Rade Blunner, Episode 2 in two versions: the Android TCP/IP Virtual Joystick compatible version and a normal version for those who do not have the Spectranet compatible TCP/IP Virtual Joystick.
+This folder contains the game Rade Blunner, Episode 2 in two versions: the TCP/IP Virtual Joystick for Android compatible version and a normal version for those who do not have the Spectranet compatible TCP/IP Virtual Joystick.
 
 This is a first release, is you find bugs please let us know (should be fine, we have tested it, but who knows...)
 
@@ -32,7 +32,7 @@ Dylan Smith's Spectranet compatible:
 
 http://spectrum.alioth.net/doc/index.php/Main_Page
 
-Iadvd's Android TCP/IP Virtual Joystick compatible:
+Iadvd's TCP/IP Virtual Joystick for Android compatible:
 
 https://play.google.com/store/apps/details?id=com.iadvd.android.tcpipvirtualjoystick
 
@@ -89,17 +89,17 @@ If you do not have an Android TCP/IP device just open the file Rade Blunner Ep2_
 
 1. Install Fuse ZX Spectrum emulator (use the emulation of the 48K version)  + Spectranet emulator. If Spectranet is correctly installed you will get a local IP for the Spectrum. You will need to verify that the computer is not using a firewall or at least that the port 8081 is open and available to be used for a TCP/IP protocol connection. And of course: if you are the lucky possesor of a real Spectrum 48k machine (or greater version) and a real Spectranet peripheral, then you can also continue to step 2!!
 
-2. Download Rade Blunner Ep2_by_iadvd_2019_Spectranet_AndroidTCPIPVJoystick_ver.tap and load it into Fuse. You will see in the title screen the option 4 (A), which is the Android TCP/IP Virtual Joystick option. If you press 4, the game will wait for you to launch the Android TCP/IP Virtual Joystick application and press its welcome screen OK button. This will make the Virtual Joystick application to connect to the game!. Now you can play normally with your wireless joystick. And again, if you are the lucky possesor of a real Spectrum + Spectranet (not an emulation) then you will need any program able to conver the .tap file into a wav / sound file, so you can load it through the EAR input in the classical way, or if you have a .tap loader device in the expansion port, just copy the .tap file to your peripheral and load it to memory from there. 
+2. Download Rade Blunner Ep2_by_iadvd_2019_Spectranet_AndroidTCPIPVJoystick_ver.tap and load it into Fuse. You will see in the title screen the option 4 (A), which is the TCP/IP Virtual Joystick for Android option. If you press 4, the game will wait for you to launch the TCP/IP Virtual Joystick for Android application and press its welcome screen OK button. This will make the Virtual Joystick application to connect to the game!. Now you can play normally with your wireless joystick. And again, if you are the lucky possesor of a real Spectrum + Spectranet (not an emulation) then you will need any program able to conver the .tap file into a wav / sound file, so you can load it through the EAR input in the classical way, or if you have a .tap loader device in the expansion port, just copy the .tap file to your peripheral and load it to memory from there. 
 
-Remark: If you want to use the file server available with the Android TCP/IP Virtual Joystick, follow the instructions in this link (and you can use the radeblunnere2.tap or radeblunnere2A.tap files there, they are the same .tap files but with a shorter name: radeblunnere2A.tap is compatible with the Android TCP/IP Virtual Joystick and the other one only uses Keyboard, Kempston or Sinclair emulations):
+Remark: If you want to use the file server available with the TCP/IP Virtual Joystick for Android app., follow the instructions in this link (and you can use the radeblunnere2.tap or radeblunnere2A.tap files there, they are the same .tap files but with a shorter name: radeblunnere2A.tap is compatible with the TCP/IP Virtual Joystick for Android and the other one only uses Keyboard, Kempston or Sinclair emulations):
 
 https://github.com/Iadvd/RetrocomputingZXSpectrum/tree/master/SpectranetTNFS
 
-3. Now launch (if it is not already launched!) your Android TCP/IP Virtual Joystick application. Your Android device must be in the same local network (using WiFi) than the computer where the Fuse emulator is or the ZX Spectrum connected through Spectranet is. The application will ask you the IP that Spectranet is using (or if you do not know it you can write an IP of the same local network to start searching from it).
+3. Now launch (if it is not already launched!) your TCP/IP Virtual Joystick for Android application. Your Android device must be in the same local network (using WiFi) than the computer where the Fuse emulator is or the ZX Spectrum connected through Spectranet is. The application will ask you the IP that Spectranet is using (or if you do not know it you can write an IP of the same local network to start searching from it).
 
 4. When the Virtual Joystick app. arrives to the IP that is using Spectranet, the game wil detect the joystick and connect to it. The game's Main Menu will appear. 
 
-5. At the main menu, please select option 4 (A = Android TCP/IP Virtual Joystick) and the virtual joystick will be available. The controls are:
+5. At the main menu, please select option 4 (A = TCP/IP Virtual Joystick for Android) and the virtual joystick will be available. The controls are:
 
       O / joystick left: run left.
 
@@ -119,7 +119,7 @@ https://github.com/Iadvd/RetrocomputingZXSpectrum/tree/master/SpectranetTNFS
 
 https://github.com/mojontwins/MK1
 
-2. If you want to compile the Spectranet+Android TCP/IP Virtual Joystick version, the last line in "config.h" file must be uncommented:
+2. If you want to compile the Spectranet+TCP/IP Virtual Joystick for Android version, the last line in "config.h" file must be uncommented:
 
 #define ANDROID_TCP_IP			// Spectranet Android TCP/IP Joystick
 
