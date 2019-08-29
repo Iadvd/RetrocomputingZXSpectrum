@@ -1,11 +1,11 @@
 # Retrocomputing ZX Spectrum
-Example applications and games to be used with the Android TCP/IP Virtual Joystick application.
+Example applications and games to be used with the TCP/IP Virtual Joystick for Android application.
 
-These examples are ZX Spectrum (48K or above) emulation files, to test the functionalities of the Android TCP/IP Virtual Joystick application. So you will need our Android TCP/IP Virtual Joystick to test them (its totally free!). Download it for your Android device at:
+These examples are ZX Spectrum (48K or above) emulation files, to test the functionalities of the TCP/IP Virtual Joystick for Android application. So you will need our TCP/IP Virtual Joystick for Android app. to test them (its totally free!). Download it for your Android device at:
 
 https://play.google.com/store/apps/details?id=com.iadvd.android.tcpipvirtualjoystick
 
-The Android TCP/IP Virtual Joystick will ask you for an IP address of your local network where there must be an application (for instance see tcpipsrv_basic.c) already listening to the 8081 port to negotiate a TCP connection with the Android Virtual Joystick.
+The TCP/IP Virtual Joystick for Android app. will ask you for an IP address of your local network where there must be an application (for instance see tcpipsrv_basic.c) already listening to the 8081 port to negotiate a TCP connection with the Android Virtual Joystick.
 
 There are two interviews in Spanish talking about this project at "El Spectrumero" Javi Ortiz's Videoblog (click on the image):
 
@@ -33,7 +33,7 @@ The Spectranet preripheral is a ZX Spectrum device able to provide network conne
 
 http://spectrum.alioth.net/doc/index.php/Main_Page
 
-So basically, a ZX Spectrum (emulated or real) with a Spectranet peripheral can manage a TCP/IP connection, thus we can use an Android TCP/IP Virtual Joystick and send the information of the actions of the joystick to the Spectrum application (usually it is an 8-bit game, of course!).
+So basically, a ZX Spectrum (emulated or real) with a Spectranet peripheral can manage a TCP/IP connection, thus we can use the TCP/IP Virtual Joystick for Android app. to send the information of the actions of the joystick to the Spectrum application (usually it is an 8-bit game, of course!).
 
 We use several tools to make the examples, but the main ones are the Spectranet socket libraries and the Z80 Development Kit:
 
@@ -51,7 +51,7 @@ https://creativecommons.org/licenses/by-nc-sa/3.0/es/
 
 # Ok, let us test the Virtual Joystick! How does tcpipsrv_basic.c (ZX Spectrum program tcpipsrv_basic.tap file) works? 
 
-The Android TCP/IP Virtual Joystick is able to connect to a TCP/IP server application listening at port 8081. And that is what tcpipsrv_basic.tap does. 
+The TCP/IP Virtual Joystick for Android app. is able to connect to a TCP/IP server application listening at port 8081. And that is what tcpipsrv_basic.tap does. 
 
 The connection protocol is as follows:
 
@@ -59,11 +59,11 @@ The connection protocol is as follows:
 
 ![alt text](https://github.com/Iadvd/RetrocomputingZXSpectrum/blob/master/tcpipsrv_basic.tap_image1.png)
 
-2) Then open the Android TCP/IP Virtual Joystick.
+2) Then open the TCP/IP Virtual Joystick for Android app.
 
 3) The Virtual Joystick app. will look for a valid TCP connection into the provided IP (where the ZX Spectrum machine or the Fuse emulator is), at port 8081.
 
-4) The server side app. tcpipsrv_basic.tap will detect the request for connection and will create a TCP/IP socket and will open it. Once the connection is obtained, the Virtual Joystick will send a test message to the server side app. with the word 'START'. Then tcpipsrv_basic.tap can use that first incoming message to know that the connected aplication is an Android TCP/IP Virtual Joystick (in the example tcpipsrv_basic.tap we are just accepting the message and assuming that it is a Virtual Joystick without any special check).
+4) The server side app. tcpipsrv_basic.tap will detect the request for connection and will create a TCP/IP socket and will open it. Once the connection is obtained, the Virtual Joystick will send a test message to the server side app. with the word 'START'. Then tcpipsrv_basic.tap can use that first incoming message to know that the connected aplication is a TCP/IP Virtual Joystick for Android app. (in the example tcpipsrv_basic.tap we are just accepting the message and assuming that it is a Virtual Joystick without any special check).
 
 ![alt text](https://github.com/Iadvd/RetrocomputingZXSpectrum/blob/master/tcpipsrv_basic.tap_image2.png)
 
@@ -71,11 +71,11 @@ The connection protocol is as follows:
 
 6) If the word arrives, then we have found a server side Virtual Joystick application; in other case, it is not a correct TCP connection so the Virtual Joystick will close the connection.
 
-7) Once the correct connection has been confirmed, the Android TCP/IP Virtual Joystick application will start sending messages to the server side app. tcpipsrv_basic.tap each time an event happens (UP, RIGHT, BUTTON1, etc.)\n\n8. tcpipsrv_basic.tap will read those messages and will show the actions on the ZX Spectrum monitor screen (Fuse emulator window or a TV in case of using a real machine). 
+7) Once the correct connection has been confirmed, the TCP/IP Virtual Joystick for Android application will start sending messages to the server side app. tcpipsrv_basic.tap each time an event happens (UP, RIGHT, BUTTON1, etc.)\n\n8. tcpipsrv_basic.tap will read those messages and will show the actions on the ZX Spectrum monitor screen (Fuse emulator window or a TV in case of using a real machine). 
 
 ![alt text](https://github.com/Iadvd/RetrocomputingZXSpectrum/blob/master/tcpipsrv_basic.tap_image3.png)
 
-If the TCP connection is lost, the server application tcpipsrv_basic.tap detects it and enter again in a listening for a new connection status. You will need to close the Android TCP/IP Virtual Joystick app. (at least in the present version), and then open it again to create again a TCP/IP channel with the server side application.
+If the TCP connection is lost, the server application tcpipsrv_basic.tap detects it and enter again in a listening for a new connection status. You will need to close the TCP/IP Virtual Joystick for Android app. (at least in the present version), and then open it again to create again a TCP/IP channel with the server side application.
 
 So we are controling the ZX Spectrum program from a smaller Android device, where the TCP/IP Virtual Joystick is installed. 
 
@@ -83,9 +83,9 @@ You just need the Android device where the Virtual Joystick is running connected
 
 Be aware that you will need to review if the server side application computer (e.g. if you are using Fuse Zpectrum emulator this can happen) is using a firewall. You will need to open at least the TCP port 8081 if there is a firewall. If not, the application will not be able to negotiate the TCP/IP protocol.
 
-# Great, but I want to play games! Are there cool games adapted to use the Android TCP/IP Virtual Joystick? 
+# Great, but I want to play games! Are there cool games adapted to use the TCP/IP Virtual Joystick for Android app.? 
 
-Yes!!!! It is possible to play homebrew games that have been adapted to this TCP/IP interface, connected through the Spectranet peripheral (e.g. if your 8-bit game can be played by using a keyboard, a Kempston Joystick or a Sinclair Joystick you can also add another option for an Android TCP/IP Virtual Joystick). It should work as well with a real ZX Spectrum computer and a real Spectranet peripheral.
+Yes!!!! It is possible to play homebrew games that have been adapted to this TCP/IP interface, connected through the Spectranet peripheral (e.g. if your 8-bit game can be played by using a keyboard, a Kempston Joystick or a Sinclair Joystick you can also add another option for a TCP/IP Virtual Joystick for Android app.). It should work as well with a real ZX Spectrum computer and a real Spectranet peripheral.
 
 And here they are the first ones! We have adapted several games from the famous Spanish Spectrum scene group The Mojon Twins:
 
@@ -93,120 +93,120 @@ http://www.mojontwins.com/juegos_mojonos/
 
 All of them Powered by The Mojon Twins La Churrera and also copyleft The Mojon Twins under a CC BY-NC-SA 3.0 license. So all credits go to them. These are the games: 
 
-1. "Trabajo Basura (Dire Job)" Android TCP/IP Virtual Joystick compatible version:
+1. "Trabajo Basura (Dire Job)" TCP/IP Virtual Joystick for Android compatible version:
 
 https://github.com/Iadvd/RetrocomputingZXSpectrum/tree/master/GameExamples/tb
 
-Original version from the Mojon Twins (not compatible with the Android TCP/IP Virtual Joystick) including an explanation of the game):
+Original version from the Mojon Twins (not compatible with the TCP/IP Virtual Joystick for Android app.) including an explanation of the game):
 
 http://www.mojontwins.com/juegos_mojonos/trabajo-basura-dire-job/
 
-2. "Sir Ababol" Android TCP/IP Virtual Joystick compatible version:
+2. "Sir Ababol" TCP/IP Virtual Joystick for Android compatible version:
 
 https://github.com/Iadvd/RetrocomputingZXSpectrum/tree/master/GameExamples/ababol
 
-Original version from the Mojon Twins (not compatible with the Android TCP/IP Virtual Joystick) including an explanation of the game):
+Original version from the Mojon Twins (not compatible with the TCP/IP Virtual Joystick for Android app.) including an explanation of the game):
 
 http://www.mojontwins.com/juegos_mojonos/sir-ababol/
 
-3. "Cheril Perils" Android TCP/IP Virtual Joystick compatible version:
+3. "Cheril Perils" TCP/IP Virtual Joystick for Android compatible version:
 
 https://github.com/Iadvd/RetrocomputingZXSpectrum/tree/master/GameExamples/perils
 
-Original version from the Mojon Twins (not compatible with the Android TCP/IP Virtual Joystick) including an explanation of the game):
+Original version from the Mojon Twins (not compatible with the TCP/IP Virtual Joystick for Android app.) including an explanation of the game):
 
 http://www.mojontwins.com/juegos_mojonos/cheril_perils/
 
-4. "Horace Goes To The Tower" Android TCP/IP Virtual Joystick compatible version:
+4. "Horace Goes To The Tower" TCP/IP Virtual Joystick for Android compatible version:
 
 https://github.com/Iadvd/RetrocomputingZXSpectrum/tree/master/GameExamples/horace
 
-Original version from the Mojon Twins (not compatible with the Android TCP/IP Virtual Joystick) including an explanation of the game):
+Original version from the Mojon Twins (not compatible with the TCP/IP Virtual Joystick for Android app.) including an explanation of the game):
 
 http://www.mojontwins.com/juegos_mojonos/1773-2/
 
-5. "Zombie Calavera" Android TCP/IP Virtual Joystick compatible version:
+5. "Zombie Calavera" TCP/IP Virtual Joystick for Android compatible version:
 
 https://github.com/Iadvd/RetrocomputingZXSpectrum/tree/master/GameExamples/calavera
 
-Original version from the Mojon Twins (not compatible with the Android TCP/IP Virtual Joystick) including an explanation of the game):
+Original version from the Mojon Twins (not compatible with the TCP/IP Virtual Joystick for Android app.) including an explanation of the game):
 
 http://www.mojontwins.com/juegos_mojonos/zombie-calavera-prologue/
 
-6. "Cadàveriön" Android TCP/IP Virtual Joystick compatible version:
+6. "Cadàveriön" TCP/IP Virtual Joystick for Android compatible version:
 
 https://github.com/Iadvd/RetrocomputingZXSpectrum/tree/master/GameExamples/cadaver
 
-Original version from the Mojon Twins (not compatible with the Android TCP/IP Virtual Joystick) including an explanation of the game):
+Original version from the Mojon Twins (not compatible with the TCP/IP Virtual Joystick for Android app.) including an explanation of the game):
 
 http://www.mojontwins.com/juegos_mojonos/cadaverion/
 
-7. "Viaje al Centro de la Napia" Android TCP/IP Virtual Joystick compatible version:
+7. "Viaje al Centro de la Napia" TCP/IP Virtual Joystick for Android compatible version:
 
 https://github.com/Iadvd/RetrocomputingZXSpectrum/tree/master/GameExamples/viaje
 
-Original version from the Mojon Twins (not compatible with the Android TCP/IP Virtual Joystick) including an explanation of the game):
+Original version from the Mojon Twins (not compatible with the TCP/IP Virtual Joystick for Android app.) including an explanation of the game):
 
 http://www.mojontwins.com/juegos_mojonos/viaje-al-centro-de-la-napia/
 
-8. "Tenebra Macabre" Android TCP/IP Virtual Joystick compatible version:
+8. "Tenebra Macabre" TCP/IP Virtual Joystick for Android compatible version:
 
 https://github.com/Iadvd/RetrocomputingZXSpectrum/tree/master/GameExamples/tm
 
-Original version from the Mojon Twins (not compatible with the Android TCP/IP Virtual Joystick) including an explanation of the game):
+Original version from the Mojon Twins (not compatible with the TCP/IP Virtual Joystick for Android app.) including an explanation of the game):
 
 http://www.mojontwins.com/2013/10/31/tenebra-macabre-nuestro-juego-para-halloween/
 
-9. "Lala Prologue" Android TCP/IP Virtual Joystick compatible version:
+9. "Lala Prologue" TCP/IP Virtual Joystick for Android compatible version:
 
 https://github.com/Iadvd/RetrocomputingZXSpectrum/tree/master/GameExamples/lala
 
-Original version from the Mojon Twins (not compatible with the Android TCP/IP Virtual Joystick) including an explanation of the game):
+Original version from the Mojon Twins (not compatible with the TCP/IP Virtual Joystick for Android app.) including an explanation of the game):
 
 http://www.mojontwins.com/juegos_mojonos/lala-prologue/
 
-10. "Moggy Adventure" Android TCP/IP Virtual Joystick compatible version:
+10. "Moggy Adventure" TCP/IP Virtual Joystick for Android compatible version:
 
 https://github.com/Iadvd/RetrocomputingZXSpectrum/tree/master/GameExamples/moggya
 
-Original version from the Mojon Twins (not compatible with the Android TCP/IP Virtual Joystick) including an explanation of the game):
+Original version from the Mojon Twins (not compatible with the TCP/IP Virtual Joystick for Android app.) including an explanation of the game):
 
 http://www.mojontwins.com/juegos_mojonos/moggy-adventure/
 
 In the same way, you can download and reuse our code for your own projects (copyleft license CC BY-SA 4.0).
 
-We have also developed the following games (well, so far three!) explicity to promote the use of the Android TCP/IP Virtual Joystick and show that is quite easy to prepare some games to use the wireless joystick:
+We have also developed the following games (well, so far three!) explicity to promote the use of the TCP/IP Virtual Joystick for Android app. and show that is quite easy to prepare some games to use the wireless joystick:
 
-1. "Rade Blunner Ep.1" Android TCP/IP Virtual Joystick compatible version (in case you do not have the Android joystick we have prepared as well a .tap file with a "classical" version for the usual Keyboard, Kempston and Sinclair joysticks, so everybody can play this game!):
+1. "Rade Blunner Ep.1" TCP/IP Virtual Joystick for Android compatible version (in case you do not have the Android joystick we have prepared as well a .tap file with a "classical" version for the usual Keyboard, Kempston and Sinclair joysticks, so everybody can play this game!):
 
 https://github.com/Iadvd/RetrocomputingZXSpectrum/tree/master/GameExamples/RadeBlunner
 
-2. "Birdy Cantabile" Android TCP/IP Virtual Joystick compatible version (in case you do not have the Android joystick we have prepared as well a .tap file with a "classical" version for the usual Keyboard, Kempston and Sinclair joysticks, so everybody can play this game!):
+2. "Birdy Cantabile" TCP/IP Virtual Joystick for Android compatible version (in case you do not have the Android joystick we have prepared as well a .tap file with a "classical" version for the usual Keyboard, Kempston and Sinclair joysticks, so everybody can play this game!):
 
 https://github.com/Iadvd/RetrocomputingZXSpectrum/tree/master/GameExamples/BirdyCantabile
 
-3. "Rade Blunner Ep.2" Android TCP/IP Virtual Joystick compatible version (in case you do not have the Android joystick we have prepared as well a .tap file with a "classical" version for the usual Keyboard, Kempston and Sinclair joysticks, so everybody can play this game!):
+3. "Rade Blunner Ep.2" TCP/IP Virtual Joystick for Android compatible version (in case you do not have the Android joystick we have prepared as well a .tap file with a "classical" version for the usual Keyboard, Kempston and Sinclair joysticks, so everybody can play this game!):
 
 https://github.com/Iadvd/RetrocomputingZXSpectrum/tree/master/GameExamples/RadeBlunner2
 
-4. "Moon's Fandom Festival" mini graphic adventure, Android TCP/IP Virtual Joystick compatible version (in case you do not have the Android joystick we have prepared as well a .tap file with a "classical" version for the usual Keyboard, Kempston and Sinclair joysticks, so everybody can play this game!):
+4. "Moon's Fandom Festival" mini graphic adventure, TCP/IP Virtual Joystick for Android compatible version (in case you do not have the Android joystick we have prepared as well a .tap file with a "classical" version for the usual Keyboard, Kempston and Sinclair joysticks, so everybody can play this game!):
 
 https://github.com/Iadvd/RetrocomputingZXSpectrum/tree/master/GameExamples/MoonsFandomFestival
 
-# I can see games in my tv screen and play wireless with the app. Spectacol for Android + Google Chromecast... so what is the point of using the Android TCP/IP Virtual Joystick?
+# I can see games in my tv screen and play wireless with the app. Spectacol for Android + Google Chromecast... so what is the point of using the TCP/IP Virtual Joystick for Android app.?
 
 We really love and enjoy Spectacol! It is a great emulator for Android (indeed is based on the Fuse emulator), and you can use it to play wireless using Google Chromecast to share your device screen with your TV screen. The difference is that in that case, a) Spectacle is the owner of the virtual joystick, and it is emulating a Kempston, Sinclair or other type of joystick, it is not adding a new interface. And b) you will see in the screen the virtual joystick under the game, and that sometimes will not let you focus on playing the game. 
 
-In the case of the Android TCP/IP Virtual Joystick, it is directly the Spectrum game / application the owner of the control of the peripheral, so you will not see the virtual joystick over the image of the game. The joystick remains in your Android device, and the television or the Fuse simulator screen will only show the game (as it happens with the standard / classical joysticks, you do not see them on the screen, because they are physically in your hand while you play!). 
+In the case of the TCP/IP Virtual Joystick for Android app., it is directly the Spectrum game / application the owner of the control of the peripheral, so you will not see the virtual joystick over the image of the game. The joystick remains in your Android device, and the television or the Fuse simulator screen will only show the game (as it happens with the standard / classical joysticks, you do not see them on the screen, because they are physically in your hand while you play!). 
 
 Besides, our application and the adapted games can be played in a real ZX Spectrum using a Spectranet peripheral, so you can play wireless using a real ZX Spectrum machine and not an emulation. We think that this is an interesting and new approach.
 
-# The Android TCP/IP Virtual Joystick application is Spectranet 8-bit Network File System compatible
+# The TCP/IP Virtual Joystick for Android application is Spectranet 8-bit Network File System compatible
 
-Yes!! The Android TCP/IP Virtual Joystick has a 8-bit Spectranet-compatible local network File Server. Please check the details in this link:
+Yes!! The TCP/IP Virtual Joystick for Android app. has a 8-bit Spectranet-compatible local network File Server. Please check the details in this link:
 
 https://github.com/Iadvd/RetrocomputingZXSpectrum/tree/master/SpectranetTNFS
 
 # A final message to ZX Spectrum game developers
 
-The Android TCP/IP Virtual Joystick functions are written in C for the z88dk compiler. They are really very easy to use, do not be afraid and add them to your Spectrum games, it is cool to have a wireless joystick version, isn't it? If you make some Spectrum 8-bit games or apps. using our code please let us know, we will be very happy to know that this is useful for retrocomputing fans!
+The TCP/IP Virtual Joystick for Android compatible functions are written in C for the z88dk compiler. They are really very easy to use, do not be afraid and add them to your Spectrum games, it is cool to have a wireless joystick version, isn't it? If you make some Spectrum 8-bit games or apps. using our code please let us know, we will be very happy to know that this is useful for retrocomputing fans!
