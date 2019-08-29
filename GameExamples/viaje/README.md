@@ -2,7 +2,7 @@
 
 # Powered by The Mojon Twins La Churrera and also copyleft The Mojon Twins under a CC BY-NC-SA 3.0 license. So all credits go to them.
 
-This folder contains the game Trabajo Basura (Dire Job), Android TCP/IP Virtual Joystick compatible version. This version does not include the main menu music theme.
+This folder contains the game Viaje al Centro de la Napia, TCP/IP Virtual Joystick for Android compatible version. This version does not include the main menu music theme.
 
 Original version from the Mojon Twins (including an explanation of the game): 
 
@@ -14,7 +14,7 @@ http://www.mojontwins.com/juegos_mojonos/viaje-al-centro-de-la-napia/
 
 2. Download viaje.tap and load it into Fuse. You will see the loading screen and then a text screen saying: "Viaje al Centro de la Napia. Android Virtual Joystick compatible version. Wait or any key to cancel." (if you press any kay in this moment, the game will not use the Virtual Joystick, so just wait). And again, if you are the lucky possesor of a real Spectrum + Spectranet (not an emulation) then you will need any program able to conver the .tap file into a wav / sound file, so you can load it through the EAR input in the classical way, or if you have a .tap loader device in the expansion port, justo copy the .tap file to your peripheral and load it to memory from there.
 
-3. Now open your Android TCP/IP Virtual Joystick application. Your Android device must be in the same local network (using WiFi) than the computer where the Fuse emulator is or the ZX Spectrum connected through Spectranet is. The application will ask you the IP that Spectranet is using (or if you do not know it you can write an IP of the same local network to start searching from it).
+3. Now open your TCP/IP Virtual Joystick for Android application. Your Android device must be in the same local network (using WiFi) than the computer where the Fuse emulator is or the ZX Spectrum connected through Spectranet is. The application will ask you the IP that Spectranet is using (or if you do not know it you can write an IP of the same local network to start searching from it).
 
 4. When the Virtual Joystick app. arrives to the IP that is using Spectranet, the game wil detect the joystick and connect to it. The game's Main Menu will appear. 
 
