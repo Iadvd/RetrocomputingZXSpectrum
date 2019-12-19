@@ -104,12 +104,12 @@ The controls are:
       	O / joystick left: walk left.
 
       	P / joystick right: walk right.
-	  
-	Q / joystick up: walk up.
 
-	A / joystick down: walk down / select an option from the TALK/GIVE menú.
-	  
-        SPACE / joystick fire (Red or Green button): action / select.
+      	Q / joystick up: walk up.
+
+      	A / joystick down: walk down / select an option from the TALK/GIVE menú.
+
+      	SPACE / joystick fire (Red or Green button): action / select.
 	  
 ![alt text](https://github.com/Iadvd/RetrocomputingZXSpectrum/blob/master/GameExamples/MoonAndThePirates/MATP5.png)
 
