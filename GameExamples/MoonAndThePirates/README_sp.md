@@ -40,7 +40,7 @@ Esta es la tripulación pirata:
 
 # El Juego
 
-Puedes moverte líbremente por el barco, la tripulación está haciendo sus labores cotidianas. Visita las distintas cubiertas y la cofa del barco (¡donde esta el vigía!). También puedes ir a Isla de Cocos, ¡pero necesitarás primero encontrar los remos del bote! 
+Puedes moverte líbremente por el barco, la tripulación está haciendo sus labores cotidianas. Visita las distintas cubiertas y la cofa del barco (¡donde está el vigía!). También puedes ir a Isla de Cocos, ¡pero necesitarás primero encontrar los remos del bote! 
  
 Tienes que ganarte el respeto de tus colegas. Con este objetivo tendrás diferentes tareas que finalizar:
 
