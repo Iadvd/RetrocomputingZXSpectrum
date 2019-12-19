@@ -28,7 +28,7 @@ Esta es la tripulación pirata:
 
 - El cocinero: ¿has visto alguna vez a un hombre con un huevo chafado en la cabeza? ale, ¡pues aquí lo tienes!...
 
-- El bucanero aburrido: ¡un colega muy aburrido que está buscando algo de entretenimiento!
+- El bucanero aburrido: ¡un pirata muy aburrido que está buscando algo de entretenimiento!
 
 - El vigía zombi: bueno, de hecho él no sabe que es un zombi... intenta hacer su trabajo lo mejor que puede, pero no es un buen observador...
 
