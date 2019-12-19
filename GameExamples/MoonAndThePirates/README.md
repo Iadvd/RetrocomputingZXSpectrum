@@ -81,7 +81,7 @@ You need to gain the respect of your colleagues. For this purpose, you will have
 
 - Icon task: once you finish the other tasks, finally you will need to put back the main objects (named "icons") of each matey to their respective places.
 
-If you do all those tasks, you will be able to go to the treasure chest and get your ticlet for the ferry!! Then, just go to Coconuts Island and enter the ferry!
+If you do all those tasks, you will be able to go to the treasure chest and get your ticket for the ferry!! Then, just go to Coconuts Island and enter the ferry!
 
 Hint 1: well, you can also finish the game when somebody gets angry with you... check the different endings!!
 
