@@ -39,7 +39,7 @@ Music tracks composed in Beepola
 
 # Story
 
-After the events at Petunia Town's Fandom Festival, Moon uses all the earnings she made selling her games to buy a chewing gum. Luckiky, it had a unexpected prize included inside! A trip to the Caribbean Islands! 
+After the events at Petunia Town's Fandom Festival, Moon uses all the earnings she made selling her games to buy a chewing gum. Luckily, it had a unexpected prize included inside! A trip to the Caribbean Islands! 
 
 So Moon took the flight to the Caribbean islands, and then a local ferry to Coconut Island, a tiny an unkonwn -do not try to look for it on the map- Caribbean Island. Upon arriving she was offered two options, starting with a refreshing banana boat trip, jumping over the waves... or visiting a pirate galleon.
 
