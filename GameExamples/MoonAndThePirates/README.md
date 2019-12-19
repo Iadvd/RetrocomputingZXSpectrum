@@ -4,7 +4,7 @@
 
 A presentation in Spanish of this game is available at the following link:
 
-(https://github.com/Iadvd/RetrocomputingZXSpectrum/blob/master/GameExamples/MoonAndThePirates/README_sp.md)
+https://github.com/Iadvd/RetrocomputingZXSpectrum/blob/master/GameExamples/MoonAndThePirates/README_sp.md
 
 This folder contains the game Moon And The Pirates, in two versions: English and Spanish.
 
