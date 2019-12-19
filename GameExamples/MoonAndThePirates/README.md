@@ -12,7 +12,7 @@ This is a first release, is you find bugs please let us know (should be fine, we
 
 # Technical details:
 
-Game concept: Iadvd (inspired on the graphic ideas of great games like Booty, Dizzy's Treasure Island, Sid Meier's Pirates!, The Secret of Monkey Island and PatMoritaTeam's Black & White).
+Game concept: Iadvd (inspired by the graphic ideas of great games like Booty, Dizzy's Treasure Island, Sid Meier's Pirates!, The Secret of Monkey Island and PatMoritaTeam's Black & White).
 
 Loading and Title Screens: Iadvd.
 
