@@ -17,6 +17,8 @@ The ones ending with an "A" and the "tcpipjoysticktest.tap" application will run
 
 6. "moonA.tap" is our "Moon's Fandom Festival" mini graphic adventure game also compatible with the TCP/IP Virtual Joystick for Android app.
 
+7. "moonP.tap" is our "Moon and The Pirates" mini graphic adventure game for Keyboard, Kempston and Sinclair joysticks only (English version).
+
 These .tap files are the same ones than here:
 
 https://github.com/Iadvd/RetrocomputingZXSpectrum/tree/master/GameExamples
