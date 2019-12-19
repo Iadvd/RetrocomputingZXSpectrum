@@ -38,7 +38,7 @@ Esta es la tripulación pirata:
 
 ![alt text](https://github.com/Iadvd/RetrocomputingZXSpectrum/blob/master/GameExamples/MoonAndThePirates/MATP3s.png)
 
-# The Game
+# El Juego
 
 Puedes moverte líbremente por el barco, la tripulación está haciendo sus labores cotidianas. Visita las distintas cubiertas y la cofa del barco (¡donde esta el vigía!). También puedes ir a Isla de Cocos, ¡pero necesitarás primero encontrar los remos del bote! 
  
@@ -52,6 +52,8 @@ Tienes que ganarte el respeto de tus colegas. Con este objetivo tendrás diferen
 
 - Tarea del icono: una vez que acabes las tareas anteriores, finalmente, deberás recuperar y poner en su sitio el objeto icónico de cada personaje de la tripulación. Sólo podrás realizar esta misión cuando acabes las anteriores.
 
+![alt text](https://github.com/Iadvd/RetrocomputingZXSpectrum/blob/master/GameExamples/MoonAndThePirates/MATP4s.png)
+
 Si haces todas estas misiones, obtendrás todas las llaves del cofre del tesoro, ¡¡y podrás recuperar el billete del ferry!! Cuando lo tengas, ve a Isla de Cocos y ¡entra al ferry!
 
 Pista #1: bueno, el juego también acaba si enfadas mucho a cualquiera de los piratas de la tripulación... ¡¡prueba los distintos finales!!
@@ -62,7 +64,7 @@ Pista #3: por favor ten paciencia, algunas veces la información tardara en apar
 
 Pista #4: En el menú principal puedes seleccionar entre "autoscroll" y pulsar espacio para poder leer los textos al ritmo que quieras. La opción por defecto es "autoscroll".
 
-![alt text](https://github.com/Iadvd/RetrocomputingZXSpectrum/blob/master/GameExamples/MoonAndThePirates/MATP4s.png)
+![alt text](https://github.com/Iadvd/RetrocomputingZXSpectrum/blob/master/GameExamples/MoonAndThePirates/MATP5s.png)
 
 # Archivo .tap?
 
@@ -79,7 +81,5 @@ Q / joystick arriba: caminar hacia la parte superior de la cubierta (la mas leja
 A / joystick abjo: caminar hacia la parte inferior de la cubierta (la mas cercana a ti) / seleccionar una opción del menu HABLA/DA.
 	  
 ESPACIO / joystick fuego: realizar acción / coger y dejar cosas.
-
-![alt text](https://github.com/Iadvd/RetrocomputingZXSpectrum/blob/master/GameExamples/MoonAndThePirates/MATP5s.png)
 
 ![alt text](https://github.com/Iadvd/RetrocomputingZXSpectrum/blob/master/GameExamples/MoonAndThePirates/MATP6s.png)
