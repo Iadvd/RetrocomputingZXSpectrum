@@ -16,7 +16,7 @@ Moon, rauda y veloz, toma el primer avión al Caribe y después un ferry local a
 
 ¡¡¡Lo que no sabía era que los piratas de este barco eran piratas de verdad!!! ¡Y se toman muy en serio su trabajo! ¡¡¡Nada más llegar roban el billete de ferry de Moon!!! Ahora no hay más salida que conseguir recuperar el billete del cofre del tesoro. 
 
-Para ello, Moon deberá como siempre utilizar todas sus habilidades haciéndose amiga de los piratas para conseguir las llaves del cofre!!!
+Para ello, Moon deberá como siempre utilizar todas sus habilidades haciéndose amiga de los piratas para conseguir las llaves del cofre.
 
 ![alt text](https://github.com/Iadvd/RetrocomputingZXSpectrum/blob/master/GameExamples/MoonAndThePirates/MATP2s.png)
 
