@@ -79,3 +79,7 @@ Q / joystick arriba: caminar hacia la parte superior de la cubierta (la mas leja
 A / joystick abjo: caminar hacia la parte inferior de la cubierta (la mas cercana a ti) / seleccionar una opción del menu HABLA/DA.
 	  
 ESPACIO / joystick fuego: realizar acción / coger y dejar cosas.
+
+![alt text](https://github.com/Iadvd/RetrocomputingZXSpectrum/blob/master/GameExamples/MoonAndThePirates/MATP5s.png)
+
+![alt text](https://github.com/Iadvd/RetrocomputingZXSpectrum/blob/master/GameExamples/MoonAndThePirates/MATP6s.png)
