@@ -66,13 +66,7 @@ Pista #4: En el menú principal puedes seleccionar entre "autoscroll" y pulsar e
 
 ![alt text](https://github.com/Iadvd/RetrocomputingZXSpectrum/blob/master/GameExamples/MoonAndThePirates/MATP5s.png)
 
-# Archivo .tap
-
-La versión en español usa el archivo MoonAndThePirates_by_iadvd_2019_classic_sp_ver.tap.
-
-https://github.com/Iadvd/RetrocomputingZXSpectrum/blob/master/GameExamples/MoonAndThePirates/MoonAndThePirates_by_iadvd_2019_classic_sp_ver.tap
-
-Controles:
+# Controles
 
 O / joystick izda: caminar a la izquierda.
 
@@ -85,3 +79,10 @@ A / joystick abjo: caminar hacia la parte inferior de la cubierta (la mas cercan
 ESPACIO / joystick fuego: realizar acción / coger y dejar cosas.
 
 ![alt text](https://github.com/Iadvd/RetrocomputingZXSpectrum/blob/master/GameExamples/MoonAndThePirates/MATP6s.png)
+
+# Archivo .tap
+
+La versión en español usa el archivo MoonAndThePirates_by_iadvd_2019_classic_sp_ver.tap.
+
+https://github.com/Iadvd/RetrocomputingZXSpectrum/blob/master/GameExamples/MoonAndThePirates/MoonAndThePirates_by_iadvd_2019_classic_sp_ver.tap
+
