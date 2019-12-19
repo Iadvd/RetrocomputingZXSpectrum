@@ -39,15 +39,11 @@ Music tracks composed in Beepola
 
 After the events at Petunia Town's Fandom Festival, Moon uses all the earnings she made selling her games to buy a chewing gum. Luckiky, it had a unexpected prize included inside! A trip to the Caribbean Islands! 
 
-So Moon took the flight to the Caribbean islands, and then a local ferry to Coconut Island, a tiny an unkonwn -do not try to look for it on the map- Caribbean Island.
-Upon arriving she was offered two options, starting with a refreshing banana boat trip, jumping over the waves... or visiting a pirate galleon.
+So Moon took the flight to the Caribbean islands, and then a local ferry to Coconut Island, a tiny an unkonwn -do not try to look for it on the map- Caribbean Island. Upon arriving she was offered two options, starting with a refreshing banana boat trip, jumping over the waves... or visiting a pirate galleon.
 
 Moon did not think twice... the pirate galleon, the pirate galleon!!! Oh, bad choice, Moon!
 
-Nobody knew that the pirates of that ship were real pirates!! And they do their job very well indeed. 
-They took Moon's ferry ticket and put it inside the treasure chest!!! Now she is prisoner of the pirates. 
-The only way to return home is getting back the ticket and for that purpose Moon will need to use all her abilities 
-to convince the pirates that she is also a friendly pirate and get all the treasure chest keys from them!!!
+Nobody knew that the pirates of that ship were real pirates!! And they do their job very well indeed. They took Moon's ferry ticket and put it inside the treasure chest!!! Now she is prisoner of the pirates. The only way to return home is getting back the ticket and for that purpose Moon will need to use all her abilities to convince the pirates that she is also a friendly pirate and get all the treasure chest keys from them!!!
 
 Moon will have to gain their respect as a genuine pirate if she wants to recover the keys. 
 
@@ -71,18 +67,13 @@ These is the pirate crow:
 
 # The Game
 
-You can walk freely along the ship, the crew is focused on their duties. Visit the decks and the crow's nest. 
-You can go to Coconuts Island too, but you will need the oars of the boat to go safely! 
+You can walk freely along the ship, the crew is focused on their duties. Visit the decks and the crow's nest. You can go to Coconuts Island too, but you will need the oars of the boat to go safely! 
  
 You need to gain the respect of your colleagues. For this purpose, you will have to do several tasks:
 
-- Friendship: if you want them to become your friend, you need to show that you know about their favorite themes. 
-Read the captain's logbooks and treasure maps that are scattered along the ship and island, and speak with the Seadog and the Grumpy Boatswain, just stop and 
-ask them. They will give you new pieces of knowledge. Then try to talk about that new knowledge that you have learnt with the crew (Capt. Socks, The Voodoo Sorcerer, The Cook, The Bored Buccaneer, The Cabin Boy and The Lookout) until you find the one interested on that information.
+- Friendship: if you want them to become your friend, you need to show that you know about their favorite themes. Read the captain's logbooks and treasure maps that are scattered along the ship and island, and speak with the Seadog and the Grumpy Boatswain, just stop and ask them. They will give you new pieces of knowledge. Then try to talk about that new knowledge that you have learnt with the crew (Capt. Socks, The Voodoo Sorcerer, The Cook, The Bored Buccaneer, The Cabin Boy and The Lookout) until you find the one interested on that information.
 
-- Needed object: each one of your mateys needs a special object that you have to find. The objects are hidden into the chests and baskets. You will need to search here and there until you find them. There is ONLY one type of special object on each room of the ship (except the Crow's nest) and there is also one at Coconuts Island. 
-You can bring the objects in your pockets, but only three at a time. It is not going to be easy! You will need to find also the oars of the boat to reach the island!!
-There are other object that you will need, just look well around you!
+- Needed object: each one of your mateys needs a special object that you have to find. The objects are hidden into the chests and baskets. You will need to search here and there until you find them. There is ONLY one type of special object on each room of the ship (except the Crow's nest) and there is also one at Coconuts Island. You can bring the objects in your pockets, but only three at a time. It is not going to be easy! You will need to find also the oars of the boat to reach the island!! There are other object that you will need, just look well around you!
 
 - Give them drinks: a thirsty matey is not very friendly, make them happy giving them the veberages they like... well, not everybody likes the same things, you know.
 
@@ -94,8 +85,7 @@ Hint 1: well, you can also finish the game when somebody gets angry with you... 
 
 Hint 2: the knowledge that the Seadog and the Grumpy Boatswain have is different from the knowledge that you can adquire by reading the captain's logbooks or the treasure maps, so speak with them too!
 
-Hint 3: please be patient, sometimes it is difficult to find a specific knowledge to finish the Friendship task, or is difficult to find the needed object that a colleague is looking for. Please insist and do not worry, you eventually will find them all, although sometimes will take longer to find it!
-In real life is not so easy, isn't it?
+Hint 3: please be patient, sometimes it is difficult to find a specific knowledge to finish the Friendship task, or is difficult to find the needed object that a colleague is looking for. Please insist and do not worry, you eventually will find them all, although sometimes will take longer to find it! In real life is not so easy, isn't it?
 
 Hint 4: In the Main Menu you can select between "autoscroll" and "press space" to read the texts. The default option is autoscroll.
 
@@ -111,15 +101,15 @@ https://github.com/Iadvd/RetrocomputingZXSpectrum/tree/master/SpectranetTNFS
 
 The controls are:
 
-      O / joystick left: walk left.
+      	O / joystick left: walk left.
 
-      P / joystick right: walk right.
+      	P / joystick right: walk right.
 	  
-	  Q / joystick up: walk up.
+	Q / joystick up: walk up.
 
-	  A / joystick down: walk down / select an option from the TALK/GIVE menú.
+	A / joystick down: walk down / select an option from the TALK/GIVE menú.
 	  
-      SPACE / joystick fire (Red or Green button): action / select.
+        SPACE / joystick fire (Red or Green button): action / select.
 	  
 ![alt text](https://github.com/Iadvd/RetrocomputingZXSpectrum/blob/master/GameExamples/MoonAndThePirates/MATP5.png)
 
