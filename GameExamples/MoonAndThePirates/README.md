@@ -87,7 +87,7 @@ Hint 1: well, you can also finish the game when somebody gets angry with you... 
 
 Hint 2: the knowledge that the Seadog and the Grumpy Boatswain have is different from the knowledge that you can adquire by reading the captain's logbooks or the treasure maps, so speak with them too!
 
-Hint 3: please be patient, sometimes it is difficult to find a specific knowledge to finish the Friendship task, or is difficult to find the needed object that a pirate is looking for. Please insist and do not worry, you eventually will find them all, although sometimes will take longer to find it! In real life is not so easy, isn't it?
+Hint 3: please be patient, sometimes it is difficult to find a specific knowledge to finish the Friendship task, or is difficult to find the needed object that a pirate is looking for. Please insist and do not worry, you will eventually find them all, although sometimes will take longer! In real life is not so easy, isn't it?
 
 Hint 4: In the Main Menu you can select between "autoscroll" and "press space" to read the texts. The default option is autoscroll.
 
