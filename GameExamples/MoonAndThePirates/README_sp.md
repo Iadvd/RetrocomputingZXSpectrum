@@ -70,12 +70,12 @@ La versión en español usa el archivo MoonAndThePirates_by_iadvd_2019_classic_s
 
 Controles:
 
-      O / joystick izda: caminar a la izquierda.
+O / joystick izda: caminar a la izquierda.
 
-      P / joystick dcha: caminar a la derecha.
+P / joystick dcha: caminar a la derecha.
 	  
-      Q / joystick arriba: caminar hacia la parte superior de la cubierta (la mas lejana a ti).
+Q / joystick arriba: caminar hacia la parte superior de la cubierta (la mas lejana a ti).
 
-      A / joystick abjo: caminar hacia la parte inferior de la cubierta (la mas cercana a ti) / seleccionar una opción del menu HABLA/DA.
+A / joystick abjo: caminar hacia la parte inferior de la cubierta (la mas cercana a ti) / seleccionar una opción del menu HABLA/DA.
 	  
-      ESPACIO / joystick fuego: realizar acción / coger y dejar cosas.
+ESPACIO / joystick fuego: realizar acción / coger y dejar cosas.
