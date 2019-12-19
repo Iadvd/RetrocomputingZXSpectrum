@@ -109,7 +109,7 @@ The controls are:
 
       	A / joystick down: walk down / select an option from the TALK/GIVE menú.
 
-      	SPACE / joystick fire (Red or Green button): action / select.
+      	SPACE / joystick fire: action / select.
 	  
 ![alt text](https://github.com/Iadvd/RetrocomputingZXSpectrum/blob/master/GameExamples/MoonAndThePirates/MATP5.png)
 
