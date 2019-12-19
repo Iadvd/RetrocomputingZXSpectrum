@@ -1,8 +1,8 @@
 # Moon y los piratas
 
-Este es un anexo con la explicación del juego "Moon and the Pirates" en español. Las explicaciones técnicas y créditos a otros desarolladores y librerías estan en la versión inglesa, que es la principal.
+Este es un anexo con la explicación del juego "Moon and the Pirates" en español. Las explicaciones técnicas y créditos a otros desarolladores y librerías estan en la versión inglesa, que es la principal:
 
-(https://github.com/Iadvd/RetrocomputingZXSpectrum/blob/master/GameExamples/MoonAndThePirates/README.md)
+https://github.com/Iadvd/RetrocomputingZXSpectrum/blob/master/GameExamples/MoonAndThePirates/README.md
 
 ![alt text](https://github.com/Iadvd/RetrocomputingZXSpectrum/blob/master/GameExamples/MoonAndThePirates/MATP1s.png)
 
