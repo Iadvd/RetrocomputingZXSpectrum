@@ -2,7 +2,7 @@
 
 # Powered by MGA (Mini Graphic Adventure engine, by Iadvd) + MK1 (La Churrera by The Mojon Twins) and copyleft Iadvd under a CC BY-NC-SA 3.0 license.
 
-A presentation in Spanish of this game is available at this link:
+A presentation in Spanish of this game is available at the following link:
 
 (https://github.com/Iadvd/RetrocomputingZXSpectrum/blob/master/GameExamples/MoonAndThePirates/README_sp.md)
 
