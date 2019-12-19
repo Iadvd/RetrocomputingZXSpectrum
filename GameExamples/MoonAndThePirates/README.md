@@ -49,7 +49,7 @@ Nobody knew that the pirates of that ship were real pirates!! And they do their 
 
 Moon will have to gain their respect as a genuine pirate if she wants to recover the keys. 
 
-These is the pirate crow:
+This is the pirate crow:
 
 - Captain Socks: he is the leader of these seadogs! he is greedy and always looking for gold!
 
