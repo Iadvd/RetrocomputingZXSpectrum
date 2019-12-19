@@ -60,7 +60,7 @@ Pista #1: bueno, el juego también acaba si enfadas mucho a cualquiera de los pi
 
 Pista #2: los secretos que saben el lobo de mar y el oficial son diferentes de los que podrás leer en el diario del capitán y los mapas del tesoro que andan desperdigados por ahí, ¡así que habla con ellos y lee todo lo que encuentres!
 
-Pista #3: por favor ten paciencia, algunas veces la información tardara en aparecer para poder acabar la tarea de Amistad. No te preocupes que todas acaban apareciendo, aunque algunas veces tendras que insistir un poco más (¡sobre todo al final cuando te queden pocas cosas por aprender de los piratas!). En la vida nunca conseguimos todo a la primera, ¿verdad? ;)
+Pista #3: por favor ten paciencia, algunas veces la información tardará en aparecer para poder acabar la tarea de Amistad. No te preocupes que todas acaban apareciendo, aunque algunas veces tendras que insistir un poco más (¡sobre todo al final cuando te queden pocas cosas por aprender de los piratas!). En la vida nunca conseguimos todo a la primera, ¿verdad? ;)
 
 Pista #4: En el menú principal puedes seleccionar entre "autoscroll" y pulsar espacio para poder leer los textos al ritmo que quieras. La opción por defecto es "autoscroll".
 
