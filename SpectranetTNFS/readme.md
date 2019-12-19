@@ -77,7 +77,7 @@ If you want to load a tape file .tap into your machine, we suggest to write the 
 
 10%tapein"nameofthetapfile.tap" (enter)
 
-20 PAUSE 20 (enter)
+20 PAUSE 30 (enter)
 
 30 LOAD "" (enter)
 
