@@ -66,9 +66,11 @@ Pista #4: En el menú principal puedes seleccionar entre "autoscroll" y pulsar e
 
 ![alt text](https://github.com/Iadvd/RetrocomputingZXSpectrum/blob/master/GameExamples/MoonAndThePirates/MATP5s.png)
 
-# Archivo .tap?
+# Archivo .tap
 
 La versión en español usa el archivo MoonAndThePirates_by_iadvd_2019_classic_sp_ver.tap.
+
+https://github.com/Iadvd/RetrocomputingZXSpectrum/blob/master/GameExamples/MoonAndThePirates/MoonAndThePirates_by_iadvd_2019_classic_sp_ver.tap
 
 Controles:
 
