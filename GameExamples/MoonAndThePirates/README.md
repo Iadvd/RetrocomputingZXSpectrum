@@ -43,7 +43,7 @@ After the events at Petunia Town's Fandom Festival, Moon uses all the earnings s
 
 So Moon took the flight to the Caribbean islands, and then a local ferry to Coconut Island, a tiny an unknown -do not try to look for it on the map- place. Upon arriving she was offered two options, starting with a refreshing banana boat trip, jumping over the waves... or visiting a pirate galleon.
 
-Moon did not think twice... the pirate galleon, the pirate galleon!!! Oh, bad choice, Moon!
+Moon did not think twice... "The pirate galleon, the pirate galleon!!!", she said. Oh, bad choice, Moon!
 
 Nobody knew that the pirates of that ship were real pirates!! And they do their job very well indeed. They took Moon's ferry ticket and put it inside the treasure chest!!! Now she is prisoner of the pirates. The only way to return home is getting back the ticket and for that purpose Moon will need to use all her abilities to convince the pirates that she is also a friendly pirate and get all the treasure chest keys from them!!!
 
