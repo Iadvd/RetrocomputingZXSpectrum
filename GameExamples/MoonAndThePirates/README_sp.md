@@ -14,7 +14,7 @@ Tras finalizar el festival de fans de Ciudad Petunia, Moon se compra con las gan
 
 Moon, rauda y veloz, toma el primer avión al Caribe y después un ferry local a Isla de Cocos, que es donde le toca el premio. Nada más llegar, la ofrecen dos opciones, la primera un viaje en un bote salchicha a motor y la segunda... ¡visitar un barco pirata! Moon no se lo piensa dos veces... "¡¡El barco pirata, el barco pirata!!..."
 
-¡Pobre Moon, lo que no sabía era que los piratas de este barco eran piratas de verdad!!! Y se toman muy en serio su trabajo:  ¡nada más llegar roban el billete de ferry de Moon! Ahora no hay más salida que conseguir recuperar el billete del cofre del tesoro. 
+¡Pobre Moon, lo que no sabía era que los piratas de este barco eran piratas de verdad! Y se toman muy en serio su trabajo:  ¡nada más llegar roban el billete de ferry de Moon! Ahora no hay más salida que conseguir recuperar el billete del cofre del tesoro. 
 
 Para ello, Moon deberá como siempre utilizar todas sus habilidades haciéndose amiga de los piratas para conseguir las llaves del cofre.
 
