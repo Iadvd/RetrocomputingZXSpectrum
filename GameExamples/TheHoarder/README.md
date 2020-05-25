@@ -4,11 +4,13 @@
 
 This folder contains the game named "The Hoarder".
 
-Download / Descarga:
+# Download / Descarga:
 
-TheHoarder_by_iadvd_2020_sp.tapTheHoarder_by_iadvd_2020_sp.tap (castellano)
+https://github.com/Iadvd/RetrocomputingZXSpectrum/edit/master/GameExamples/TheHoarder/TheHoarder_by_iadvd_2020_en.tap 
+(English ver.)
 
-TheHoarder_by_iadvd_2020_en.tap (ingles)
+https://github.com/Iadvd/RetrocomputingZXSpectrum/edit/master/GameExamples/TheHoarder/TheHoarder_by_iadvd_2020_sp.tap 
+(Spanish ver. / versión en castellano)
 
 This is a first release, is you find bugs please let us know (should be fine, we have tested it, but who knows...)
 
