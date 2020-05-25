@@ -59,7 +59,7 @@ The controls are:
 
       P / joystick right: run right.
 
-      Q, SPACE / joystick fire (Red or Green button): jump.
+      SPACE / joystick fire (Red or Green button): jump.
 
 ![alt text](https://github.com/Iadvd/RetrocomputingZXSpectrum/blob/master/GameExamples/TheHoarder/TH5.png)
 
