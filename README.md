@@ -7,7 +7,7 @@ https://play.google.com/store/apps/details?id=com.iadvd.android.tcpipvirtualjoys
 
 The TCP/IP Virtual Joystick for Android app. will ask you for an IP address of your local network where there must be an application (for instance see tcpipsrv_basic.c) already listening to the 8081 port to negotiate a TCP connection with the Android Virtual Joystick.
 
-There are two interviews in Spanish talking about this project at "El Spectrumero" Javi Ortiz's Videoblog (click on the image):
+There are three interviews in Spanish talking about this project at "El Spectrumero" Javi Ortiz's Videoblog (click on the image):
 
 2019/08/18:
 
@@ -16,6 +16,10 @@ There are two interviews in Spanish talking about this project at "El Spectrumer
 2019/05/26:
 
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/CVln3tfyNt0/0.jpg)](https://www.youtube.com/watch?v=CVln3tfyNt0)
+
+2020/05/25:
+
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/3n2i4w2jnVA/0.jpg)](https://www.youtube.com/embed/3n2i4w2jnVA)
 
 # Basic ZX Spectrum TCP/IP Server Project
 
