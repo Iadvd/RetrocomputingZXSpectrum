@@ -19,7 +19,7 @@ There are three interviews in Spanish talking about this project at "El Spectrum
 
 2020/05/25:
 
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/3n2i4w2jnVA/0.jpg)](https://www.youtube.com/embed/3n2i4w2jnVA)
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/3n2i4w2jnVA/0.jpg)](https://www.youtube.com/watch?v=3n2i4w2jnVA)
 
 # Basic ZX Spectrum TCP/IP Server Project
 
