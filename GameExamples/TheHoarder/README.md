@@ -2,8 +2,6 @@
 
 # Powered by The Mojon Twins La Churrera and also copyleft Iadvd under a CC BY-NC-SA 3.0 license.
 
-(A presentation in Spanish of this game is available in this link http://foro.speccy.org/viewtopic.php?f=6&t=5324)
-
 This folder contains the game named "The Hoarder".
 
 This is a first release, is you find bugs please let us know (should be fine, we have tested it, but who knows...)
