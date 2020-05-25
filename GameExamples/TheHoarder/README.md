@@ -68,7 +68,6 @@ The controls are:
 1. In your Z88dk folder (e.g. C:\z88dk10) copy the contents of this folder. You should be using The Mojon Twins adapted version of the compiler (all credits to The Mojon Twins):
 
 https://github.com/mojontwins/MK1
-mpston Joystick, Sinclair Joustick only) version,
 
 2. Use "make.bat the_hoarder" command to create again the .tap file if you wish so.
 
