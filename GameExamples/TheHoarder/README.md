@@ -10,10 +10,10 @@ https://foro.speccy.org/viewtopic.php?f=6&t=5480&p=54901#p54901
 
 # Download / Descarga:
 
-https://github.com/Iadvd/RetrocomputingZXSpectrum/edit/master/GameExamples/TheHoarder/TheHoarder_by_iadvd_2020_en.tap 
+https://github.com/Iadvd/RetrocomputingZXSpectrum/raw/master/GameExamples/TheHoarder/TheHoarder_by_iadvd_2020_en.tap
 (English ver.)
 
-https://github.com/Iadvd/RetrocomputingZXSpectrum/edit/master/GameExamples/TheHoarder/TheHoarder_by_iadvd_2020_sp.tap 
+https://github.com/Iadvd/RetrocomputingZXSpectrum/raw/master/GameExamples/TheHoarder/TheHoarder_by_iadvd_2020_sp.tap 
 (Spanish ver. / versión en castellano)
 
 This is a first release, is you find bugs please let us know (should be fine, we have tested it, but who knows...)
