@@ -8,6 +8,8 @@ A presentation in Spanish of this game is available at the following link:
 
 https://foro.speccy.org/viewtopic.php?f=6&t=5480&p=54901#p54901
 
+(The map of the game, just in case you get lost, is available in this link https://maps.speccy.cz/map.php?id=Hoarder&sort=0&part=0&ath=)
+
 # Download / Descarga:
 
 https://github.com/Iadvd/RetrocomputingZXSpectrum/blob/master/GameExamples/TheHoarder/TheHoarder_by_iadvd_2020_en.tap 
