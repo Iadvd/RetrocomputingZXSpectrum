@@ -2,7 +2,7 @@
 
 Federation Z, una aventura espacial hecha por Furillo Productions.
 
-Furillo Productions team somos: Molomazo and IADVD (este es mi Github)
+Furillo Productions team somos: Molomazo e IADVD (este es mi Github)
 
 IMPORTANTE: Este juego se presenta al MojonConcurso 2020 de los Mojon Twins y Retromaniac:
 
