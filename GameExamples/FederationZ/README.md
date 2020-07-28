@@ -17,6 +17,8 @@ http://www.retromaniac.es/2020/03/mojonconcurso-la-vista-sacale-punta-la.html
 
 # Powered by MGA (Mini Graphic Adventure engine, by Iadvd) + MK1 (La Churrera by The Mojon Twins) and copyleft Iadvd under a CC BY-NC-SA 3.0 license.
 
+![alt text](https://github.com/Iadvd/RetrocomputingZXSpectrum/blob/master/GameExamples/FederationZ/FZ_0.png)
+
 This folder contains the game Federation Z, in two versions: English and Spanish.
 
 If you really want to enjoy the game and understand all the available features, read the manual, it is in pdf format:
