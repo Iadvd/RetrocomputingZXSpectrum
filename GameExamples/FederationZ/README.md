@@ -4,15 +4,12 @@ Federation Z, una aventura espacial hecha por Furillo Productions.
 
 Furillo Productions team somos: Molomazo and IADVD (este es mi Github)
 
-IMPORTANTE: Este juego se presenta al MojonConcurso 2020 de los Mojon Twins y Retromaniac,
-asi que el codigo fuente no lo vamos a publicar aqui hasta que el concurso acabe y 
-se publiquen oficialmente todos los juegos y codigos en el sitio del concurso:
+IMPORTANTE: Este juego se presenta al MojonConcurso 2020 de los Mojon Twins y Retromaniac:
 
 Furillo Productions team are: Molomazo and IADVD (owner of this Github site)
 
 IMPORTANT: This game has been presented to the MojonConcurso 2020 by the Mojon Twins
-and Retromaniac, so the code will no be published here until the results of the contest
-are known and the code and games are published at the contest site (Spanish):
+and Retromaniac:
 
 http://www.retromaniac.es/2020/03/mojonconcurso-la-vista-sacale-punta-la.html
 
