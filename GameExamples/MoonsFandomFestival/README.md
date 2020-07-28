@@ -53,7 +53,7 @@ Fortunately, the colleages of the other stands can help... but initially they ar
 
 These are the owners of the other stands:
 
-- Bob (Pwin Teaks fan): nobody nows very much about him. He speaks a kind of own language that nobody understands. He knows all about the 80's TV show "Pwin Teaks". Really strange and weird...
+- Bob (Pwin Teaks fan): nobody knows very much about him. He speaks a kind of own language that nobody understands. He knows all about the 80's TV show "Pwin Teaks". Really strange and weird...
 
 - Germione (Parry Hotter fan): the little Germione is a very keen girl that wants to become a sorcerer. She goes everywhere with her cat, Wiskers. He is usually on her head, but Wiskers doesn't seem to mind it!
 
