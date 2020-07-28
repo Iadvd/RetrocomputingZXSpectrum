@@ -23,6 +23,7 @@ Esta carpeta contiene el juego Federation Z, en dos versiones: ingles y castella
 
 Si quieres disfrutar plénamente del juego, lee primero el manual para entender todas las características disponibles, esta en formato pdf:
 
+https://github.com/Iadvd/RetrocomputingZXSpectrum/blob/master/GameExamples/FederationZ/FederationZ_manual.pdf
 
 This is a first release, is you find bugs please let us know (should be fine, we have tested it, but who knows...)
 
