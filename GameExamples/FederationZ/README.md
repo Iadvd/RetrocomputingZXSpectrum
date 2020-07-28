@@ -8,7 +8,7 @@ IMPORTANTE: Este juego se presenta al MojonConcurso 2020 de los Mojon Twins y Re
 
 Furillo Productions team are: Molomazo and IADVD (owner of this Github site)
 
-IMPORTANT: This game has been presented to the MojonConcurso 2020 by the Mojon Twins
+IMPORTANT: This game has been sent to the MojonConcurso 2020 by the Mojon Twins
 and Retromaniac:
 
 http://www.retromaniac.es/2020/03/mojonconcurso-la-vista-sacale-punta-la.html
