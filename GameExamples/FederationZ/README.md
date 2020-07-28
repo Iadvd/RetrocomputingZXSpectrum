@@ -29,6 +29,10 @@ Si quieres disfrutar plénamente del juego, lee primero el manual para entender 
 
 https://github.com/Iadvd/RetrocomputingZXSpectrum/blob/master/GameExamples/FederationZ/FederationZ_manual.pdf
 
+We encourage reading the manual for a full experience of the game. Do not get lost in space! the .pdf file is here:
+
+https://github.com/Iadvd/RetrocomputingZXSpectrum/blob/master/GameExamples/FederationZ/FederationZ_manual.pdf
+
 This is a first release, is you find bugs please let us know (should be fine, we have tested it, but who knows...)
 
 # Technical details:
