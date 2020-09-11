@@ -98,6 +98,8 @@ Hay dos tipos de juegos:
 - Take a secret word games: take the letters of a secret word in the correct order and bump against a computer to unblock the trophy.
 - Coger palabras: coge en el orden correcto las letras de la palabra secreta y choca contra un ordenador para desbloquear el trofeo.
 
+![alt text](https://raw.githubusercontent.com/Iadvd/RetrocomputingZXSpectrum/master/GameExamples/FlappyClive/FlappyClive_Instrucciones_Instructions.jpg)
+
 # How to play the .tap file? (EN)
 
 Just open the file "FlappyClive_en_FurilloProductions2020.tap" (English ver.) or "FlappyClive_sp_FurilloProductions2020.tap" (Spanish ver.) in your Spectrum emulator (mode 48K) and have fun! If you have a real Spectrum 48K or greater, and you have a .tap loading peripheral, you can load this game too! 
