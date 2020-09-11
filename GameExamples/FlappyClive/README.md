@@ -73,7 +73,7 @@ solución con color.
 A picture is worth a thousand words, so:
 Una imagen vale mas que mil palabras, así que:
 
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/as6hsaqj_g4/0.jpg)](https://www.youtube.com/watch?v=as6hsaqj_g4)
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/as6hsaqj_g4/0.jpg)](https://youtu.be/as6hSAqJ_g4)
 
 https://www.youtube.com/watch?v=as6hsaqj_g4
 
