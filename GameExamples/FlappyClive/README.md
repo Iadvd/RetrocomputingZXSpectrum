@@ -70,8 +70,8 @@ solución con color.
 
 # Story & The Game (SP & EN)
 
-A picture is worth a thousand words, so:
-Una imagen vale mas que mil palabras, así que:
+A picture is worth a thousand words, so check the video:
+Una imagen vale más que mil palabras, así que echa un vistazo al vídeo:
 
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/as6hSAqJ_g4/0.jpg)](https://www.youtube.com/watch?v=as6hSAqJ_g4)
 
