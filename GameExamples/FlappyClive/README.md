@@ -29,7 +29,7 @@ Si encuentras fallos en el juego, por favor avísanos (debería estar bien, pero
 
 # Technical details (EN)
 
-Game concept: IADVD (inspired by the Sinclair QL TV commercial, the Flappy Bird ZX game (by Rafal Miazga and Aleksandr Rostunovand), and Zosya Entertaiment's Valley of Rains).
+Game concept: IADVD (inspired by the Sinclair QL TV commercial, the Flappy Bird ZX game by Rafal Miazga and Aleksandr Rostunovand, and Zosya Entertaiment's Valley of Rains).
 
 Loading and tiles: Molomazo & IADVD.
 
