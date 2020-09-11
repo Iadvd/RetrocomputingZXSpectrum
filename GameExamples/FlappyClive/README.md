@@ -81,21 +81,27 @@ Una imagen vale más que mil palabras, así que echa un vistazo al vídeo:
 (Créditos al canal de "2ombieboy's VHS Vault" por mantener un vídeo del anuncio del Sinclair QL)
 
 Help your favorite genius to reach his dreams!
+
 ¡Ayuda a tu genio favorito a conseguir sus sueños!
 
 Unlock Clive's 40 trophies while you fly taking (or not) things and avoiding (or not) the competitors' computers.
+
 Desbloquea los 40 trofeos de Clive mientras aleteas cogiendo (o no) cosas y evitando (o no) chocar contra los ordenadores de la competencia.
 
 There are also trophies that are unlocked when you do things (or not) on the Main Menu and the Trophy Room!
+
 ¡También hay trofeos secretos que se desbloquean en el menú principal y en la sala de trofeos!
 
 There are two type of games: 
+
 Hay dos tipos de juegos:
 
 - Take items games: hearts, coins, cakes and Speccies are waiting for you. 
+
 - Coger cosas: corazones, dinero, tartas y Spectrums te esperan.
 
 - Take a secret word games: take the letters of a secret word in the correct order and bump against a computer to unblock the trophy.
+
 - Coger palabras: coge en el orden correcto las letras de la palabra secreta y choca contra un ordenador para desbloquear el trofeo.
 
 ![alt text](https://raw.githubusercontent.com/Iadvd/RetrocomputingZXSpectrum/master/GameExamples/FlappyClive/FlappyClive_Instrucciones_Instructions.jpg)
