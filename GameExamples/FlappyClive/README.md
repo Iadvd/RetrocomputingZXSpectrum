@@ -77,6 +77,7 @@ Una imagen vale más que mil palabras, así que echa un vistazo al vídeo:
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/as6hSAqJ_g4/0.jpg)](https://www.youtube.com/watch?v=as6hSAqJ_g4)
 
 (Credis to "2ombieboy's vhs vault" youtube channel for keeping a copy of the Sinclair QL TV commercial)
+
 (Créditos al canal de "2ombieboy's VHS Vault" por mantener un vídeo del anuncio del Sinclair QL)
 
 Help your favorite genius to reach his dreams!
