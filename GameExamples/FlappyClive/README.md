@@ -61,12 +61,12 @@ We will reuse the trophy engine in our future games!
 
 Este juego presenta tres nuevas funcionalidades para el MK1: un motor de trofeos/logros, una
 "pantalla pegatina" que es una imagen de baja resolucion de carga rapida para ocultar el proceso
-de dibujo de la pantallde carga, y un scroll sencillo (al byte, de 8 en 8 pixels) implementado 
+de dibujo de la pantalla de carga, y un scroll sencillo (al byte, de 8 en 8 pixels) implementado 
 con dos niveles de profundidad. No es un scroll al pixel porque 1) queriamos algo de colorido 
 en el juego; 2) un scroll al pixel en pantalla completa era mas lento para este juego que la 
-solucion con color. 
+solución con color. 
 
-Tenemos pensado utilizar a partir de ahora el motor de trofeos/logros en nuestros futuros juegos!
+¡Tenemos pensado utilizar a partir de ahora el motor de trofeos/logros en nuestros futuros juegos!
 
 # Story & The Game (SP & EN)
 
