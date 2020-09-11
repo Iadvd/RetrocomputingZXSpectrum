@@ -4,6 +4,8 @@
 
 >La demo y el código fuente se publicarán por aquí el sábado 12/09/2020.
 
+![alt text](https://raw.githubusercontent.com/Iadvd/RetrocomputingZXSpectrum/master/GameExamples/MisakiDemo/MisakiDemoSticker.png)
+
 Demo de uso de la fuente japonesa de hiragana Misaki, hecha por Furillo Productions.
 
 Furillo Productions team somos: Molomazo e IADVD (este es mi Github)
@@ -34,6 +36,8 @@ Music tracks composed in Beepola
 This demo shows an extension for MK1 in order to be able to make games written in Japanese hiragana font. It is not the final version of the extension, just a preliminary demo.
 
 Esta demo muestra un ejemplo de funcionamiento de nuestra extensión para el MK1 que permite escribir juegos con fuente Misaki en hiragana japonés. No utiliza la versión final de la extensión, es sólo un ejemplo preliminar.
+
+![alt text](https://raw.githubusercontent.com/Iadvd/RetrocomputingZXSpectrum/master/GameExamples/MisakiDemo/MisakiExample1.png)
 
 # How to play the .tap file? (EN)
 
