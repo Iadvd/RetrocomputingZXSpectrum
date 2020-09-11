@@ -1,9 +1,12 @@
 # FlappyClive (¡80th birthday special!) by Furillo Productions (SP & EN)
 
-The game & source will be released here on 2020/09/12 (SAT)
-El juego y el código fuente se publicarán por aquí el sábado 12/09/2020.
-
 FlappyClive (¡especial 80 cumpleaños!) hecho por Furillo Productions.
+
+>The game & source will be released here on 2020/09/12 (SAT)
+
+>El juego y el código fuente se publicarán por aquí el sábado 12/09/2020.
+
+![alt text](https://raw.githubusercontent.com/Iadvd/RetrocomputingZXSpectrum/master/GameExamples/FlappyClive/FlappyClive_Caratula_CasetteCover.jpg)
 
 Furillo Productions team somos: Molomazo e IADVD (este es mi Github)
 
@@ -15,8 +18,6 @@ IMPORTANT: This game has been sent to the MojonConcurso 2020 by the Mojon Twins
 and Retromaniac:
 
 http://www.retromaniac.es/2020/03/mojonconcurso-la-vista-sacale-punta-la.html
-
-![alt text](https://raw.githubusercontent.com/Iadvd/RetrocomputingZXSpectrum/master/GameExamples/FlappyClive/FlappyClive_Caratula_CasetteCover.jpg)
 
 # Powered by MK1 (La Churrera by The Mojon Twins) and copyleft under a CC BY-NC-SA 3.0 license.
 
