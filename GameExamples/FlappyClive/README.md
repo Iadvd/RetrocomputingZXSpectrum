@@ -1,4 +1,4 @@
-# FlappyClive (¡80th birthday special!) by Furillo Productions (SP & EN)
+# FlappyClive (80th birthday special!) by Furillo Productions (SP & EN)
 
 FlappyClive (¡especial 80 cumpleaños!) hecho por Furillo Productions.
 
