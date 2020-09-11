@@ -1,5 +1,9 @@
 # Misaki Font Demo (Japanese hiragana font!) by Furillo Productions (SP & EN)
 
+>The demo & source will be released here on 2020/09/12 (SAT)
+
+>La demo y el código fuente se publicarán por aquí el sábado 12/09/2020.
+
 Demo de uso de la fuente japonesa de hiragana Misaki, hecha por Furillo Productions.
 
 Furillo Productions team somos: Molomazo e IADVD (este es mi Github)
