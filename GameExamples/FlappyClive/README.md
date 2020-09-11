@@ -16,7 +16,7 @@ and Retromaniac:
 
 http://www.retromaniac.es/2020/03/mojonconcurso-la-vista-sacale-punta-la.html
 
-![alt text](https://github.com/Iadvd/RetrocomputingZXSpectrum/blob/master/GameExamples/FlappyClive/FlappyCliveCaratula.jpg)
+![alt text](https://raw.githubusercontent.com/Iadvd/RetrocomputingZXSpectrum/master/GameExamples/FlappyClive/FlappyClive_Caratula_CasetteCover.jpg)
 
 # Powered by MK1 (La Churrera by The Mojon Twins) and copyleft under a CC BY-NC-SA 3.0 license.
 
