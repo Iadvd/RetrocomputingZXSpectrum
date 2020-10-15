@@ -2,10 +2,6 @@
 
 FlappyClive (¡especial 80 cumpleaños!) hecho por Furillo Productions.
 
->The game & source will be released here on 2020/09/12 (SAT)
-
->El juego y el código fuente se publicarán por aquí el sábado 12/09/2020.
-
 ![alt text](https://raw.githubusercontent.com/Iadvd/RetrocomputingZXSpectrum/master/GameExamples/FlappyClive/FlappyClive_Caratula_CasetteCover.jpg)
 
 Furillo Productions team somos: Molomazo e IADVD (este es mi Github)
