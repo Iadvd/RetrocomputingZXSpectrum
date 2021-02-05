@@ -1,7 +1,5 @@
 # ENIGMATIK / ЭНИГМАТИК , the most difficult brain-teaser of 2020!
 
-Federation Z, una aventura espacial hecha por Furillo Productions.
-
 Furillo Productions team somos: Molomazo e IADVD (este es mi Github) con la colaboracion de Jae Tanaka y Furichan para este juego.
 
 IMPORTANTE: Este juego fue presentado a la Yandex Retrogames Battle 2020
