@@ -39,11 +39,15 @@ Game concept: IADVD
 
 Stickers (flashing screens): Molomazo.
 
+Creepy Cassette design: Furichan.
+
+Fine Art: Jae Tanaka (https://www.instagram.com/jaetanaka/?hl=es).
+
 Sprites and tiles: IADVD.
 
 Music: IADVD.
 
-Sounds: made by IADVD using BeepFX (by Shiru).
+Sounds: IADVD using BeepFX (by Shiru).
 
 Version: Spectrum 48K (or 128K in 48K mode)
 
