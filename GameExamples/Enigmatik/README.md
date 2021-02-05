@@ -2,7 +2,7 @@
 
 Furillo Productions team somos: Molomazo e IADVD (este es mi Github) con la colaboracion de Jae Tanaka y Furichan para este juego.
 
-IMPORTANTE: Este juego fue presentado a la Yandex Retrogames Battle 2020
+IMPORTANTE: Este juego fue presentado a la Yandex Retrogames Battle 2020.
 
 Furillo Productions team are: Molomazo and IADVD (owner of this Github site) with the
 collaboration of Jae Tanaka and Furichan for this game.
