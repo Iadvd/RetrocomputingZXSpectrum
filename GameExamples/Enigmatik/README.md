@@ -1,23 +1,27 @@
 # ENIGMATIK / ЭНИГМАТИК , the most difficult brain-teaser of 2020!
 
+![alt text](https://github.com/Iadvd/RetrocomputingZXSpectrum/blob/master/GameExamples/Enigmatik/ENIGMATIK_ЭНИГМАТИК_Art_by_JaeTanaka_FurilloProductions.jpg)
+
 Furillo Productions team somos: Molomazo e IADVD (este es mi Github) con la colaboracion de Jae Tanaka y Furichan para este juego.
 
 IMPORTANTE: Este juego fue presentado a la Yandex Retro Games Battle 2020.
+
+https://rgb.yandex.ru/2020?lang=en
 
 Furillo Productions team are: Molomazo and IADVD (owner of this Github site) with the
 collaboration of Jae Tanaka and Furichan for this game.
 
 IMPORTANT: This game was sent to the Yandex Retro Games Battle 2020.
 
-# Powered by MK1 (La Churrera by The Mojon Twins) and copyleft Iadvd under a CC BY-NC-SA 3.0 license.
+https://rgb.yandex.ru/2020?lang=en
 
-![alt text](https://github.com/Iadvd/RetrocomputingZXSpectrum/blob/master/GameExamples/Enigmatik/ENIGMATIK_ЭНИГМАТИК_Art_by_JaeTanaka_FurilloProductions.jpg)
+# Powered by MK1 (La Churrera by The Mojon Twins) and copyleft Iadvd under a CC BY-NC-SA 3.0 license.
 
 This folder contains the game ENIGMATIK, in four versions: English, Spanish, Portuguese and Russian.
 
 If you really want to enjoy the game and understand all the available features, read the manual, it is in pdf format.
 
-Esta carpeta contiene el juego ENIGMATIK, en cuatro versiones: Ingles, Castellano, Portuges y Ruso.
+Esta carpeta contiene el juego ENIGMATIK, en cuatro versiones: Inglés, Castellano, Portugués y Ruso.
 
 Si quieres disfrutar plenamente del juego, lee primero el manual.
 
