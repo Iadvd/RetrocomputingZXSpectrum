@@ -221,6 +221,10 @@ https://github.com/Iadvd/RetrocomputingZXSpectrum/tree/master/GameExamples/Feder
 
 https://github.com/Iadvd/RetrocomputingZXSpectrum/tree/master/GameExamples/FlappyClive
 
+4. "ENIGMATIK / ЭНИГМАТИК", the most difficult brain-teaser of 2020, made with La Churrera engine, and done under the Furillo Productions team (Molomazo & IADVD with the collaboration of Jae Tanaka and Furichan) including a .tap file in English, Spanish, Portuguese and Russian!:
+
+https://github.com/Iadvd/RetrocomputingZXSpectrum/tree/master/GameExamples/Enigmatik
+
 # I can see games in my tv screen and play wireless with the app. Spectacol for Android + Google Chromecast... so what is the point of using the TCP/IP Virtual Joystick for Android app.?
 
 We really love and enjoy Spectacol! It is a great emulator for Android (indeed is based on the Fuse emulator), and you can use it to play wireless using Google Chromecast to share your device screen with your TV screen. The difference is that in that case, a) Spectacle is the owner of the virtual joystick, and it is emulating a Kempston, Sinclair or other type of joystick, it is not adding a new interface. And b) you will see in the screen the virtual joystick under the game, and that sometimes will not let you focus on playing the game. 
