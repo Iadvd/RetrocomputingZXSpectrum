@@ -1,10 +1,8 @@
-Generador de hiragana v1.0 para MK1 La Churrera
-Hecho por Furillo Productions https://furilloproductions.itch.io/")
+# Generador de hiragana v1.0 para MK1 La Churrera
+# Hecho por Furillo Productions https://furilloproductions.itch.io/")
 
-Hiragana generator v1.0 for MK1 La Churrera")
-By Furillo Productions https://furilloproductions.itch.io/")
-
-Herramienta para crear juegos con textos in-game en jpones hiragana con el motor MK1 La Churrera
+# Hiragana generator v1.0 for MK1 La Churrera")
+# By Furillo Productions https://furilloproductions.itch.io/")
 
 (sp) Uso:
 
