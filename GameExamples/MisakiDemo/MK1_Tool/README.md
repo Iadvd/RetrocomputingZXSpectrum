@@ -75,3 +75,7 @@ A:RE:,:KO:KO:TO:':KO:TA:':?
 (sp) ... y ocupará por tanto en pantalla dos celdas de 8x8 bits, dicho de otro modo, ocupará el espacio de dos caracteres.
 
 (en) ... and consequently will use two 8x8 cells of the screen; in other words, it will require two characters to be written.
+
+(sp) Nota: es posible escribir tanto dakuten como handakuten.
+
+(en) P.S.: it is possible to write both dakuten and handakuten Hiragana.
