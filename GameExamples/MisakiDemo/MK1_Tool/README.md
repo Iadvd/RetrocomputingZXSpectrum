@@ -6,8 +6,6 @@
 
 https://furilloproductions.itch.io/
 
-![alt text](https://raw.githubusercontent.com/Iadvd/RetrocomputingZXSpectrum/master/GameExamples/MisakiDemo/MisakiDemoSticker.png)
-
 (sp) Uso:
 
 misaki_converter nombre_archivo_con_pseudohiragana
@@ -81,3 +79,5 @@ A:RE:,:KO:KO:TO:':KO:TA:':?
 (sp) Nota: es posible escribir tanto dakuten como handakuten.
 
 (en) P.S.: it is possible to write both dakuten and handakuten Hiragana.
+
+![alt text](https://raw.githubusercontent.com/Iadvd/RetrocomputingZXSpectrum/master/GameExamples/MisakiDemo/MisakiDemoSticker.png)
