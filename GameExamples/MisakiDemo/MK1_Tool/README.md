@@ -2,4 +2,4 @@ Herramienta para crear juegos con textos in-game en jpones hiragana con el motor
 
 uso:
 
-misaki_converter nombre_archivo_cpn_pseudohiragana
+misaki_converter nombre_archivo_con_pseudohiragana
