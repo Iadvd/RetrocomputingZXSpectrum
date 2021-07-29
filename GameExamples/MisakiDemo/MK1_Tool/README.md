@@ -17,31 +17,26 @@ Al ser la fuente hiragana mas extensa que el alfabeto, estamos robando espacio a
 
 El archivo "pseudohiragana_input.txt" contiene como ejemplo los textos del juego Yopparai Sarariiman (https://furilloproductions.itch.io/yopparaisarariiman):
 
-A:RE:,:KO:KO:TO:':KO:TA:':?
-KA:MI:SA:N:NI:TE:':N:WA:SHI:NA:I:TO:NA:.:.:.
-TO:':SU:KO:I:!:TO:':SU:KO:I:!
-I:YA:A:A:!:MA:KE:TA:A:A:!
-U:WA:tsu:,:SHI:':KA:N:KA:':YA:HE:':E:-:!:!
-MA:SHI:':O:SO:I:tsu:.
-SHI:N:KO:':U:NA:KA:':I:NA:A:-:.
-KA:E:RI:TE:E:!
-A:,:I:I:TO:KO:RO:NI:I:CHI:E:N:TA:':!
-MA:SU:':HA:TE:':N:WA:,:TE:':N:WA:.
-SU:SHI:WO:KA:tsu:TA:YO:!
-KA:MI:SA:N:HA:U:RE:SHI:KU:NA:RU:KA:NA:A:A:?
-NI:HO:N:SHI:yu:U:MA:I:NA:A:-:!
-KA:N:HA:*:I:!:KA:N:HA:*:I:!
-I:TE:TE:TE:E:E:E:!
-NA:N:SHI:':ya:KO:RI:ya:A:A:!
-MO:SHI:MO:SHI:KO:':ME:N:NE:O:SO:KU:NA:RU:.
-I:I:WA:!:MA:tsu:TE:I:RU:NE:!
-TA:KO:YA:KI
-YA:KI:TO:RI
-KA:RA:O:KE
-KA:RA:A:KE:'
-FU:KU:':!
-MO:SHI:MO:SHI:MA:TA:TSU:KA:MA:tsu:CHI:ya:tsu:TA:.
-RI:yo:U:KA:O:,:O:MI:YA:KE:':YO:RO:SHI:KU:NE:!
-MO:SHI:MO:SHI:CHI:yo:tsu:TO:I:tsu:HA:*:I:HI:tsu:KA:KE:TE:KU:RU:NE:.
-WA:KA:tsu:TA:WA:.:O:SO:KU:NA:RA:NA:I:TE:':NE:.
+Cada linea es uno de los textos del juego, por ejemplo,
 
+あれ、ここどこだ？
+
+Se escribe en pseudohiragana como:
+
+A:RE:,:KO:KO:TO:':KO:TA:':?
+
+que es la representacion equivalente a:
+
+あ:れ:、:こ:こ:ど:こ:だ:？
+
+despues, el conversor generara el array C con los textos encapsulados para que tomen correctamente el caracter hiragana de la fuente guardada en el tileset.h
+
+El archivo "Pseudohiragana_writing.txt" explica como se escribe cada hiragana, por ejemplo 
+
+が 
+
+se escribe en pseudohiragana como 
+
+か:'
+
+(ocupara por tando en pantalla dos celdas de 8x8 bits que es el espacio de dos caracteres)
