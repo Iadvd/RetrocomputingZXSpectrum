@@ -6,6 +6,8 @@
 
 https://furilloproductions.itch.io/
 
+![alt text](https://raw.githubusercontent.com/Iadvd/RetrocomputingZXSpectrum/master/GameExamples/MisakiDemo/MisakiDemoSticker.png)
+
 (sp) Uso:
 
 misaki_converter nombre_archivo_con_pseudohiragana
