@@ -1,6 +1,7 @@
 # "SpectrumTap2WindowsExe" and "SpectrumTaps2WindowsExeLauncher" projects
 
 Short descriptions:
+(versión en castellano se incluirá en breve)
 
 SpectrumTap2WindowsExe will convert your ZX Spectrum .tap file into a 
 single .exe Windows file. The single file contains both the .tap 
