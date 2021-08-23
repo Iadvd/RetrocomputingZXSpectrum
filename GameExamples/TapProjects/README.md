@@ -52,7 +52,7 @@ so you can play it without the requirement of an external
 emulator program (because everything is already included
 inside the file). 
 
-Requirements: the file will be able to run in a Windows PC if the 
+<b>Requirements:</b> the file will be able to run in a Windows PC if the 
 Java Runtime Environment (JRE) is aleady instaled. If it is not installed, 
 the Exe file will let you download the JRE installer from the official 
 Java site. The navigator will open and the download/install process
@@ -64,7 +64,7 @@ to run a Maven build.
 
 https://Maven.apache.org/download.cgi
 
-The explanation is as follows:
+<b>The explanation is as follows:</b>
 
 1. Copy the project folder "SpectrumTap2WindowsExe" including subfolders 
 in your local PC
@@ -292,7 +292,7 @@ commands. We provide both the project and the batch files.
 
 https://Maven.apache.org/download.cgi
 
-The explanation is as follows:
+<b>The explanation is as follows:</b>
 
 1. Copy the project folder in your local PC
 
@@ -474,7 +474,7 @@ The name of the file in our example is:
 
 "SpectrumTaps2WindowsExeLauncher_Example.exe"
 
-Caveat #1: sometimes, depending on the PC the
+<b>Caveat #1:</b> sometimes, depending on the PC the
 JRE installer is not able to add the 
 HOME_JRE system variable. Usually this is 
 something automatic, but in some cases
@@ -484,7 +484,7 @@ about how to do that step.
 
 https://confluence.atlassian.com/doc/setting-the-java_home-variable-in-windows-8895.html 
 
-Caveat #2: is a very well known issue that 
+<b>Caveat #2:</b> is a very well known issue that 
 some antivirus are very strict regarding the
 wrapped .jar .exe files and sometimes a
 false warning of virus detection appears. 
