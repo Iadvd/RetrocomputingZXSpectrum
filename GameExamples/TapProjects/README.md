@@ -3,25 +3,25 @@
 <b>Important: these projects are customizations of the great Qaop ZX Spectrum Emulator
 (https://github.com/ukwa/qaop) by Jan Bobrowski under a GPL-2.0 License.</b>
 
-Short descriptions:
+<b>Short descriptions:</b>
 (versión en castellano se incluirá en breve)
 
-SpectrumTap2WindowsExe will convert your ZX Spectrum .tap file into a 
+<b>SpectrumTap2WindowsExe</b> will convert your ZX Spectrum .tap file into a 
 single .exe Windows file. The single file contains both the .tap 
 file and the Spectrum emulator. So no external ZX Spectrum emulator 
 is required to play your game. 
 
-SpectrumTaps2WindowsExeLauncher is a tamplate to create a 
+<b>SpectrumTaps2WindowsExeLauncher</b> is a tamplate to create a 
 single .exe Windows file that will have a main menu where you
 can show all your ZX Spectrum games and the user can click one
 and play it. The single file contains both the .tap files 
 and the Spectrum emulator. So no external ZX Spectrum emulator is required. 
 
-Requirements: the Java Runtime Environment (JRE)
+<b>Requirements:</b> the Java Runtime Environment (JRE)
 must be installed in the PC.
 
-With gratitude to my friends that volunteered as testers
-(in alphabetical order):
+<b>With gratitude to my friends that volunteered as testers
+(in alphabetical order):</b>
 
 Greenweb Sevilla: https://greenwebsevilla.itch.io/ 
 
@@ -29,19 +29,16 @@ Javi Ortiz: https://www.youtube.com/c/ElSpectrumeroJaviOrtiz
 
 Roolandoo: https://roolandoo.itch.io/
 
-Important: this projects are customizations of the great Qaop ZX Spectrum Emulator
-(https://github.com/ukwa/qaop) by Jan Bobrowski under a GPL-2.0 License.
-
 # "SpectrumTap2WindowsExe"
 
-1 Tap file (48k) = 1 Windows Exe file (Java applet .jar wrapped)
+<b>1 Tap file (48k) = 1 Windows Exe file (Java applet .jar wrapped)</b>
 
-The aim of this tool is providing the ZX Spectrum .tap developers a new
+<b>The aim of this tool is providing the ZX Spectrum .tap developers a new
 format to distribute their works. In this case for instance, 
 you can distribute your .tap file in your website, or at itchi.io, etc.
 but also you can provide the .tap file as a a Windows .exe file as well. 
 (the target is Windows 10 and other former Windows versions, 
-excluding XP and probably Windows 7 - untested -)
+excluding XP and probably Windows 7 - untested -)</b>
 
 With this tool you will be able to convert one ZX Spectrum 48k .tap file 
 to a Java applet file that will be wrapped into a single Windows .exe file. 
@@ -252,9 +249,9 @@ Providing a .tap 128k solution.
 
 # "SpectrumTaps2WindowsExeLauncher"
 
-Multiple .tap files = 1 Windows .exe Game Launcher file (Java applet .jar wrapped) Tool
+<b>Multiple .tap files = 1 Windows .exe Game Launcher file (Java applet .jar wrapped) Tool</b>
 
-The aim of this tool is providing the .tap developers a new
+<b>The aim of this tool is providing the .tap developers a new
 format to distribute their works. In this case for instance, 
 you can distribute ALL your .tap files in ONE single .exe file
 including a main menu where the user can select the game
@@ -262,7 +259,7 @@ to be launched. It is very useful to make compilations of games,
 for instance if you are a developer and you want to make 
 an all-in-one game launcher of your titles. It will work 
 with Windows 10 and other former versions, excluding XP and 
-probably Windows 7 -untested-.
+probably Windows 7 -untested-.</b>
 
 This tool will create a Java applet file wrapped into 
 a single Windows .exe file contaning the game launcher,
@@ -284,7 +281,7 @@ so you can play all the games without the requirement of an external
 emulator program (because everything is already included
 inside the single .exe file). 
 
-Requirements: the file will be able to run in a Windows PC if the 
+<b>Requirements:</b> the file will be able to run in a Windows PC if the 
 Java Runtime Environment is aleady instaled. If it is not installed, 
 the Exe file will let you download the JRE installer from the official 
 Java site. The navigator will open and the download/install process
