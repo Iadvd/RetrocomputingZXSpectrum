@@ -1,6 +1,6 @@
 # "SpectrumTap2WindowsExe" and "SpectrumTaps2WindowsExeLauncher" projects
 
-Important: this projects are customizations of the great Qaop ZX Spectrum Emulator
+Important: these projects are customizations of the great Qaop ZX Spectrum Emulator
 (https://github.com/ukwa/qaop) by Jan Bobrowski under a GPL-2.0 License.
 
 Short descriptions:
