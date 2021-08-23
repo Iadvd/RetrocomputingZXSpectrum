@@ -272,6 +272,8 @@ the instructions of your game and controls are explained.
 We provide a complete Java source template to do this, 
 and there is an example of use at itch.io at this link: 
 
+https://furilloproductions.itch.io/furillo-productions-all-in-one-48k-2019-2021
+
 This project is a customization of the great Qaop ZX Spectrum Emulator
 (https://github.com/ukwa/qaop) by Jan Bobrowski under a GPL-2.0 License.
 
