@@ -1,5 +1,9 @@
 # "SpectrumTap2WindowsExe" and "SpectrumTaps2WindowsExeLauncher" projects
 
+Versión en castellano en este enlace / Spanish version of this guide: 
+
+https://github.com/Iadvd/RetrocomputingZXSpectrum/blob/master/GameExamples/TapProjects/README_sp.md
+
 <b>Important: these projects are customizations of the great Qaop ZX Spectrum Emulator
 (https://github.com/ukwa/qaop) by Jan Bobrowski under a GPL-2.0 License.</b>
 
