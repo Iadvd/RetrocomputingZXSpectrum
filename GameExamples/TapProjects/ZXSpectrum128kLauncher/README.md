@@ -1,6 +1,6 @@
 # "ZX Spectrum 128k game launcher for Windows setup / ZX Spectrum 128k lanzajuegos .exe para Windows"
 
-(Spanish version below the English version)
+(Spanish version below the English version / versión en castellano debajo de la versión en inglés)
 
 <b>English version</b>
 
