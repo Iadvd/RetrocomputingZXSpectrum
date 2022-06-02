@@ -181,7 +181,7 @@ so you can play it without the requirement of an external
 emulator program (because everything is already included
 inside the file). 
 
-<b>Requerimientos:</b> Windows 10 y Java (version 9 o superior) con su Runtime Environment (JRE) correctamente habilitado. 
+<b>Requerimientos:</b> Windows 10 y Java (version 11 o superior) con su Runtime Environment (JRE) correctamente habilitado. 
 
 Es un proyecto de Java construido con Maven.
 
