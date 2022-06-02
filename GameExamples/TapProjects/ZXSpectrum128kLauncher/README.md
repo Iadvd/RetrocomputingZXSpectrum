@@ -24,8 +24,6 @@ must be installed in the PC.
 
 Javi Ortiz: https://www.youtube.com/c/ElSpectrumeroJaviOrtiz
 
-Roolandoo: https://roolandoo.itch.io/
-
 # "ZX Spectrum 128k game launcher setup"
 
 <b>1 Tap file (48k or 128k) = 1 Windows Exe file (Java applet .jar wrapped)</b>
@@ -158,8 +156,6 @@ instalado correctamente en el pc.
 (en orden alfabético):</b>
 
 Javi Ortiz: https://www.youtube.com/c/ElSpectrumeroJaviOrtiz
-
-Roolandoo: https://roolandoo.itch.io/
 
 # "ZX Spectrum 128k lanzajuegos .exe para Windows"
 
