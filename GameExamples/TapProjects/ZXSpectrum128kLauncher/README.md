@@ -50,7 +50,7 @@ emulator program (because everything is already included
 inside the file). 
 
 <b>Requirements:</b> the file will be able to run in a Windows PC if the 
-Java (version 9 or greater) Runtime Environment (JRE) is aleady instaled. 
+Java (version 11 or greater) Runtime Environment (JRE) is aleady instaled. 
 
 The tool is a Java project, to be built with Maven. 
 
