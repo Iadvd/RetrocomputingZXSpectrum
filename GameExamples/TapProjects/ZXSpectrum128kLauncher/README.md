@@ -215,7 +215,7 @@ Esta es la lista de cambios de nuestra version de JSpeccy.java:
 
 2.3.2. Se abre la pantalla principal del emulador, y el juego se lanza(carga) automáticamente.
 
-![alt text](https://raw.githubusercontent.com/Iadvd/RetrocomputingZXSpectrum/master/GameExamples/TapProjects/ZXSpectrum128kLauncher/launch128img1SP.jpg)
+![alt text](https://raw.githubusercontent.com/Iadvd/RetrocomputingZXSpectrum/master/GameExamples/TapProjects/ZXSpectrum128kLauncher/launch128img2SP.jpg)
 
 2.3.3. La funcion "initEmulator" se ha fijado a emular 128k, mode border 1, zoom 3.
 
