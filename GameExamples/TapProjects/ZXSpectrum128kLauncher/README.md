@@ -16,7 +16,7 @@ single .exe Windows file. The single file contains both the .tap
 file and the Spectrum emulator. So no external ZX Spectrum emulator 
 is required to play your game. 
 
-<b>Requirements:</b> Java 9 or greater version and the Java Runtime Environment (JRE)
+<b>Requirements:</b> Java 11 or greater version and the Java Runtime Environment (JRE)
 must be installed in the PC.
 
 <b>With gratitude to my friends that volunteered as testers
@@ -153,7 +153,7 @@ un archivo .tap de ZX Spectrum 48k o 128k en un único archivo .exe ejecutable e
 Windows 10. El archivo único contiene el archivo .tap y el emulador. 
 no es necesario ningun otro archivo más para jugar.
 
-<b>Requerimientos:</b> Java 9 o superior y el Java Runtime Environment (JRE)
+<b>Requerimientos:</b> Java 11 o superior y el Java Runtime Environment (JRE)
 instalado correctamente en el pc.
 
 <b>Con agradecimiento a los testers 
