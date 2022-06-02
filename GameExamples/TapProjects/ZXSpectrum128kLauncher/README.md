@@ -82,9 +82,13 @@ one we have modified.
 
 This is the list of changes in this file from the original JSpeccy file:
 
-2.3.1. A splash popup welcome message is added, including credits to the JSpeccy project and its author.
+2.3.1. A splash popup welcome message is added, including credits to the JSpeccy project and its author. This is an example:
 
-2.3.2. Only the main emulator screen of JSpeecy will appear, and the game will be loaded automatically.
+![alt text](https://raw.githubusercontent.com/Iadvd/RetrocomputingZXSpectrum/master/GameExamples/TapProjects/ZXSpectrum128kLauncher/launch128img1EN.jpg)
+
+2.3.2. Only the main emulator screen of JSpeecy will appear, and the game will be loaded automatically. This is an example:
+
+![alt text](https://raw.githubusercontent.com/Iadvd/RetrocomputingZXSpectrum/master/GameExamples/TapProjects/ZXSpectrum128kLauncher/launch128img2EN.jpg)
 
 2.3.3. funcion initEmulator is set to machine 128k, border mode 1, zoom 3.
 
@@ -207,7 +211,11 @@ Esta es la lista de cambios de nuestra version de JSpeccy.java:
 
 2.3.1. Aparece un ensaje popup al ejecutar, incluyendo créditos al proyecto JSpeccy y a su autor.
 
+![alt text](https://raw.githubusercontent.com/Iadvd/RetrocomputingZXSpectrum/master/GameExamples/TapProjects/ZXSpectrum128kLauncher/launch128img1SP.jpg)
+
 2.3.2. Se abre la pantalla principal del emulador, y el juego se lanza(carga) automáticamente.
+
+![alt text](https://raw.githubusercontent.com/Iadvd/RetrocomputingZXSpectrum/master/GameExamples/TapProjects/ZXSpectrum128kLauncher/launch128img1SP.jpg)
 
 2.3.3. La funcion "initEmulator" se ha fijado a emular 128k, mode border 1, zoom 3.
 
