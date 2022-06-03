@@ -26,6 +26,16 @@ Javi Ortiz: https://www.youtube.com/c/ElSpectrumeroJaviOrtiz
 
 Roolandoo: https://roolandoo.itch.io/
 
+There are 4 games converted to Windows 10 .exe examples in this repository / Hay 4 juegos convertidos a .exe de Windows 10 en este directorio:
+
+"Federation:Underwater" English version / versión en ingles: "FederationUnderwater2022FurilloProductionsEn.exe"
+
+"Federation:Underwater" Spanish version / versión en castellano: "FederationUnderwater2022FurilloProductionsSp.exe"
+
+"The Doom of the Pond" English version / versión en inglés: "TheDoomOfThePond2022FurilloProductionsEn.exe"
+
+"The Doom of the Pond" Spanish version / versión en castellano: "LaCozaDeLaPoza2022FurilloProductionsSp.exe"
+
 # "ZX Spectrum 128k game launcher setup"
 
 <b>1 Tap file (48k or 128k) = 1 Windows Exe file (Java applet .jar wrapped)</b>
@@ -131,7 +141,9 @@ about how to do that step.
 
 https://confluence.atlassian.com/doc/setting-the-java_home-variable-in-windows-8895.html 
 
-Caveat #2: is a very well known issue that 
+Caveat #2: please be aware that Java 9 and greater Oracle versions are not so 100% compatible, so sometimes even having a correct version of Java 11 installed on the computer it could happen that it does not work. We apologize if it is your case. 
+
+Caveat #3: is a very well known issue that 
 some antivirus are very strict regarding the
 wrapped .jar .exe files and sometimes a
 false warning of virus detection appears. 
@@ -255,5 +267,7 @@ Consideración #1: algunas veces, dependiendo del grado de seguridad del PC dond
 
 https://confluence.atlassian.com/doc/setting-the-java_home-variable-in-windows-8895.html 
 
-Consideración #2: un tema conocido por los desarrolladores Java que hacen Applets emebebidos en .exe para Windows es que algunos programas antivirus son muy estrictos y marcan algunas veces los archivos .exe creados con este método como portadores de virus. No sucede muy habitualmente, depende de la marca del antivirus, del nivel de restricciones que se haya marcado, etc. las reglas varían mucho entre antivirus. Este es un tema conocido por los desarrolladores de Java embebido en archivos .exe pero la realidad es que cuando ocurre poco se puede hacer, excepto que el usuario marque el archivo de cara al antivirus como falso positivo para poder utilizarlo.
+Consideración #2: por favor ten presente que las versiones de Java superiores a la 9 de Oracle no son siempre compatibles al 100% con todos los PCs, asi que algunas veces incluso teniendo todo correctamente instalado puede que el lanzajuegos no funcione por alguna incompatibilidad. Si este es tu caso lo sentimos mucho. 
+
+Consideración #3: un tema conocido por los desarrolladores Java que hacen Applets emebebidos en .exe para Windows es que algunos programas antivirus son muy estrictos y marcan algunas veces los archivos .exe creados con este método como portadores de virus. No sucede muy habitualmente, depende de la marca del antivirus, del nivel de restricciones que se haya marcado, etc. las reglas varían mucho entre antivirus. Este es un tema conocido por los desarrolladores de Java embebido en archivos .exe pero la realidad es que cuando ocurre poco se puede hacer, excepto que el usuario marque el archivo de cara al antivirus como falso positivo para poder utilizarlo.
 
