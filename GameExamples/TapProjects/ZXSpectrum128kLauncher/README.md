@@ -19,6 +19,8 @@ is required to play your game.
 <b>Requirements:</b> Java 11 or greater version and the Java Runtime Environment (JRE)
 must be installed in the PC.
 
+https://www.oracle.com/java/technologies/downloads/#java11
+
 <b>With gratitude to my friends that volunteered as testers
 (in alphabetical order):</b>
 
@@ -169,6 +171,8 @@ no es necesario ningun otro archivo más para jugar.
 
 <b>Requerimientos:</b> Java 11 o superior y el Java Runtime Environment (JRE)
 instalado correctamente en el pc.
+
+https://www.oracle.com/java/technologies/downloads/#java11
 
 <b>Con agradecimiento a los testers 
 (en orden alfabético):</b>
