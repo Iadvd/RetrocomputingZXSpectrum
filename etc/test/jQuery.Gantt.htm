@@ -1,0 +1,636 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+        <title>jQuery.Gantt</title>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=Edge;chrome=IE8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="jQuery.Gantt_files/bootstrap.min.css" rel="stylesheet" type="text/css">
+        <link href="jQuery.Gantt_files/style.css" type="text/css" rel="stylesheet">
+        <link href="jQuery.Gantt_files/prettify.min.css" rel="stylesheet" type="text/css">
+        <style type="text/css">
+            body {
+                font-family: Helvetica, Arial, sans-serif;
+                font-size: 13px;
+                padding: 0 0 50px 0;
+            }
+            h1 {
+                margin: 40px 0 20px 0;
+            }
+            h2 {
+                font-size: 1.5em;
+                padding-bottom: 3px;
+                border-bottom: 1px solid #DDD;
+                margin-top: 50px;
+                margin-bottom: 25px;
+            }
+            table th:first-child {
+                width: 150px;
+            }
+            .github-corner:hover .octo-arm {
+                animation: octocat-wave 560ms ease-in-out
+            }
+            @keyframes octocat-wave {
+                0%, 100% {
+                    transform: rotate(0)
+                }
+                20%, 60% {
+                    transform: rotate(-25deg)
+                }
+                40%, 80% {
+                    transform: rotate(10deg)
+                }
+            }
+            @media (max-width:500px) {
+                .github-corner:hover .octo-arm {
+                    animation: none
+                }
+                .github-corner .octo-arm {
+                    animation: octocat-wave 560ms ease-in-out
+                }
+            }
+        </style>
+    </head>
+    <body>
+
+        <div class="container">
+
+            <h1>
+                jQuery.Gantt
+                <small>— Draw Gantt charts with the famous jQuery ease of development</small>
+            </h1>
+
+            <h2 id="contributors">Contributors</h2>
+            <ul>
+                <li>
+                    <strong><a href="http://mbielanczuk.com/" target="_blank">Marek Bielańczuk</a></strong> wrote the original jQuery.Gantt plugin that this version is based off of.
+                </li>
+                <li>
+                    <strong><a href="http://taitbrown.com/" target="_blank">Tait Brown</a></strong> enforced stricter code guidelines by validating the code, updating it to support HTML5 and tweaking the design.
+                </li>
+                <li>
+                    <strong><a href="mailto:leo.pfeifenberger%40googlemail.com">Leo Pfeifenberger</a></strong> made <em>major</em>
+ performance updates as well as adding requested features such as click 
+events, state persisting via cookies and scrollToToday on load 
+functionality.
+                </li>
+                <li>
+                    <strong><a href="mailto:grzegorz.russek%40gmail.com">Grzegorz Russek</a></strong> helped fix the White Whale of a bug that prevented the hour view rendering correctly. Nice one.
+                </li>
+                <li>
+                <strong><a href="https://github.com/taitems/jQuery.Gantt/graphs/contributors" target="_blank">Many more from the GitHub community</a></strong>
+                </li>
+            </ul>
+
+            <h2 id="example">
+                Example
+            </h2>
+
+            <div class="gantt"><div class="fn-gantt"><div class="fn-content"><div class="leftPanel"><div class="row spacer" style="height: 72px;"></div><div class="row name row0" id="rowheader0" data-offset="0"><span class="fn-label">Sprint 0</span></div><div class="row desc row0 " id="RowdId_0"><span class="fn-label">Analysis</span></div><div class="row name row1" id="rowheader1" data-offset="24"><span class="fn-label"></span></div><div class="row desc row1 " id="RowdId_1"><span class="fn-label">Scoping</span></div><div class="row name row2" id="rowheader2" data-offset="48"><span class="fn-label">Sprint 1</span></div><div class="row desc row2 " id="RowdId_2"><span class="fn-label">Development</span></div><div class="row name row3" id="rowheader3" data-offset="72"><span class="fn-label"> </span></div><div class="row desc row3 " id="RowdId_3"><span class="fn-label">Showcasing</span></div><div class="row name row4" id="rowheader4" data-offset="96"><span class="fn-label">Sprint 2</span></div><div class="row desc row4 " id="RowdId_4"><span class="fn-label">Development</span></div><div class="row name row5" id="rowheader5" data-offset="120"><span class="fn-label"></span></div><div class="row desc row5 " id="RowdId_5"><span class="fn-label">Showcasing</span></div><div class="row name row6" id="rowheader6" data-offset="144"><span class="fn-label">Release Stage</span></div><div class="row desc row6 " id="RowdId_6"><span class="fn-label">Training</span></div><div class="row name row7" id="rowheader7" data-offset="168"><span class="fn-label"></span></div><div class="row desc row7 " id="RowdId_7"><span class="fn-label">Deployment</span></div><div class="row name row8" id="rowheader8" data-offset="192"><span class="fn-label"></span></div><div class="row desc row8 " id="RowdId_8"><span class="fn-label">Warranty Period</span></div></div><div class="rightPanel"><div class="dataPanel" style="width: 1320px; height: 288px;"><div class="row header"><div class="row year" style="width: 740.5714285714286px;"><div class="fn-label">2022</div></div><div class="row year" style="width: 579.4285714285714px;"><div class="fn-label">2023</div></div></div><div class="row header"><div class="row month" style="width:6.857142857142857px;"><div class="fn-label">May</div></div><div class="row month" style="width:102.85714285714286px;"><div class="fn-label">June</div></div><div class="row month" style="width:106.28571428571429px;"><div class="fn-label">July</div></div><div class="row month" style="width:106.28571428571429px;"><div class="fn-label">August</div></div><div class="row month" style="width:102.85714285714286px;"><div class="fn-label">September</div></div><div class="row month" style="width:106.28571428571429px;"><div class="fn-label">October</div></div><div class="row month" style="width:102.85714285714288px;"><div class="fn-label">November</div></div><div class="row month" style="width:106.28571428571428px;"><div class="fn-label">December</div></div><div class="row month" style="width:106.28571428571428px;"><div class="fn-label">January</div></div><div class="row month" style="width:96px;"><div class="fn-label">February</div></div><div class="row month" style="width:106.28571428571429px;"><div class="fn-label">March</div></div><div class="row month" style="width:102.85714285714286px;"><div class="fn-label">April</div></div><div class="row month" style="width:106.28571428571429px;"><div class="fn-label">May</div></div><div class="row month" style="width: 61.71428571428571px"><div class="fn-label">June</div></div></div><div class="row header"><div class="row day wd" id="dh-2022-22" data-offset="0" data-repdate="1653836400000"><div class="fn-label">22</div></div><div class="row day wd" id="dh-2022-23" data-offset="24" data-repdate="1654441200000"><div class="fn-label">23</div></div><div class="row day wd" id="dh-2022-24" data-offset="48" data-repdate="1655046000000"><div class="fn-label">24</div></div><div class="row day wd" id="dh-2022-25" data-offset="72" data-repdate="1655650800000"><div class="fn-label">25</div></div><div class="row day wd" id="dh-2022-26" data-offset="96" data-repdate="1656255600000"><div class="fn-label">26</div></div><div class="row day wd" id="dh-2022-27" data-offset="120" data-repdate="1656860400000"><div class="fn-label">27</div></div><div class="row day wd" id="dh-2022-28" data-offset="144" data-repdate="1657465200000"><div class="fn-label">28</div></div><div class="row day wd" id="dh-2022-29" data-offset="168" data-repdate="1658070000000"><div class="fn-label">29</div></div><div class="row day today" id="dh-2022-30" data-offset="192" data-repdate="1658674800000"><div class="fn-label">30</div></div><div class="row day wd" id="dh-2022-31" data-offset="216" data-repdate="1659279600000"><div class="fn-label">31</div></div><div class="row day wd" id="dh-2022-32" data-offset="240" data-repdate="1659884400000"><div class="fn-label">32</div></div><div class="row day wd" id="dh-2022-33" data-offset="264" data-repdate="1660489200000"><div class="fn-label">33</div></div><div class="row day wd" id="dh-2022-34" data-offset="288" data-repdate="1661094000000"><div class="fn-label">34</div></div><div class="row day wd" id="dh-2022-35" data-offset="312" data-repdate="1661698800000"><div class="fn-label">35</div></div><div class="row day wd" id="dh-2022-36" data-offset="336" data-repdate="1662303600000"><div class="fn-label">36</div></div><div class="row day wd" id="dh-2022-37" data-offset="360" data-repdate="1662908400000"><div class="fn-label">37</div></div><div class="row day wd" id="dh-2022-38" data-offset="384" data-repdate="1663513200000"><div class="fn-label">38</div></div><div class="row day wd" id="dh-2022-39" data-offset="408" data-repdate="1664118000000"><div class="fn-label">39</div></div><div class="row day wd" id="dh-2022-40" data-offset="432" data-repdate="1664722800000"><div class="fn-label">40</div></div><div class="row day wd" id="dh-2022-41" data-offset="456" data-repdate="1665327600000"><div class="fn-label">41</div></div><div class="row day wd" id="dh-2022-42" data-offset="480" data-repdate="1665932400000"><div class="fn-label">42</div></div><div class="row day wd" id="dh-2022-43" data-offset="504" data-repdate="1666537200000"><div class="fn-label">43</div></div><div class="row day wd" id="dh-2022-44" data-offset="528" data-repdate="1667142000000"><div class="fn-label">44</div></div><div class="row day wd" id="dh-2022-45" data-offset="552" data-repdate="1667746800000"><div class="fn-label">45</div></div><div class="row day wd" id="dh-2022-46" data-offset="576" data-repdate="1668351600000"><div class="fn-label">46</div></div><div class="row day wd" id="dh-2022-47" data-offset="600" data-repdate="1668956400000"><div class="fn-label">47</div></div><div class="row day wd" id="dh-2022-48" data-offset="624" data-repdate="1669561200000"><div class="fn-label">48</div></div><div class="row day wd" id="dh-2022-49" data-offset="648" data-repdate="1670166000000"><div class="fn-label">49</div></div><div class="row day wd" id="dh-2022-50" data-offset="672" data-repdate="1670770800000"><div class="fn-label">50</div></div><div class="row day wd" id="dh-2022-51" data-offset="696" data-repdate="1671375600000"><div class="fn-label">51</div></div><div class="row day wd" id="dh-2022-52" data-offset="720" data-repdate="1671980400000"><div class="fn-label">52</div></div><div class="row day wd" id="dh-2023-1" data-offset="744" data-repdate="1672585200000"><div class="fn-label">1</div></div><div class="row day wd" id="dh-2023-2" data-offset="768" data-repdate="1673190000000"><div class="fn-label">2</div></div><div class="row day wd" id="dh-2023-3" data-offset="792" data-repdate="1673794800000"><div class="fn-label">3</div></div><div class="row day wd" id="dh-2023-4" data-offset="816" data-repdate="1674399600000"><div class="fn-label">4</div></div><div class="row day wd" id="dh-2023-5" data-offset="840" data-repdate="1675004400000"><div class="fn-label">5</div></div><div class="row day wd" id="dh-2023-6" data-offset="864" data-repdate="1675609200000"><div class="fn-label">6</div></div><div class="row day wd" id="dh-2023-7" data-offset="888" data-repdate="1676214000000"><div class="fn-label">7</div></div><div class="row day wd" id="dh-2023-8" data-offset="912" data-repdate="1676818800000"><div class="fn-label">8</div></div><div class="row day wd" id="dh-2023-9" data-offset="936" data-repdate="1677423600000"><div class="fn-label">9</div></div><div class="row day wd" id="dh-2023-10" data-offset="960" data-repdate="1678028400000"><div class="fn-label">10</div></div><div class="row day wd" id="dh-2023-11" data-offset="984" data-repdate="1678633200000"><div class="fn-label">11</div></div><div class="row day wd" id="dh-2023-12" data-offset="1008" data-repdate="1679238000000"><div class="fn-label">12</div></div><div class="row day wd" id="dh-2023-13" data-offset="1032" data-repdate="1679842800000"><div class="fn-label">13</div></div><div class="row day wd" id="dh-2023-14" data-offset="1056" data-repdate="1680447600000"><div class="fn-label">14</div></div><div class="row day wd" id="dh-2023-15" data-offset="1080" data-repdate="1681052400000"><div class="fn-label">15</div></div><div class="row day wd" id="dh-2023-16" data-offset="1104" data-repdate="1681657200000"><div class="fn-label">16</div></div><div class="row day wd" id="dh-2023-17" data-offset="1128" data-repdate="1682262000000"><div class="fn-label">17</div></div><div class="row day wd" id="dh-2023-18" data-offset="1152" data-repdate="1682866800000"><div class="fn-label">18</div></div><div class="row day wd" id="dh-2023-19" data-offset="1176" data-repdate="1683471600000"><div class="fn-label">19</div></div><div class="row day wd" id="dh-2023-20" data-offset="1200" data-repdate="1684076400000"><div class="fn-label">20</div></div><div class="row day wd" id="dh-2023-21" data-offset="1224" data-repdate="1684681200000"><div class="fn-label">21</div></div><div class="row day wd" id="dh-2023-22" data-offset="1248" data-repdate="1685286000000"><div class="fn-label">22</div></div><div class="row day wd" id="dh-2023-23" data-offset="1272" data-repdate="1685890800000"><div class="fn-label">23</div></div><div class="row day wd" id="dh-2023-24" data-offset="1296" data-repdate="1686495600000"><div class="fn-label">24</div></div></div><div class="bar ganttRed" style="top: 75px; left: 72px; width: 9.01515%;"><div class="fn-label" style="color: rgb(36, 36, 36);">Requirement Gathering</div></div><div class="bar ganttRed" style="top: 99px; left: 168px; width: 5.37879%;"><div class="fn-label" style="color: rgb(36, 36, 36);">Scoping</div></div><div class="bar ganttGreen" style="top: 123px; left: 216px; width: 7.19697%;"><div class="fn-label" style="color: rgb(29, 29, 29);">Development</div></div><div class="bar ganttBlue" style="top: 147px; left: 288px; width: 1.74242%;"><div class="fn-label" style="color: rgb(27, 27, 27);">Showcasing</div></div><div class="bar ganttGreen" style="top: 171px; left: 288px; width: 12.6515%;"><div class="fn-label" style="color: rgb(29, 29, 29);">Development</div></div><div class="bar ganttBlue" style="top: 195px; left: 432px; width: 1.74242%;"><div class="fn-label" style="color: rgb(27, 27, 27);">Showcasing</div></div><div class="bar ganttOrange" style="top: 219px; left: 480px; width: 21.7424%;"><div class="fn-label" style="color: rgb(35, 35, 35);">Training</div></div><div class="bar ganttOrange" style="top: 243px; left: 744px; width: 7.19697%;"><div class="fn-label" style="color: rgb(35, 35, 35);">Deployment</div></div><div class="bar ganttOrange" style="top: 267px; left: 744px; width: 39.9242%;"><div class="fn-label" style="color: rgb(35, 35, 35);">Warranty Period</div></div></div></div><div class="bottom"><div class="navigate"><div class="nav-slider"><div class="nav-slider-left"><button type="button" class="nav-link nav-page-back">↑</button><div class="page-number"><span>1 / 1</span></div><button type="button" class="nav-link nav-page-next">↓</button><button type="button" class="nav-link nav-now">●</button><button type="button" class="nav-link nav-prev-week">&lt;&lt;</button><button type="button" class="nav-link nav-prev-day">&lt;</button></div><div class="nav-slider-content"><div class="nav-slider-bar"><a class="nav-slider-button"></a></div></div><div class="nav-slider-right"><button type="button" class="nav-link nav-next-day">&gt;</button><button type="button" class="nav-link nav-next-week">&gt;&gt;</button><button type="button" class="nav-link nav-zoomIn">+</button><button type="button" class="nav-link nav-zoomOut">-</button></div></div></div></div></div></div></div>
+
+
+
+            <h2 id="config">
+                Gantt Configuration
+            </h2>
+
+
+<pre class="prettyprint lang-js prettyprinted" style=""><span class="pln">$</span><span class="pun">(</span><span class="str">".selector"</span><span class="pun">).</span><span class="pln">gantt</span><span class="pun">({</span><span class="pln">
+    source</span><span class="pun">:</span><span class="pln"> </span><span class="str">"ajax/data.json"</span><span class="pun">,</span><span class="pln">
+    scale</span><span class="pun">:</span><span class="pln"> </span><span class="str">"weeks"</span><span class="pun">,</span><span class="pln">
+    minScale</span><span class="pun">:</span><span class="pln"> </span><span class="str">"weeks"</span><span class="pun">,</span><span class="pln">
+    maxScale</span><span class="pun">:</span><span class="pln"> </span><span class="str">"months"</span><span class="pun">,</span><span class="pln">
+    onItemClick</span><span class="pun">:</span><span class="pln"> </span><span class="kwd">function</span><span class="pun">(</span><span class="pln">data</span><span class="pun">)</span><span class="pln"> </span><span class="pun">{</span><span class="pln">
+        alert</span><span class="pun">(</span><span class="str">"Item clicked - show some details"</span><span class="pun">);</span><span class="pln">
+    </span><span class="pun">},</span><span class="pln">
+    onAddClick</span><span class="pun">:</span><span class="pln"> </span><span class="kwd">function</span><span class="pun">(</span><span class="pln">dt</span><span class="pun">,</span><span class="pln"> rowId</span><span class="pun">)</span><span class="pln"> </span><span class="pun">{</span><span class="pln">
+        alert</span><span class="pun">(</span><span class="str">"Empty space clicked - add an item!"</span><span class="pun">);</span><span class="pln">
+    </span><span class="pun">},</span><span class="pln">
+    onRender</span><span class="pun">:</span><span class="pln"> </span><span class="kwd">function</span><span class="pun">()</span><span class="pln"> </span><span class="pun">{</span><span class="pln">
+        console</span><span class="pun">.</span><span class="pln">log</span><span class="pun">(</span><span class="str">"chart rendered"</span><span class="pun">);</span><span class="pln">
+    </span><span class="pun">}</span><span class="pln">
+</span><span class="pun">});</span></pre>
+
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th>
+                            Name
+                        </th>
+                        <th>
+                            Default
+                        </th>
+                        <th>
+                            Type
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            <code>source</code>
+                        </td>
+                        <td>
+                            <code>[]</code>
+                        </td>
+                        <td>
+                            Array, string (url)
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <code>itemsPerPage</code>
+                        </td>
+                        <td>
+                            <code>7</code>
+                        </td>
+                        <td>
+                            number
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <code>months</code>
+                        </td>
+                        <td>
+                            <code>["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"]</code>
+                        </td>
+                        <td>
+                            Array (12 strings representing the months of the year)
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <code>dow</code>
+                        </td>
+                        <td>
+                            <code>["S", "M", "T", "W", "T", "F", "S"]</code>
+                        </td>
+                        <td>
+                            Array (7 strings representing the days of the week)
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <code>holidays</code>
+                        </td>
+                        <td>
+                            <code>undefined</code>
+                        </td>
+                        <td>
+                            Array of numbers (ms), date strings (see&nbsp;<a href="http://dygraphs.com/date-formats.html" target="_blank">formats</a>), or Date objects
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <code>navigate</code>
+                        </td>
+                        <td>
+                            <code>"buttons"</code>
+                        </td>
+                        <td>
+                            string ("buttons", "scroll")
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <code>scale</code>
+                        </td>
+                        <td>
+                            <code>"days"</code>
+                        </td>
+                        <td>
+                            string ("months", "weeks", "days", "hours")
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <code>maxScale</code>
+                        </td>
+                        <td>
+                            <code>"months"</code>
+                        </td>
+                        <td>
+                            string ("months", "weeks", "days", "hours")
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <code>minScale</code>
+                        </td>
+                        <td>
+                            <code>"hours"</code>
+                        </td>
+                        <td>
+                            string ("months", "weeks", "days", "hours")
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <code>waitText</code>
+                        </td>
+                        <td>
+                            <code>"Please wait..."</code>
+                        </td>
+                        <td>
+                            string
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <code>onItemClick</code>
+                        </td>
+                        <td>
+                            <code>function (data) { return; }</code></td>
+                        <td>
+                            Function called when clicking on a Gantt item. <br>The parameter passed to the function is the dataObj of the source item, if one was provided.</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <code>onAddClick</code></td>
+                        <td>
+                            <code>function (dt, rowId) { return; }</code></td>
+                        <td>
+                            Function called when clicking on empty space inside the Gantt data panel. <br>The
+ parameter passed to the function is the date/time in milliseconds for 
+the clicked cell, and the ID of the source object (row), if one was 
+provided.</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <code>onRender</code></td>
+                        <td>
+                            <code><a href="http://api.jquery.com/jquery.noop/" target="_blank">$.noop</a></code></td>
+                        <td>
+                            Function called whenever the chart is (re)rendered</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <code>useCookie</code></td>
+                        <td>
+                            <code>false</code></td>
+                        <td>
+                            indicates whether or not cookies should be 
+used to save and restore the chart's view state (scale, scroll position)
+ between page loads;
+                            <code><a href="https://github.com/carhartl/jquery-cookie" target="_blank">jquery.cookie</a></code> needs to be referenced for this to work</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <code>cookieKey</code></td>
+                        <td>
+                            <code>"jquery.fn.gantt"</code></td>
+                        <td>
+                            The prefix used when storing cookies (depends on useCookie being set to <code>true</code>)</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <code>scrollToToday</code></td>
+                        <td>
+                            <code>true</code></td>
+                        <td>
+                            Boolean</td>
+                    </tr>
+                </tbody>
+            </table>
+
+
+
+
+            <h2 id="source">
+                Source Configuration
+            </h2>
+
+<pre class="prettyprint lang-js prettyprinted" style=""><span class="pln">source</span><span class="pun">:</span><span class="pln"> </span><span class="pun">[</span><span class="pln">
+    </span><span class="pun">{</span><span class="pln">
+        name</span><span class="pun">:</span><span class="pln"> </span><span class="str">"Example"</span><span class="pun">,</span><span class="pln">
+        desc</span><span class="pun">:</span><span class="pln"> </span><span class="str">"Lorem ipsum dolor sit amet."</span><span class="pun">,</span><span class="pln">
+        values</span><span class="pun">:</span><span class="pln"> </span><span class="pun">[</span><span class="pln"> </span><span class="pun">...</span><span class="pln"> </span><span class="pun">]</span><span class="pln">
+        id</span><span class="pun">:</span><span class="pln"> </span><span class="lit">1</span><span class="pun">,</span><span class="pln">
+        cssClass</span><span class="pun">:</span><span class="pln"> </span><span class="str">"redLabel"</span><span class="pln">
+    </span><span class="pun">},</span><span class="pln">
+    </span><span class="pun">...</span><span class="pln"> </span><span class="com">// more rows</span><span class="pln">
+</span><span class="pun">]</span></pre>
+
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th>
+                            Name
+                        </th>
+                        <th>
+                            Type
+                        </th>
+                        <th>
+                            Description
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            <code>name</code>
+                        </td>
+                        <td>
+                            string
+                        </td>
+                        <td>
+                            Optional primary label for this row of values; appears in the leftmost column of the row.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <code>desc</code>
+                        </td>
+                        <td>
+                            string
+                        </td>
+                        <td>
+                            Optional secondary label for this row of the Gantt.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <code>values</code>
+                        </td>
+                        <td>
+                            Array
+                        </td>
+                        <td>
+                            Sequence of date ranges for each row of the Gantt. See <a href="#values">table below</a>.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <code>id</code>
+                        </td>
+                        <td>
+                            string or number
+                        </td>
+                        <td>
+                            Optional value to be passed as second parameter to <code>onAddClick()</code> callback when triggered.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <code>cssClass</code>
+                        </td>
+                        <td>
+                            string
+                        </td>
+                        <td>
+                            Optional space-separated class names to be applied to this row's labels.
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+
+
+            <h2 id="values">
+                Value Configuration
+            </h2>
+
+<pre class="prettyprint lang-js prettyprinted" style=""><span class="pln">values</span><span class="pun">:</span><span class="pln"> </span><span class="pun">[</span><span class="pln">
+    </span><span class="pun">{</span><span class="pln">
+        from</span><span class="pun">:</span><span class="pln"> </span><span class="str">'2012-02-10'</span><span class="pun">,</span><span class="pln">
+        to</span><span class="pun">:</span><span class="pln"> </span><span class="str">'2012-04-03'</span><span class="pun">,</span><span class="pln">
+        label</span><span class="pun">:</span><span class="pln"> </span><span class="str">"Example Value"</span><span class="pun">,</span><span class="pln">
+        desc</span><span class="pun">:</span><span class="pln"> </span><span class="str">"Something"</span><span class="pun">,</span><span class="pln">
+        customClass</span><span class="pun">:</span><span class="pln"> </span><span class="str">"ganttRed"</span><span class="pun">,</span><span class="pln">
+        dataObj</span><span class="pun">:</span><span class="pln"> foo</span><span class="pun">.</span><span class="pln">bar</span><span class="pun">[</span><span class="pln">i</span><span class="pun">]</span><span class="pln">
+    </span><span class="pun">},</span><span class="pln">
+    </span><span class="pun">...</span><span class="pln"> </span><span class="com">// more items for the row (though Gantt charts traditionally have only one item per row)</span><span class="pln">
+</span><span class="pun">]</span></pre>
+
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th>
+                            Name
+                        </th>
+                        <th>
+                            Type
+                        </th>
+                        <th>
+                            Description
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            <code>from</code>
+                        </td>
+                        <td>
+                            number (ms), string (see&nbsp;<a href="http://dygraphs.com/date-formats.html" target="_blank">formats</a>)
+                        </td>
+                        <td>
+                            Start date/time of the Gantt item.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <code>to</code>
+                        </td>
+                        <td>
+                            number (ms), string (see&nbsp;<a href="http://dygraphs.com/date-formats.html" target="_blank">formats</a>)
+                        </td>
+                        <td>
+                            End date/time of the Gantt item.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <code>label</code>
+                        </td>
+                        <td>
+                            string
+                        </td>
+                        <td>
+                            Optional label/name of the Gantt item.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <code>desc</code>
+                        </td>
+                        <td>
+                            string
+                        </td>
+                        <td>
+                            Optional description of the Gantt item, used as HTML content of hover "hint").
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <code>customClass</code>
+                        </td>
+                        <td>
+                            string
+                        </td>
+                        <td>
+                            Optional space-separated class names to be applied to the Gantt item.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <code>dataObj</code>
+                        </td>
+                        <td>
+                            Any
+                        </td>
+                        <td>
+                            Optional data object that is stored directly on the Gantt item.
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+
+        </div>
+    <a href="https://github.com/taitems/jQuery.Gantt" class="github-corner" aria-label="View source, download, or contribute on GitHub" title="View source, download, or contribute on GitHub">
+        <svg width="80" height="80" viewBox="0 0 250 250" style="fill:#151513; color:#fff; position: absolute; top: 0; border: 0; right: 0;" aria-hidden="true"><path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg>
+    </a>
+    
+	
+	<script src="jQuery.Gantt_files/jquery.min.js"></script>
+	<script src="jQuery.Gantt_files/jquery.mobile-1.4.5.min.js"></script>
+	
+	
+    <script src="jQuery.Gantt_files/jquery.cookie.min.js"></script>
+    <script src="jQuery.Gantt_files/jquery.fn.gantt.js"></script>
+    <script src="jQuery.Gantt_files/bootstrap.min.js"></script>
+    <script src="jQuery.Gantt_files/prettify.min.js"></script>
+
+    <script>
+        $(function() {
+            "use strict";
+
+            var demoSource = [{
+                name: "Sprint 0",
+                desc: "Analysis",
+                values: [{
+                    from: 1320192000000,
+                    to: 1322401600000,
+                    label: "Requirement Gathering",
+                    customClass: "ganttRed"
+                }]
+            },{
+                desc: "Scoping",
+                values: [{
+                    from: 1322611200000,
+                    to: 1323302400000,
+                    label: "Scoping",
+                    customClass: "ganttRed"
+                }]
+            },{
+                name: "Sprint 1",
+                desc: "Development",
+                values: [{
+                    from: 1323802400000,
+                    to: 1325685200000,
+                    label: "Development",
+                    customClass: "ganttGreen"
+                }]
+            },{
+                name: " ",
+                desc: "Showcasing",
+                values: [{
+                    from: 1325685200000,
+                    to: 1325695200000,
+                    label: "Showcasing",
+                    customClass: "ganttBlue"
+                }]
+            },{
+                name: "Sprint 2",
+                desc: "Development",
+                values: [{
+                    from: 1325695200000,
+                    to: 1328785200000,
+                    label: "Development",
+                    customClass: "ganttGreen"
+                }]
+            },{
+                desc: "Showcasing",
+                values: [{
+                    from: 1328785200000,
+                    to: 1328905200000,
+                    label: "Showcasing",
+                    customClass: "ganttBlue"
+                }]
+            },{
+                name: "Release Stage",
+                desc: "Training",
+                values: [{
+                    from: 1330011200000,
+                    to: 1336611200000,
+                    label: "Training",
+                    customClass: "ganttOrange"
+                }]
+            },{
+                desc: "Deployment",
+                values: [{
+                    from: 1336611200000,
+                    to: 1338711200000,
+                    label: "Deployment",
+                    customClass: "ganttOrange"
+                }]
+            },{
+                desc: "Warranty Period",
+                values: [{
+                    from: 1336611200000,
+                    to: 1349711200000,
+                    label: "Warranty Period",
+                    customClass: "ganttOrange"
+                }]
+            }];
+
+            // shifts dates closer to Date.now()
+            var offset = new Date().setHours(0, 0, 0, 0) -
+                new Date(demoSource[0].values[0].from).setDate(35);
+            for (var i = 0, len = demoSource.length, value; i < len; i++) {
+                value = demoSource[i].values[0];
+                value.from += offset;
+                value.to += offset;
+            }
+
+            $(".gantt").gantt({
+                source: demoSource,
+                navigate: "scroll",
+                scale: "weeks",
+                maxScale: "months",
+                minScale: "hours",
+                itemsPerPage: 10,
+                scrollToToday: false,
+                useCookie: true,
+                onItemClick: function(data) {
+                    alert("Item clicked - show some details");
+                },
+                onAddClick: function(dt, rowId) {
+                    alert("Empty space clicked - add an item!");
+                },
+                onRender: function() {
+                    if (window.console && typeof console.log === "function") {
+                        console.log("chart rendered");
+                    }
+                }
+            });
+
+            $(".gantt").popover({
+                selector: ".bar",
+                title: function _getItemText() {
+                    return this.textContent;
+                },
+                container: '.gantt',
+                content: "Here's some useful information.",
+                trigger: "hover",
+                placement: "auto right"
+            });
+
+            prettyPrint();
+
+        });
+    </script>
+
+    
+
+</body></html>
