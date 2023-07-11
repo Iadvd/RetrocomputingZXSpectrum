@@ -1,8 +1,10 @@
 # MuCho Engine 3.0 Customization tryouts by Furillo Productions.
 
-An example of application of these explanations is here (Javi versus Parrish .tap file): 
+An example of application of these explanations are in this same repository (Javi versus Parrish .tap games): 
 
-https://furilloproductions.itch.io/the-dark-veil-el-velo-oscuro
+JaviVersusParrish_Furillo_2023EN.tap
+
+JaviVersusParrish_Furillo_2023ES.tap
 
 This folder will contain my customizations of the MuCho engine 3.0 by Jari Komppa. 
 
