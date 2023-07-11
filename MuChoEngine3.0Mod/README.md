@@ -17,7 +17,7 @@ As these are specializations of Jari Komppa's great work, I am accepting and fol
  * released under the unlicense, see http://unlicense.org
  * (practically public domain)
 
-# Objective of my customization.
+# Objectives of my customization.
 
 Basically the initial 3 main objective of my customizations are:
 
