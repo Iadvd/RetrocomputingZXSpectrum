@@ -1,4 +1,6 @@
-MuCho Engine 3.0 Customization tryouts 
+#MuCho Engine 3.0 Customization tryouts by IADVD (Furillo Productions)
+
+An example of application of these explanations here: https://furilloproductions.itch.io/the-dark-veil-el-velo-oscuro
 
 This folder will contain my customizations of the MuCho engine 3.0 by Jari Komppa. 
 
