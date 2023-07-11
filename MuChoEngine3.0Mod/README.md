@@ -4,7 +4,7 @@ An example of application of these explanations here: https://furilloproductions
 
 This folder will contain my customizations of the MuCho engine 3.0 by Jari Komppa. 
 
-The original versiones are at these links:
+The original versions are at these links:
 
 https://github.com/jarikomppa/speccy/tree/master/mucho
 
@@ -12,7 +12,7 @@ https://github.com/jarikomppa/speccy/tree/master/mackarel
 
 My customizations will be updated from time to time, and I provide the contents "as is", a work in progress, hoping someone may find it useful.
 
-As these are customizations of Jari Komppa's work, so I am accepting and following the same license agreement:
+As these are specializations of Jari Komppa's great work, I am accepting and following the same license agreement:
 
  * released under the unlicense, see http://unlicense.org
  * (practically public domain)
