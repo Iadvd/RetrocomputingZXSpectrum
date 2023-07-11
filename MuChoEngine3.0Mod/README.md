@@ -27,7 +27,7 @@ Basically the initial 3 main objective of my customizations are:
 
 Thus, the initial targer ouput is creating a MuCHo engine 3.0 + Beepola Phaser 1 music that generates MuCho games for ZX Spectrum 48k including some music and menu selection (musical) sound effects. 
 
-The contents will be an example, so the readers can make their own version of the musical contents. 
+The contents will be an example, so the readers of this document - in other words, you ;) - can make their own version of the musical contents. 
 
 This customization implies rebuilding the "crt0.ihx" MuCHo engine archive, which is used by the Mackarel application to create the final .tap file.
 
