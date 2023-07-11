@@ -17,6 +17,8 @@ As these are specializations of Jari Komppa's great work, I am accepting and fol
  * released under the unlicense, see http://unlicense.org
  * (practically public domain)
 
+# Objective of my customization.
+
 Basically the initial 3 main objective of my customizations are:
 
 1. Creating a MuCho engine with a Spanish interface
@@ -29,15 +31,35 @@ Thus, the initial targer ouput is creating a MuCHo engine 3.0 + Beepola Phaser 1
 
 The contents will be an example, so the readers of this document - in other words, you ;) - can make their own version of the musical contents. 
 
-This customization implies rebuilding the "crt0.ihx" MuCHo engine archive, which is used by the Mackarel application to create the final .tap file.
+This customization implies rebuilding the core of the MuCHo engine core archive, which is included into a file named "crt0.ihx". This file is used by the Mackarel application of the same MuCho suite to create the final MuCho game .tap file.
 
-For this purpose our output will be two files:
+For this purpose the output of this initial project will be two files:
 
-crt0.ihx with Spanish language interface texts + Beepola music
+A "crt0.ihx" core MuCHo engine 3.0 with a Spanish language interface + Beepola music.
 
-crt0.ihx with English language interface texts (our own very simple rewording) + Beepola music
+A "crt0.ihx" core MuCHo engine 3.0 with an English language interface (just a very simple rewording) + Beepola music.
 
-Initially the data of the music is harcoded inside the build of the "crt0.ihx" file, but a possible future enhancemente could be a way of having only the asm of the Beepola player without music data inside the "crt0.ihx"  build and the finding a way to insert only the music data later, so it is not required a rebuild of the core MuCHo engine "crt0.ihx" each time we want to add new music or interface effects to a new game.
+Initially in our first approach, the data of the music is harcoded INSIDE the build of the "crt0.ihx" file, so you will need to rebuild the core file each time you make a new game to ad the specific music or interface effects of the game. A possible future enhancemente could be a way of having only the asm of the Beepola player without music data inside the "crt0.ihx"  build and the finding a way to insert only the music data later, so it is not required a rebuild of the core MuCHo engine "crt0.ihx" each time we want to add (or modify) new music or interface effects to a new game.
 
 As a side note, including this kind of player plus some simple but effective music should not take more that2 or 3K's depending on the music and effects created, so the final game should not suffer many restrictions regarding the texts or images that can be added. A quick comparison is that the size of the player plus music data has approximately the same size than one $I image of the engine (32x10 screen cells), around 2-3K's. So if we add music, probably we will balance texts+images+music again tohave a perfect mix when the final game is released. 
 
+# Requirements (compilers, tools...)
+
+You will require exactly the same setup to rebuild the "crt0.ihx" as described by the original MuCho project:
+
+https://github.com/jarikomppa/speccy/tree/master
+
+I am performing this project into a Windows machine, so I just can provide information about my current setup as I am not familiar with other SO setups for this project, so I apologize beforehand.
+
+You will require:
+SDCC - Small Device C Compiler which includes (apologizes beforehand if this is wrong) the sdasz80 tool and the sdcc compiler tool.
+It can be obtained via installing MinGW(32 or 64 depending on your machine)
+https://www.mingw-w64.org/
+(mingw-get-setup.exe)
+
+Once you have it installed and included in the path of your Windows OS, you should be able to run the "m.bat" file that recreateds the core "crt0.ihx" file. 
+
+That file must replace the file with the same name that exists in the folder where the "mackarel.exe" file of the MuCHo suite is.
+After that point you can create the .tap file as it is done usually using Mackarel (this part does not change at all).
+
+So basically we recreate the core MuCho "crt0.ihx" file so Mackarel will use it to create the tap finel of the game including the modified engine that we will prepare. 
