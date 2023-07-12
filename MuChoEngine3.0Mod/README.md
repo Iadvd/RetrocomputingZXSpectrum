@@ -64,6 +64,10 @@ After that point you can create the .tap file as it is done usually using Mackar
 
 So basically we recreate the core MuCho "crt0.ihx" file so Mackarel will use it to create the final .tap file of the game which is including the modified engine that we prepared beforehand.
 
+Also you will require Shiru's Beepola application to create your music and export to asm the data. The engine will work ONLY with the "Phaser 1" Beepola set. If you make songs or menu sounds with other Beepola's engine it will NOT work. Only Phaser 1. I also assume that you are familiar with this music engine (it is not very difficult to learn how to use it).
+
+http://shiru.untergrund.net/1bit/pivot/entry.php?id=40
+
 # How to build the Spanish / English MuCho v3 + Beepola 48k engine using the default music samples included.
 
 1. Download the standard MuCho core creator project from Jari Komppa's master:
@@ -90,6 +94,15 @@ https://solhsa.com/mucho/mucho.html
   - At the end of the game (bad or good end)
   - When pressing Q,A or Space to make a selection through the standard MuCho interface inside the game.
 
+# Can I use my own music or menu effects?
 
+Of course, we are including only two songs, one for the first screen and other for the bad or good end screens, plus the up, down, select actions. So you can make your own examples. 
 
+You have our Beepola file samples in this same repository, these files are the ones we exported using Beepola to asm data and copy pasted to the "music.h" file. Be careful because the asm syntax of the export and the asm syntax of SDCC are DIFFERENT, so you need to replace thte define byte or define word commands and use .db or .dw asm tags instead... also the label names are a little bit special and must be renamed to _smallletters: and the numbers must start with the # symbol , e.g.   .db #0,#23,#14  is the correct way of defining three consecutive bytes in memory, being those numbers in decimal format. If there are hexadecimal data in the Beepola export like $BD it must be converted to decimal, for instan .db $BD would be .db #189 so any data should be in decimal format. You can convert from hex to dec using this link: 
+
+https://www.rapidtables.com/convert/number/hex-to-decimal.html
+
+If you just copy paste the musica data (NOT the player) then you will just have to make those little changes. 
+
+We will explain a little bit more further about how to create your own music and sounds later (work in progress).
 
