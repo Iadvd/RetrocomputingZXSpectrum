@@ -1,21 +1,20 @@
 # MuCho Engine 3.0 Customization tryouts by Furillo Productions.
 
 An example of the application of these explanations are in this same repository (the "Javi versus Parrish" .tap games): 
+
 JaviVersusParrish_Furillo_2023EN.tap
 
 JaviVersusParrish_Furillo_2023ES.tap
 
-This folder will contain my customizations of the MuCho engine 3.0 by Jari Komppa. 
-The original versions are at these links:
+This folder will contain my customizations of the MuCho engine 3.0 by Jari Komppa. The original versions are at these links:
 
 https://github.com/jarikomppa/speccy/tree/master/mucho
 
 https://github.com/jarikomppa/speccy/tree/master/mackarel
 
-My customizations will be updated from time to time, and I provide the contents "as is", a work in progress, hoping someone may find it useful.
-As these are specializations of Jari Komppa's great work, I am accepting and following the same license agreement:
- * released under the unlicense, see http://unlicense.org
- * (practically public domain)
+My customizations will be updated from time to time, and I provide the contents "as is", a work in progress, hoping someone may find it useful. As these are specializations of Jari Komppa's great work, I am accepting and following the same license agreement:
+
+ * released under the unlicense, see http://unlicense.org (practically public domain)
 
 # Objectives of my customization.
 
