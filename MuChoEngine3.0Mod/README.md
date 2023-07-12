@@ -94,7 +94,7 @@ https://solhsa.com/mucho/mucho.html
   - At the end of the game (bad or good end)
   - When pressing Q,A or Space to make a selection through the standard MuCho interface inside the game.
 
-# Can I use my own music or menu effects?
+# Can I use my own music or menu musical effects?
 
 Of course, we are including only two songs, one for the first screen and other for the bad or good end screens, plus the up, down, select actions. So you can make your own examples. 
 
