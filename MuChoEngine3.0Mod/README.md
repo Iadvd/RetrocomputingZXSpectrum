@@ -106,3 +106,12 @@ If you just copy paste the musica data (NOT the player) then you will just have 
 
 We will explain a little bit more further about how to create your own music and sounds later (work in progress).
 
+In the current repository we have added three example Beepola files:
+
+- up.bbsong
+- down.bbsong
+- select.bbsong
+- end.bbsong
+
+These are the Beepola files that I have prepared for the example and are already integrated into the "music.h" file so you do not need to make them again, but they are useful if you want to understand how to make new musical effects for the engine. The starting music is not included, but you can create another one as well. When those bbsong files are opened with Beepola you can then export them to asm data only.
+
