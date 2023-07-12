@@ -64,3 +64,32 @@ After that point you can create the .tap file as it is done usually using Mackar
 
 So basically we recreate the core MuCho "crt0.ihx" file so Mackarel will use it to create the final .tap file of the game which is including the modified engine that we prepared beforehand.
 
+# How to build the Spanish / English MuCho v3 + Beepola 48k engine using the default music samples included.
+
+1. Download the standard MuCho core creator project from Jari Komppa's master:
+   
+https://github.com/jarikomppa/speccy/tree/master/mucho
+
+2. Rename with a backup name the original "app.c" and "m.bat" files to another name, and copy this repository "app.c" and "m.bat" instead of them.
+   
+3. Copy also the "music.h" file OF THIS REPOSITORY to the MuCho project folder.
+
+4. If the SDCC compiler is correctly installed, once you run "m.bat" in some seconds you will have a new "crt0.ihx" MuCho engine core file available. This version is the Spanish version of the engine. If you want to do the English version, open "app.c" and comment the line #define DO_SPANISH as //#define DO_SPANISH, save and run again "m.bat". That will give you the English version.
+   
+5. Install the MuCho engine suite from Jari Komppa's site:
+
+https://solhsa.com/mucho/mucho.html
+
+6. Now replace the "crt0.ihx" file of the installed suite with your new generated "crt0.ihx" core file.
+   
+7. And create the .tap file using Mackarel as usually is done with MuCho, just following the standard instructions as usual (I am assuming you are familiar with the standard version of MuCho 3.0)
+
+8. If the game is correctly done (no errors) then the .tap file must appear and can be run. The sample music we have added should sound:
+
+  - At the beginning of the game (first room or screen)
+  - At the end of the game (bad or good end)
+  - When pressing Q,A or Space to make a selection through the standard MuCho interface inside the game.
+
+
+
+
