@@ -14,7 +14,7 @@ https://github.com/jarikomppa/speccy/tree/master/mackarel
 
 My customizations will be updated from time to time, and I provide the contents "as is", a work in progress, hoping someone may find it useful. As these are specializations of Jari Komppa's great work, I am accepting and following the same license agreement:
 
- * released under the unlicense, see http://unlicense.org (practically public domain)
+ * Released under the unlicense, see http://unlicense.org (practically public domain)
 
 # Objectives of my customization.
 
