@@ -417,9 +417,6 @@ void hitkeytocontinue()
     }            
     while (KEY_PRESSED_FIRE)
     {
-		__asm
-			call _musicstart_is
-		__endasm;
         readkeyboard();
     }                
     clearbottom();
