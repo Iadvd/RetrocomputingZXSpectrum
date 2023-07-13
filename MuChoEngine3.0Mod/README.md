@@ -122,29 +122,39 @@ I have included some asm calls into "app.c" in the loop places of the first scre
 When a choice is made from the options of the current room, just plays the "select" small musical sounds:
 
 __asm
+
 	call _musicstart_is
+ 
 __endasm;
 
 Same for up and down respectively:
 
 __asm
+
 	call _musicstart_iu
+ 
 __endasm;
 
 __asm
+
 		call _musicstart_id
+  
 __endasm;
 
 This is the music for the very first room or place when the game starts from the beginning:
 
 __asm
+
 		call _musicstart
+  
 __endasm;	
 
 And this is the music for the good or bad end place or room:
 
 __asm
+
 	call _musicend
+ 
 __endasm;	
 
 The calls are labeled inside the music.h file. That's all so far. ;)
