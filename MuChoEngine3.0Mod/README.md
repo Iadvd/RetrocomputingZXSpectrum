@@ -115,3 +115,36 @@ In the current repository we have added three example Beepola files:
 
 These are the Beepola files that I have prepared for the example and are already integrated into the "music.h" file so you do not need to make them again, but they are useful if you want to understand how to make new musical effects for the engine. The starting music is not included, but you can create another one as well. When those bbsong files are opened with Beepola you can then export them to asm data only.
 
+# How does it work?
+
+I have included some asm calls into "app.c" in the loop places of the first screen at the very beginning of the game, and the loop of "press a key" of a good end or bad end key, and inside the loop that waits for Q, A or Space to be pressed to make a menu choice. The calls are as follows:
+
+When a choice is made from the options of the current room, just plays the "select" small musical sounds:
+
+__asm
+	call _musicstart_is
+__endasm;
+
+Same for up and down respectively:
+
+__asm
+	call _musicstart_iu
+__endasm;
+
+__asm
+		call _musicstart_id
+__endasm;
+
+This is the music for the very first room or place when the game starts from the beginning:
+
+__asm
+		call _musicstart
+__endasm;	
+
+And this is the music for the good or bad end place or room:
+
+__asm
+	call _musicend
+__endasm;	
+
+The calls are labeled inside the music.h file. That's all so far. ;)
