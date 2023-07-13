@@ -895,7 +895,6 @@ void main()
 					
 					while (KEY_PRESSED_FIRE)
 					{
-						//step();
 						__asm
 							call _musicstart_is
 						__endasm;
@@ -913,7 +912,6 @@ void main()
                 {
 					while (KEY_PRESSED_UP)
                     {
-						//step();
 						__asm
 							call _musicstart_iu
 						__endasm;
@@ -927,7 +925,6 @@ void main()
                 {
 					while (KEY_PRESSED_DOWN)
                     {
-						//step();
 						__asm
 							call _musicstart_id
 						__endasm;
