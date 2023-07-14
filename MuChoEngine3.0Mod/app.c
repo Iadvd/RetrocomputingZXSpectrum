@@ -895,11 +895,11 @@ void main()
 					
 					while (KEY_PRESSED_FIRE)
 					{
-						__asm
-							call _musicstart_is
-						__endasm;
 						readkeyboard();
-					}                    	
+					}
+					__asm
+						call _musicstart_is
+					__endasm;
 					
                     selecting = 0;
                     exec(answer[current_answer]);
@@ -912,11 +912,11 @@ void main()
                 {
 					while (KEY_PRESSED_UP)
                     {
-						__asm
-							call _musicstart_iu
-						__endasm;
                         readkeyboard();
                     }
+		    __asm
+			call _musicstart_iu
+		    __endasm;
                     if (current_answer > 0)
                         current_answer--;
                 }
@@ -925,11 +925,11 @@ void main()
                 {
 					while (KEY_PRESSED_DOWN)
                     {
-						__asm
-							call _musicstart_id
-						__endasm;
                         readkeyboard();
                     }
+		    __asm
+			call _musicstart_id
+		    __endasm;
                     if (current_answer+1 < answers)
                         current_answer++;
                 }                                
