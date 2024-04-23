@@ -108,20 +108,11 @@ Ok, I think I do not forget anything, so let's go one by one.
 
 Chapter 4: Let's migrate a game
 
-GOLDEN RULE: just mofidy the files written below. Do not
-change or remove any other existing files, because they
-are part of the automation proccess. If you remove or
-change the name of one of those files, the whole process
-will not work as expected.
+GOLDEN RULE: just mofidy the files written below. Do not change or remove any other existing files, because they are part of the automation proccess. If you remove or change the name of one of those files, the whole process will not work as expected.
 
-Let's suppose that you have made a MuCho 48k game and you want to 
-migrate it to the 128k version so you can add in-game music and
-extra rooms and texts. 
+Let's suppose that you have made a MuCho 48k game and you want to migrate it to the 128k version so you can add in-game music and extra rooms and texts. 
 
-First thing is to migrate the current contents, then adapt them 
-to the rules of the 128k version and finally once it is stable and you can
-create a basic 128k tap file, then extend the game adding more images, or
-more texts etc.
+First thing is to migrate the current contents, then adapt them to the rules of the 128k version and finally once it is stable and you can create a basic 128k tap file, then extend the game adding more images, or more texts etc.
 
 STEP 1:
 
@@ -129,8 +120,7 @@ Edit the file
 
 [MUCHO128k_MK1boost/dev/NAME_OF_THE_GAME.bat]
 
-to add the name of the game, max. 10 characteres (this is the name that appears when a LOAD "" is done,
-so max. 8 character). We will use this name to create the .tap files as well.
+to add the name of the game, max. 10 characteres (this is the name that appears when a LOAD "" is done, so max. 8 character). We will use this name to create the .tap files as well.
 
 Then copy the content of the text file of your MuCho 48k game inside:
 
@@ -142,8 +132,7 @@ or inside
 
 depending if your project is an English written or Spanish written game.
 
-Important: please do not rename the files, we need the names as they are, so
-the scripts will find them. Do not worry about the generic names.
+Important: please do not rename the files, we need the names as they are, so the scripts will find them. Do not worry about the generic names.
 
 STEP 2:
 
@@ -161,94 +150,66 @@ and
 
 MUCHO128k_MK1boost\dev\MuCho_engine_v3_mod\YOUR_MUCHO_GAME_HERE\buildEN.bat
 
-To customize the fonts, selector image, and divider, as you usually do for a MuCho 48k game.
-Please do not change any other contents of these files, everything is requiered as it is,
-or the scripts will not work properly.
+To customize the fonts, selector image, and divider, as you usually do for a MuCho 48k game. Please do not change any other contents of these files, everything is requiered as it is, or the scripts will not work properly.
 
 STEP 3: first thing we need to adapt
 
-RULE OF THE FIRST IMAGE: Due to the nature of the engine, it is required for the 
-first $Q of the game to have an image of 10 cells of height at the very beginning of the game.
+RULE OF THE FIRST IMAGE: Due to the nature of the engine, it is required for the first $Q of the game to have an image of 10 cells of height at the very beginning of the game.
 
-So it is required to start the game with something like a first $Q room (or place)
-containing ONLY one image of 80 pixels (10 ZX Spectrum screen file cells) of height
-and will be written in this way (this way of writing the tags is a MuCho 128k feature):
+So it is required to start the game with something like a first $Q room (or place) containing ONLY one image of 80 pixels (10 ZX Spectrum screen file cells) of height and will be written in this way (this way of writing the tags is a MuCho 128k feature):
 
 $Q startingroom
+
 #I yourstartingroomimage.scr
+
 $I libraries.scr
 
 ...then the rest of the $Q content as usual...
 
-this is the only mandatory requirement to be able to use MuCho 128k
-It is required a first image in the first screen.
+this is the only mandatory requirement to be able to use MuCho 128k. It is required a first image in the first screen.
 
-[yourstartingroomimage.scr] is an image (the name could be the one you want) 
-that will work as a "welcome to the main menu" image, and it is covering the 
-loading of several libraries that are required to manage the music and images 
-stored at the extra RAM banks, that are inside the false image named "libraries.scr".
+[yourstartingroomimage.scr] is an image (the name could be the one you want) that will work as a "welcome to the main menu" image, and it is covering the  loading of several libraries that are required to manage the music and images stored at the extra RAM banks, that are inside the false image named "libraries.scr".
 
-The [yourstartingroomimage.scr] must be located at the 
-[MUCHO128k_MK1boost/gfx/] folder, it does not 
-need to be located at the 
-[MUCHO128k_MK1boost\dev\MuCho_engine_v3_mod\YOUR_MUCHO_GAME_HERE]
-folder anymore, because this image will be stored 
-at the ZX Spectrum 128k extra RAM banks.
+The [yourstartingroomimage.scr] must be located at the [MUCHO128k_MK1boost/gfx/] folder, it does not need to be located at the  [MUCHO128k_MK1boost\dev\MuCho_engine_v3_mod\YOUR_MUCHO_GAME_HERE] folder anymore, because this image will be stored at the ZX Spectrum 128k extra RAM banks.
 
 We will see this later on, but basically:
 
-a) Images that will NOT be in the extra RAM banks of the
-ZX Spectrum 128k will remain in the 
+a) Images that will NOT be in the extra RAM banks of the ZX Spectrum 128k will remain in the 
+
 [MUCHO128k_MK1boost\dev\MuCho_engine_v3_mod\YOUR_MUCHO_GAME_HERE]
+
 folder as the standard MuCho 48k image files. 
 
 And the will be written as a normal MuCho 48k $I tag 
+
 $I yourstartingroomimage.scr
 
-b) Images that will be in the extra RAM banks of the 
-ZX Spectrum 128k will be located / moved to the 
-[MUCHO128k_MK1boost/gfx/] folder, and will 
-be written as follows at the game text file, so 
-MuCho 128k will know that this screen will be stored
-at the extra RAM banks of the ZX SPectrum 128k:
+b) Images that will be in the extra RAM banks of the ZX Spectrum 128k will be located / moved to the [MUCHO128k_MK1boost/gfx/] folder, and will be written as follows at the game text file, so MuCho 128k will know that this screen will be stored at the extra RAM banks of the ZX SPectrum 128k:
 
 #I yourstartingroomimage.scr
+
 $I libraries.scr
 
-The fixed line [$I libraries.scr] will always appear 
-as it is, the engine uses it to detect that
-the current image to be shown must be taken
-from the extra RAM banks and not from the 
-base 48k memory.
+The fixed line [$I libraries.scr] will always appear as it is, the engine uses it to detect that the current image to be shown must be taken from the extra RAM banks and not from the base 48k memory.
 
-It is tricky, but believe me: it's worth it ;)
-please remember not removing or changing the name of "libraries.scr"
-in case you see it, keep it as it is.
+It is tricky, but believe me: it's worth it ;) please remember not removing or changing the name of "libraries.scr" in case you see it, keep it as it is.
 
 Please review:
 
 Chapter 5: How to configure the images (.scr files)
 
-In order to understand how to manage the screen images
-of the MuCho 128k games.
+In order to understand how to manage the screen images of the MuCho 128k games.
 
 STEP 4: add your music tunes
 
-MuCHo128k is able to play up to 6 different in-game 
-tunes. You will have to create them by using the 
-XYZ tracker version 0.5.0.2 (newer versions are NOT
-compatible). There is a template that you can
-use as a base at the [MUCHO128k_MK1boost\mus]
-folder (template.wyz). The way of creating and
-adding the images is exacly the same as 
-that of the MK1 La Churrera engine.
+MuCHo128k is able to play up to 6 different in-game tunes. You will have to create them by using the XYZ tracker version 0.5.0.2 (newer versions are NOT
+compatible). There is a template that you can use as a base at the [MUCHO128k_MK1boost\mus] folder (template.wyz). The way of creating and adding the images is exacly the same as that of the MK1 La Churrera engine.
 
 Please review:
 
 Chapter 6: How to configure the music.
 
-In order to understand how to manage the music
-of the MuCho 128k games.
+In order to understand how to manage the music of the MuCho 128k games.
 
 STEP 5: run the script
 
@@ -262,58 +223,45 @@ or
 
 to create the Spanish .tap file 
 
-The process takes around 25 seconds, a windows cmd black screen appears and
-the scripts build the .tap file. If everything goes fine, the
-.tap file (English or Spanish) will be ready at the
-[dev\GAME_TAP_IS_HERE] folder.
+The process takes around 25 seconds, a windows cmd black screen appears and the scripts build the .tap file. If everything goes fine, the .tap file (English or Spanish) will be ready at the [dev\GAME_TAP_IS_HERE] folder.
 
 --------------------------------------------------------------------------
 
 Chapter 5: How to configure the images (.scr files)
 
-The .scr files can be stored at the base 48k memory, as if they
-were standard MuCho 48k images, or they can be stored at the extra 
-RAM banks of the ZX Spectrum 128k using the new features of MuCho 128k.
+The .scr files can be stored at the base 48k memory, as if they were standard MuCho 48k images, or they can be stored at the extra RAM banks of the ZX Spectrum 128k using the new features of MuCho 128k.
 
 As we mentioned in the previous chapter:
 
-a) Images .scr that will NOT be in the extra RAM banks of the
-ZX Spectrum 128k will remain in the 
+a) Images .scr that will NOT be in the extra RAM banks of the ZX Spectrum 128k will remain in the  
+
 [MUCHO128k_MK1boost\dev\MuCho_engine_v3_mod\YOUR_MUCHO_GAME_HERE]
+
 folder as the standard MuCho 48k image files. 
 
-And the will be written as a normal MuCho 48k $I tag,
-for instance:
+And the will be written as a normal MuCho 48k $I tag, for instance:
 
 $I yourstartingroomimage.scr
 
 This is as the usual MuCho 48k engine.
 
-b) Images that will be in the extra RAM banks of the 
-ZX Spectrum 128k will be located / moved to the 
-[MUCHO128k_MK1boost/gfx/] folder, and will 
-be written as follows at the game text file, so 
-MuCho 128k will know that this screen will be stored
-at the extra RAM banks of the ZX SPectrum 128k:
+b) Images that will be in the extra RAM banks of the ZX Spectrum 128k will be located / moved to the 
+
+[MUCHO128k_MK1boost/gfx/] 
+
+folder, and will be written as follows at the game text file, so MuCho 128k will know that this screen will be stored at the extra RAM banks of the ZX Spectrum 128k:
 
 #I yourstartingroomimage.scr
+
 $I libraries.scr
 
-The fixed line [$I libraries.scr] will always appear 
-as it is, the engine uses it to detect that
-the current image to be shown must be taken
-from the extra RAM banks and not from the 
-base 48k memory.
+The fixed line [$I libraries.scr] will always appear as it is, the engine uses it to detect that the current image to be shown must be taken from the extra RAM banks and not from the base 48k memory.
 
-It is tricky, but believe me: it's worth it ;)
-please remember not removing or changing the name of "libraries.scr"
-in case you see it, keep it as it is.
+It is tricky, but believe me: it's worth it ;) please remember not removing or changing the name of "libraries.scr" in case you see it, keep it as it is.
 
-So basically the screen .scr images are split into 
-two different folders depending on where they will be stored:
+So basically the screen .scr images are split into two different folders depending on where they will be stored:
 
-Images to be stored at the base 48k memory as MuCho 48k engine
-images will be at 
+Images to be stored at the base 48k memory as MuCho 48k engine images will be at 
 
 [MUCHO128k_MK1boost\dev\MuCho_engine_v3_mod\YOUR_MUCHO_GAME_HERE]
 
@@ -323,232 +271,161 @@ And images that we want to put at the extra RAM banks will be at
 
 They just need to be in one of both folders. 
 
-How do we write the tags in the game texts?
-There are two ways, depending on the type of image:
+How do we write the tags in the game texts? There are two ways, depending on the type of image:
 
-A) If the image will be located at the base 48k memory, 
-as it was a MuCho 48k image (thus, using thesame 
-memory than the texts and variables) it will appear
+A) If the image will be located at the base 48k memory, as it was a MuCho 48k image (thus, using the same memory than the texts and variables) it will appear
 as usual:
 
 $I nameofmyscreenimage.scr
 
-B) If the image will be located at the extra RAM banks,
-it will appear as follows:
+B) If the image will be located at the extra RAM banks, it will appear as follows:
 
 #I nameofmyscreenimage.scr
+
 $I libraries.scr
 
-As we mentioned before, The fixed line [$I libraries.scr] will always appear 
-as it is, the engine uses it to detect that the current image to be shown must be taken
-from the extra RAM banks and not from the base 48k memory.
+As we mentioned before, The fixed line [$I libraries.scr] will always appear as it is, the engine uses it to detect that the current image to be shown must be taken from the extra RAM banks and not from the base 48k memory.
 
-As this is a MuCho 128k BETA version, there are some rules
-regarding the images to have in mind. Here they are ;)
+As this is a MuCho 128k BETA version, there are some rules regarding the images to have in mind. Here they are ;)
 
 A) RULE OF THE FIRST IMAGE: 
 
-As we mentioned at the previous chapter, due to the nature of the engine, 
-it is required for the first $Q of the game to have an image of 10 cells of 
+As we mentioned at the previous chapter, due to the nature of the engine, it is required for the first $Q of the game to have an image of 10 cells of 
 height at the very beginning of the game.
 
-So it is required to start the game with something like a first $Q room (or place)
-containing ONLY one image of 80 pixels (10 ZX Spectrum screen file cells) of height
-and will be written in this way (this way of writing the tags is a MuCho 128k feature):
+So it is required to start the game with something like a first $Q room (or place) containing ONLY one image of 80 pixels (10 ZX Spectrum screen file cells) of height and will be written in this way (this way of writing the tags is a MuCho 128k feature):
 
 $Q startingroom
+
 #I yourstartingroomimage.scr
+
 $I libraries.scr
 
 ...then the rest of the $Q content as usual...
 
-this is the only mandatory requirement to be able to use MuCho 128k
-It is required a first image in the first screen.
+this is the only mandatory requirement to be able to use MuCho 128k. It is required a first image in the first screen.
 
-[yourstartingroomimage.scr] is an image (the name could be the one you want) 
-that will work as a "welcome to the main menu" image, and it is covering the 
-loading of several libraries that are required to manage the music and images 
-stored at the extra RAM banks, that are inside the false image named "libraries.scr".
+[yourstartingroomimage.scr] is an image (the name could be the one you want) that will work as a "welcome to the main menu" image, and it is covering the 
+loading of several libraries that are required to manage the music and images stored at the extra RAM banks, that are inside the false image named "libraries.scr".
 
-The [yourstartingroomimage.scr] must be located at the 
-[MUCHO128k_MK1boost/gfx/] folder, it does not 
-need to be located at the 
+The [yourstartingroomimage.scr] must be located at the [MUCHO128k_MK1boost/gfx/] folder, it does not need to be located at the 
+
 [MUCHO128k_MK1boost\dev\MuCho_engine_v3_mod\YOUR_MUCHO_GAME_HERE]
-folder anymore, because this image will be stored 
-at the ZX Spectrum 128k extra RAM banks.
+
+folder anymore, because this image will be stored at the ZX Spectrum 128k extra RAM banks.
 
 B) RULE OF THE SINGLE IMAGE:
 
-If you have a $Q that uses a screen image that is stored at the 
-extra RAM banks, so it is at the [MUCHO128k_MK1boost/gfx/] folder,
-that $Q CANNOT HAVE MORE images than that one. Good news are: we can 
-keep the image visible through a multiple text pages 
-room $Q at the top until we leave the room (this is a MuCho 128k feature).
+If you have a $Q that uses a screen image that is stored at the extra RAM banks, so it is at the [MUCHO128k_MK1boost/gfx/] folder, that $Q CANNOT HAVE MORE images than that one. Good news are: we can keep the image visible through a multiple text pages room $Q at the top until we leave the room (this is a MuCho 128k feature).
 
-And, in the other hand, a $Q can have as much $I tags as you whish as long
-as they are stored in the MuCho 48k standard way, at the
-48k base memory, but in that case you cannot have any extra RAM bank image
-at the same $Q.
+And, in the other hand, a $Q can have as much $I tags as you whish as long as they are stored in the MuCho 48k standard way, at the 48k base memory, but in that case you cannot have any extra RAM bank image at the same $Q.
 
 C) RULE OF THE DIVIDER BAR
 
-If you are using a divider bar between the game texts and the selection
-menu, it must be written fixed inside the images that are stored at the
-extra RAM banks. If the image is a normal MuCho 48k image it does not matter,
-this rule is just for those images at the extra RAM banks that will appear 
-inside a $Q.
+If you are using a divider bar between the game texts and the selection menu, it must be written fixed inside the images that are stored at the
+extra RAM banks. If the image is a normal MuCho 48k image it does not matter, this rule is just for those images at the extra RAM banks that will appear  inside a $Q.
 
 Draw the divider bar at the 20th row of the screen .scr image.
 
-If you are NOT using (or you are hiding it to black) a divider image,
-then you do not need to add it to the image.
+If you are NOT using (or you are hiding it to black) a divider image, then you do not need to add it to the image.
 
 D) RULE OF THE EMPTINESS:
 
-It is important that the cells of the ZX Spectrum screen stored at
-your screen files .scr are TOTALLY EMPTY (paper 0, ink 0, bright 0) 
-in those places where you are not showing an image. E.g. let us imagine 
-you have a nice image of a building and the drawing has something up to
-the 15th row of the screen (couting from the top). In that
-case you must be careful and wipe any pixels in other cells under
-the 15th row up to the 20th row if you are using a divider, or
-up to the 24th row -bottom of the screen- if you are not using
-a divider bar. The MuCho 128k engine looks for the first row of
-the image starting from the bottom that has som pixels and
-color, and that will be determined to be the last row of the image
-at the screen, so the engine can decide where will be written
-the texts under the end of the image.
+It is important that the cells of the ZX Spectrum screen stored at your screen files .scr are TOTALLY EMPTY (paper 0, ink 0, bright 0) in those places where you are not showing an image. E.g. let us imagine you have a nice image of a building and the drawing has something up to the 15th row of the screen (couting from the top). In that case you must be careful and wipe any pixels in other cells under the 15th row up to the 20th row if you are using a divider, or up to the 24th row -bottom of the screen- if you are not using a divider bar. The MuCho 128k engine looks for the first row of the image starting from the bottom that has som pixels and color, and that will be determined to be the last row of the image at the screen, so the engine can decide where will be written the texts under the end of the image.
 
-And that is all regarding the management of the images. Now
-let us check the new features:
+And that is all regarding the management of the images. Now let us check the new features:
 
-FEATURE 1: You can add up to 2 full screen intro images at
-the beginning of the game. They will appear full screen and
-the will dissapear when a key is pressed. The in-game music 
-configured for the first $Q will be sounding as the background
-music of the intro screens.
+FEATURE 1: You can add up to 2 full screen intro images at the beginning of the game. They will appear full screen and the will dissapear when a key is pressed. The in-game music configured for the first $Q will be sounding as the background music of the intro screens.
 
-how to use this feature? At the very begining of the
-game text file write:
+how to use this feature? At the very begining of the game text file write:
 
 #INTRO1 intro1.scr
+
 #INTRO2 intro2.scr
 
-This commands are telling that you want to intro screens 
-to appear when the loading of the game finishes. 
-The first one is named intro1.scr and the second one
-intro2.scr, but the names can be the ones you whish.
+This commands are telling that you want to intro screens to appear when the loading of the game finishes. The first one is named intro1.scr and the second one intro2.scr, but the names can be the ones you whish.
 
 Those files MUST BE LOCATED at the 
-[MUCHO128k_MK1boost/gfx/] folder
 
-FEATURE 2: You can add full screen images that will
-appear until you press a key when you enter to a 
-$Q room or place. This works for any $Q except the
-first $Q of the game (for the first $Q you
-can use the INTRO1 and INTRO2 new features). 
-The image will appear, then when you
-press a key fades out and the usual $Q content 
-appears.
+[MUCHO128k_MK1boost/gfx/] 
 
-how to use this feature? Below the $Q tag write
-as follows:
+folder
+
+FEATURE 2: You can add full screen images that will appear until you press a key when you enter to a $Q room or place. This works for any $Q except the
+first $Q of the game (for the first $Q you can use the INTRO1 and INTRO2 new features). The image will appear, then when you press a key fades out and the usual $Q content appears.
+
+how to use this feature? Below the $Q tag write as follows:
 
 $Q name_of_the_q_id
+
 #F nameoftheflashscreen.scr
 
-Those files MUST BE LOCATED at the 
-[MUCHO128k_MK1boost/gfx/] folder
+Those files MUST BE LOCATED at the [MUCHO128k_MK1boost/gfx/] folder
 
-FEATURE 3: The extra RAM bank images can have
-the desired height without limit, it does not matter
-if you have an image of 15,17,18 screen cells of 
-height (that is 15 cells = 15*8 pixels of length)
-The text will be located at the proper position under
-the image. Just have in mind that if the 
-image is way too long you will break the menu, 
-but you will notice that when you test the .tap file.
-If happens, just reduce the height of the image.
-Just take care of the [RULE OF THE EMPTINESS] I mentiond
-before.
+FEATURE 3: The extra RAM bank images can have the desired height without limit, it does not matter if you have an image of 15,17,18 screen cells of height (that is 15 cells = 15*8 pixels of length). The text will be located at the proper position under the image. Just have in mind that if the image is way too long you will break the menu, but you will notice that when you test the .tap file. If happens, just reduce the height of the image. Just take care of the [RULE OF THE EMPTINESS] I mentiond before.
 
-And that is all, making a good use of the 
-images at the RAM banks and images you will 
-liberate a good amount of bytes of the 48k
-base memory, and that means, more texts, 
-more conditions, a longer game.
+And that is all, making a good use of the images at the RAM banks and images you will liberate a good amount of bytes of the 48k base memory, and that means, more texts, more conditions, a longer game.
 
 --------------------------------------------------------------------------
 
 Chapter 6: How to configure the music.
 
-As we mentioned before, a maximum of 6 in-game
-tunes can be added to the game. There are also
-fixed menu sounds for the menu options (up down and
-select) and a fixed sound #S that can be used 
-to express that something important has happened
-when entering to a $Q or that something has been
-found, etc. 
+As we mentioned before, a maximum of 6 in-game tunes can be added to the game. There are also fixed menu sounds for the menu options (up down and select) and a fixed sound #S that can be used to express that something important has happened when entering to a $Q or that something has been found, etc. 
 
-The management of the chiptune in-game music is done 
-as a standard MK1 La Churrera project. So everything
-explained for the MK1 stands here:
+The management of the chiptune in-game music is done as a standard MK1 La Churrera project. So everything explained for the MK1 stands here:
 
 https://github.com/mojontwins/MK1/blob/master/docs/tutorial-cap14.md
 
-Just one thing: a "SAMPLE.wyz" XYZ tracker template file is
-provided at the [\mus\] folder. Please use it to
-create the wyz files.
+Just one thing: a "SAMPLE.wyz" XYZ tracker template file is provided at the [\mus\] folder. Please use it to create the wyz files.
 
 The tracker version must be the one I put at the 
-\mus\WYZtracker folder
+
+[\mus\WYZtracker] folder
+
 More recent version of the tracker will not work. 
 
 The basic steps to add music are:
 
-1. Create up to 6 songs with the WYZ tracker using
-our template. You cannot change the default 
-instruments or sounds. If you do it you will 
-have to modify the .asm file, it is also recommended
-for advanced developers. 
+1. Create up to 6 songs with the WYZ tracker using our template. You cannot change the default instruments or sounds. If you do it you will have to modify the .asm file, it is also recommended for advanced developers. 
 
 2. Put the wyx files at the \mus\ folder
 
-3. Using the WYZ tracker export the music files as .mus files
-at the same \mus\ folder with the same names as the .wyz files. 
+3. Using the WYZ tracker export the music files as .mus files at the same \mus\ folder with the same names as the .wyz files. 
 
-4. Edit the \mus\pack_music.bat file and add the 
-names of your .mus files
+4. Edit the \mus\pack_music.bat file and add the names of your .mus files
 
-5. Edit the [WYZproPlay47aZXc.ASM]
-search around the 1129 row and yoi will find something like 
-this:
+5. Edit the [WYZproPlay47aZXc.ASM] search around the 1129 row and yoi will find something like this:
 
 SONG_0:
+
 	INCBIN "SAMPLE.bin"
+
 SONG_1:
+
     INCBIN "NAME_OF_ANOTHER_SONG_IF_EXISTS_1.bin"
 SONG_2:
+    
     INCBIN "NAME_OF_ANOTHER_SONG_IF_EXISTS_2.bin"
+    
 SONG_3:
+    
     INCBIN "NAME_OF_ANOTHER_SONG_IF_EXISTS_3.bin"
+    
 SONG_4:
+    
     INCBIN "NAME_OF_ANOTHER_SONG_IF_EXISTS_4.bin"
 
 and later a line like this
 	
 TABLA_SONG:     DW      SONG_0, SONG_1, SONG_2, SONG_3, SONG_4
 
-Replace the .bin filenames by the name of your music files.
-you can have up to 6 in-game tunes, so as the first music
-is numbered 0, it means that you can have up to SONG_5:
+Replace the .bin filenames by the name of your music files. You can have up to 6 in-game tunes, so as the first music is numbered 0, it means that you can have up to SONG_5:
 
 SONG_5:
+
 	INCBIN "nameofthe6thsong.bin"
 
-You can have 1 only if you one... but it is mandatory to
-have at least one. It can be EMPTY so there will be NOT music
-at all, but it must exist.
+You can have 1 only if you one... but it is mandatory to have at least one. It can be EMPTY so there will be NOT music at all, but it must exist.
 
 remember to modify this line, so it has as much music ids as you imported:
 
@@ -563,16 +440,16 @@ Save the file and that is all.
 Once you create the .tap file by calling
 
 MUCHO128k_MK1boost\dev\CREATE_GAME_TAP_EN.bat
+
 (English version if you did it)
 
 or
 
 MUCHO128k_MK1boost\dev\CREATE_GAME_TAP_ES.bat
+
 (Spanish version if you did it)
 
-The scripts will add the music to the extra RAM 1 bank.
-And they will sound following the #M0 up to #M5 commands 
-that you will include below each $Q tag.
+The scripts will add the music to the extra RAM 1 bank. And they will sound following the #M0 up to #M5 commands that you will include below each $Q tag.
 
 Well, initially that's all. Good luck!
 
@@ -583,43 +460,42 @@ Capítulo 7: Config File.
 There is a small config file (English and Spanish) located at:
 
 "\dev\Scripts\configEN.txt"
+
 (English)
 
 "\dev\Scripts\configES.txt"
+
 (Spanish)
 
 Currently there are three parameters that can be modified, just change the values, please do not change the content, or the order because the engine will not work.
 
-1. Mucho128k menu language (the messages of the MuCho engine)
-It is configured to the correct language, but you can "cross" the language is you wish.
+1. Mucho128k menu language (the messages of the MuCho engine). It is configured to the correct language, but you can "cross" the language is you wish.
 
 #IDIOMA / NO MODIFICAR (INGLES=0, CASTELLANO=1)
 
 2. Waitkey. If you write a char different from 0, for instance a semi-colon ; then each time it appears written in the texts of the game, the engine will wait for the player to press a key.
 
 Example:
+
 #WAITKEY: IF THIS CHAR APPEARS IN THE TEXTS WILL BE REPLACED BY A PRESS KEY EVENT, WILL WAIT FOR PLAYER TO PRESS A KEY (0=OFF)
+
 ;
 
 3. Divider flash effect. If you are using a menu divider bar, you can make it flash a little bit by activating this fx.
 
 #FLASHBAR: WILL INCREASE/DECREASE THE BRIGHT PARAMETER OF THE MENU SEPARATOR BAR (0=OFF)
+
 1
 
 --------------------------------------------------------------------------
 
 ANNEX 1: the directory structure.
 
-MuCho 128k has a lot of directories, but do not worry, 
-you just need to modify two or three places. The rest of
-directories are there because they are part of the automatizacion. 
-So do not worry about the contents. 
+MuCho 128k has a lot of directories, but do not worry, you just need to modify two or three places. The rest of directories are there because they are part of the automatizacion. So do not worry about the contents. 
 
 There is a gold rule:
 
-Do not modify the name of any existing file, do not remove any existing file,
-they are required as they are right now. If you remove something, the scripts
-probably will not work.
+Do not modify the name of any existing file, do not remove any existing file, they are required as they are right now. If you remove something, the scripts probably will not work.
 
 This is the directory structure:
 
@@ -629,30 +505,19 @@ Here you will find this manual :)
 
 MUCHO128k_MK1boost/bin
 
-This folder is used sutomatically to create the binary files of the music and images that are stored into 128k extra RAM banks.
-This folder is part of the MK1 framework. Do not need to do anything here, just let it be. :)
+This folder is used sutomatically to create the binary files of the music and images that are stored into 128k extra RAM banks. This folder is part of the MK1 framework. Do not need to do anything here, just let it be. :)
 
 MUCHO128k_MK1boost/gfx
 
-Here you will put all the .scr screen files of your game that you want to put in the extra ZX Spectrum 128k RAM banks.
-The images that are put in this folder will not use part of the 48k base memory. So the more you put here, 
-the more you can add more rooms, texts, conditions to the game (texts are stored in the 48k base memory, as the
-standard MuCho 48k engine does). So basically you will add here the .scr screens. You can modify the content :)
+Here you will put all the .scr screen files of your game that you want to put in the extra ZX Spectrum 128k RAM banks. The images that are put in this folder will not use part of the 48k base memory. So the more you put here, the more you can add more rooms, texts, conditions to the game (texts are stored in the 48k base memory, as the standard MuCho 48k engine does). So basically you will add here the .scr screens. You can modify the content :)
 
 MUCHO128k_MK1boost/mus
 
-Here you will put the WYZ tracker files that you will use as in-game music. There is a template that you can use
-to create your own tunes. This folder is from the MK1 128k standard framework, so you need to learn to 
-add the songs in this folder in ths same way that MK1 does. I will explain later the details here, but for any doubts 
-it must be done as for the MK1 engine (check the MK1 Github manual). So basically you can add
-here the .wyx files and the exported .mus files and you will need to modify some files to add the tunes.
-I will explain later.
+Here you will put the WYZ tracker files that you will use as in-game music. There is a template that you can use to create your own tunes. This folder is from the MK1 128k standard framework, so you need to learn to add the songs in this folder in ths same way that MK1 does. I will explain later the details here, but for any doubts it must be done as for the MK1 engine (check the MK1 Github manual). So basically you can add here the .wyx files and the exported .mus files and you will need to modify some files to add the tunes. I will explain later.
 
 MUCHO128k_MK1boost/utils
 
-This is standard MK1 128k. These tools are used by the scripts to create the tap file. 
-So you do not need to do nothing in this folder. Just let it be like it is now. Everything
-inside is required.
+This is standard MK1 128k. These tools are used by the scripts to create the tap file. So you do not need to do nothing in this folder. Just let it be like it is now. Everything inside is required.
 
 
 MUCHO128k_MK1boost/dev
@@ -663,91 +528,69 @@ This is the content:
 
 MUCHO128k_MK1boost/dev/NAME_OF_THE_GAME.bat
 
-Edit this file to add the name of the game, max. 8 characteres (this is the name that appears when a LOAD "" is done,
-so max. 8 character). We will use this name to create the .tap files as well.
+Edit this file to add the name of the game, max. 8 characteres (this is the name that appears when a LOAD "" is done, so max. 8 character). We will use this name to create the .tap files as well.
 
 
 MUCHO128k_MK1boost/dev/GAME_TAP_IS_HERE
 
-As the name implies, once the tap file is generated by the scripts it will
-appear here. There will be one for the English version and one for the Spanish 
-version, depending on which script you run. The name will use the 8 characters name
-you wrote at the NAME_OF_THE_GAME.bat file. 
+As the name implies, once the tap file is generated by the scripts it will appear here. There will be one for the English version and one for the Spanish  version, depending on which script you run. The name will use the 8 characters name you wrote at the NAME_OF_THE_GAME.bat file. 
 
 Once is generated, you can rename the file as you want. No problem at all.
 
 
 MUCHO128k_MK1boost/dev/CREATE_GAME_TAP_ES.bat
+
 MUCHO128k_MK1boost/dev/CREATE_GAME_TAP_EN.bat
 
-The two files are bout are the MAIN scripts.
-Once you have put all the required files of the English game in their
-correct places when you double click [CREATE_GAME_TAP_EN.bat]
-the .tap file is generated at the [GAME_TAP_IS_HERE] folder. 
+The two files are bout are the MAIN scripts. Once you have put all the required files of the English game in their correct places when you double click [CREATE_GAME_TAP_EN.bat] 
+
+The .tap file is generated at the [GAME_TAP_IS_HERE] folder. 
+
 Same for the Spanish game if you use [CREATE_GAME_TAP_ES.bat]
 
 
 MUCHO128k_MK1boost/dev/Scripts
 
-This folder contains the main scripts of the MuCho 128k engine. Please
-keep it as it is, do not remove or rename any file inside. 
+This folder contains the main scripts of the MuCho 128k engine. Please keep it as it is, do not remove or rename any file inside. 
 
-It includes also the "configEN.txt" and "configES.txt" files that you 
-can modify (see Chapter 7).
+It includes also the "configEN.txt" and "configES.txt" files that you can modify (see Chapter 7).
 
 MUCHO128k_MK1boost/dev/MuCho_engine_v3_mod
 
-You will find inside the .exe files of the MuCho engine. Please
-as usual* do not modify the names or remove these files. 
+You will find inside the .exe files of the MuCho engine. Please as usual: do not modify the names or remove these files. 
 
-The content of this folder will be familiar for those of you that 
-already used the MuCho 48k standard engine. Inside this folder
-is the usual structure of the 48k MuCho engine, containing
-the usual folders:
+The content of this folder will be familiar for those of you that already used the MuCho 48k standard engine. Inside this folder is the usual structure of the 48k MuCho engine, containing the usual folders:
 
 MUCHO128k_MK1boost/dev/MuCho_engine_v3_mod/dividers
+
 MUCHO128k_MK1boost/dev/MuCho_engine_v3_mod/fonts
+
 MUCHO128k_MK1boost/dev/MuCho_engine_v3_mod/manual
+
 MUCHO128k_MK1boost/dev/MuCho_engine_v3_mod/selectors
 
-The purpose of these four folders about is exactly the same one
-as in the MuCho 48k engine. So I will not add further explanation.
+The purpose of these four folders about is exactly the same one as in the MuCho 48k engine. So I will not add further explanation.
 
 MUCHO128k_MK1boost/dev/MuCho_engine_v3_mod/github_author128kProject
 
-This is the source code of the 128k engine. It includes the 
-source code of the mnodified MuCho 48k engine core, the mc.exe 
-and the mackarel.exe, all of them modified to be able to
-work with the ZX Spectrum 128k. If you are a C, C++ developer, 
-please go ahead and feel free to use and enhance them as you require. 
-If you are not a programmer and you just want to make a game, you will 
-not use this folder at all. But if you want to make your own version of the engine,
-you will need to build again the executables. Unfortunately I 
-do not have much time to help with further enhancements, but
-it is open and ready for your new ideas.
+This is the source code of the 128k engine. It includes the source code of the mnodified MuCho 48k engine core, the mc.exe and the mackarel.exe, all of them modified to be able to work with the ZX Spectrum 128k. If you are a C, C++ developer, please go ahead and feel free to use and enhance them as you require.  If you are not a programmer and you just want to make a game, you will not use this folder at all. But if you want to make your own version of the engine,
+you will need to build again the executables. Unfortunately I do not have much time to help with further enhancements, but it is open and ready for your new ideas.
 
-Caveat: when building the executables be careful with 
-.exe Windows 32 and 64 versions... they are really tricky!
+Caveat: when building the executables be careful with .exe Windows 32 and 64 versions... they are really tricky!
 
 And... finally!!
 
 MUCHO128k_MK1boost/dev/MuCho_engine_v3_mod/YOUR_MUCHO_GAME_HERE
 
-This is the folder where the MuCho standard game is. 
-here you will find those screen .scr that you will NOT
-put in the extra ZX Spectrum 128k RAM banks and the text
-of the game (this is as the MuCho 48k engine).
+This is the folder where the MuCho standard game is here you will find those screen .scr that you will NOT put in the extra ZX Spectrum 128k RAM banks and the text of the game (this is as the MuCho 48k engine).
 
-Here you can add or remove your .scr files
-and you can modify the CONTENT of the files
+Here you can add or remove your .scr files and you can modify the CONTENT of the files
 
 your_game_in_english.txt
 
 your_game_in_spanish.txt
 
-Please this is importat: do NOT modify the
-NAME of the files. It is an automated proccess so
-the scripts are looking for thise two files with those names.
+Please this is importat: do NOT modify the NAME of the files. It is an automated proccess so the scripts are looking for thise two files with those names.
 
 So basically the texts of your MuCho 48k game are copy pasted into the
 
