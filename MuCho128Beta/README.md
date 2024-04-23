@@ -1,4 +1,4 @@
-MuCho 128k Beta version.
+*MuCho 128k Beta version.
 
 Spanish manual after English manual (below)
 
