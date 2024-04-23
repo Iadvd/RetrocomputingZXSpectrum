@@ -100,9 +100,9 @@ Chapter 3: What can I do with the 128k engine?
 
 7. It is able to generate the English and Spanish version of the engine messages, so you can create the English and Spanish versions of your game if you whish. 
 
-8. Kempston and Sinclair 1 joystick support.
+8. Kempston and Sinclair-1 joystick support.
    
-Ok, I think I do not forget anything, so let go one by one.
+Ok, I think I do not forget anything, so let's go one by one.
 
 --------------------------------------------------------------------------
 
