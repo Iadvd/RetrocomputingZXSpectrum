@@ -9,9 +9,11 @@ Descarga el archivo zip y tras descomprimir pon la carpeta principal del motor e
 # ENGLISH MANUAL
 
 MuCho 128k Beta version
+
 manual ver. 1.0
 
 by IADVD (Furillo Productions)
+
 https://furilloproductions.itch.io/
 
 Chapter 1. Foreword.
@@ -34,22 +36,17 @@ ANNEX 1: the directory structure.
 
 Chapter 1: Foreword.
 
-MuCho 128k is an extension of Jari Komppa's MuCho Multiple Choice engine
-for the ZX Spectrum 48k:
+MuCho 128k is an extension of Jari Komppa's MuCho Multiple Choice engine for the ZX Spectrum 48k:
 
 https://github.com/jarikomppa/speccy
 
-It will make ZX Spectrum 128k games using the MuCho engine. 
-It will not be able to make 48k games. If you want to make
-48k games you will need to use the standard original engine.
+It will make ZX Spectrum 128k games using the MuCho engine. It will not be able to make 48k games. If you want to make 48k games you will need to use the standard original engine.
 
-The extension has been possible thanks to the libraries and framework
-of The Mojon Twins' MK1 La Churrera engine:
+The extension has been possible thanks to the libraries and framework of The Mojon Twins' MK1 La Churrera engine:
 
 https://github.com/mojontwins/MK1
 
-Thus we will license this extension following their same
-license agreements:
+Thus we will license this extension following their same license agreements:
 
 For MuCho 128k (based on MuCHo 48k):
 
@@ -61,91 +58,50 @@ GPL-2.0 license
 
 Please review the above links for more information about each license.
 
-IADVD message: dear all, this is a BETA version and probably it will be forever, 
-as unfortunately I do not have much time lately for maintenance. 
+IADVD message: dear all, this is a BETA version and probably it will be forever, as unfortunately I do not have much time lately for maintenance. 
 
-Anyone can modify the source code and make better versions, so please
-make your own wonderful versions when you whish.
+Anyone can modify the source code and make better versions, so please make your own wonderful versions when you whish.
 
 --------------------------------------------------------------------------
 
 Chapter 2: Welcome to the MuCho 128k -MK1 Boosted- manual!
 
-Dear reader, here you will find all the information regarding the MuCho 128k engine. 
-This is an extension of the original MuCho 48k engine, made by Jari Komppa.
+Dear reader, here you will find all the information regarding the MuCho 128k engine. This is an extension of the original MuCho 48k engine, made by Jari Komppa.
 
 So first things first :)
 
-This engine is intended for those friends that are already familiar with 
-the original Jari Komppa's MuCho 48k engine. So if you want to get results with
-this 128k version first you have to learn to use the 48k version. Trying to 
-use the 128k version without knowing how to make games with the 48k version 
-will lead to frustration. So my very humble suggestion is to start making a
-nice MuCho 48k game to undestand how it works. 
+This engine is intended for those friends that are already familiar with the original Jari Komppa's MuCho 48k engine. So if you want to get results with this 128k version first you have to learn to use the 48k version. Trying to use the 128k version without knowing how to make games with the 48k version will lead to frustration. So my very humble suggestion is to start making a nice MuCho 48k game to undestand how it works. 
 
-The rules to make a 128k game are an extension of those to make an original
-MuCho 48k game, so you will need to understand / play with the original engine
-before trying to get a nivce result with the MuCho 128k version. 
+The rules to make a 128k game are an extension of those to make an original MuCho 48k game, so you will need to understand / play with the original engine before trying to get a nice result with the MuCho 128k version. 
 
-So my first suggestion is visiting the official MuCho 48k website and
-making a game with the 48k engine, following the standard rules of the
-engine:
+So my first suggestion is visiting the official MuCho 48k website and making a game with the 48k engine, following the standard rules of the engine:
 
 https://solhsa.com/mucho/mucho.html
 
-Once you make a little MuCho 48k game, so you feel confortable with the
-engine, my suggestion would be migrating that game to the 128k engine
-in order to learn step by step how it works. 
+Once you make a little MuCho 48k game, so you feel confortable with the engine, my suggestion would be migrating that game to the 128k engine in order to learn step by step how it works. 
 
-In general, my suggestion is to make first the 48k version of the game and
-then migrating it to the 128k engine. 
+In general, my suggestion is to make first the 48k version of the game and then migrating it to the 128k engine. 
 
 --------------------------------------------------------------------------
 
 Chapter 3: What can I do with the 128k engine?
 
-1. I have added the MK1 engine framework able to manage the music and 
-the Spectrum 128k RAM banks, so you will have RAM1 available to
-add the music of the game (up to 6 melodies) and the rest of RAM banks
-to add more images to the game. 
+1. I have added the MK1 engine framework able to manage the music and the Spectrum 128k RAM banks, so you will have RAM1 available to add the music of the game (up to 6 melodies) and the rest of RAM banks to add more images to the game. 
 
-2. The in-game music is done with the WYZ tracker, but it is not the latest version,
-is the same version that uses the MK1 engine (at least up to 2023). I will 
-add that version ZIPped to the Github repository so there is no possible mistake.
-It also includes sounds for the menu actions (up down select) and a 
-configurable sound for those rooms where we want to express that something
-important has been found. 
+2. The in-game music is done with the WYZ tracker, but it is not the latest version, is the same version that uses the MK1 engine (at least up to 2023). I will add that version ZIPped to the Github repository so there is no possible mistake. It also includes sounds for the menu actions (up down select) and a configurable sound for those rooms where we want to express that something important has been found. 
 
-3. The 128k engine adds the possibility of having two intro full screen images
-(visible until a key is pressed) and also having what we name "flash screens" which are
-full screens that are shown when the player enters to a certain room. There is no limit
-of flash screens, as long as you have enough space in the RAM banks of course.
+3. The 128k engine adds the possibility of having two intro full screen images (visible until a key is pressed) and also having what we name "flash screens" which are full screens that are shown when the player enters to a certain room. There is no limit of flash screens, as long as you have enough space in the RAM banks of course.
 
-4. There are other small features, linked to the images that are stored in the banks.
-There is for instance a "do not reload" feature for certain kind of images, 
-that keeps, the image that is already visible on the top of the screen when 
-we are in a room in which the texts are longer that the current screen space. 
-So when you press to cotinue reading the rest of the text, the image is not 
-reloaded again (because is the same one, so we avoid the blink of the reloading
-proccess)
+4. There are other small features, linked to the images that are stored in the banks. There is for instance a "do not reload" feature for certain kind of images, that keeps, the image that is already visible on the top of the screen when we are in a room in which the texts are longer that the current screen space. So when you press to cotinue reading the rest of the text, the image is not reloaded again (because is the same one, so we avoid the blink of the reloading proccess)
 
-5. The mc.exe application has a new parameter to decide the quantity of bytes 
-reserved for the optimization dictionary (from 512bytes to 1k). In the 
-original 48k engine is is 1k fixed, but the results very depending on that
-value, so I have added that parameter as a command line option, so if you 
-are in need of it, you can play with it to save around 50 to 100 bytes
-(sometimes that means a lot specially when you are using the whole 48k base
-memory!!). Furthermore, after a comma you do not have to enter a space, the engine 
-does it by default, sometimes saving up to 100 bytes of memory.
+5. The mc.exe application has a new parameter to decide the quantity of bytes reserved for the optimization dictionary (from 512bytes to 1k). In the original 48k engine is is 1k fixed, but the results very depending on that value, so I have added that parameter as a command line option, so if you are in need of it, you can play with it to save around 50 to 100 bytes (sometimes that means a lot specially when you are using the whole 48k base memory!!). Furthermore, after a comma you do not have to enter a space, the engine does it by default, sometimes saving up to 100 bytes of memory.
 
-6. So basically, the more images you put into the ZX Spectrum 128k extra
-RAM banks, the more 48k base memory you have to write more rooms, 
-more history, more texts, more conditions, etc. Anyway, you still can
-have images at the 48k base memory, no problem at all. 
+6. So basically, the more images you put into the ZX Spectrum 128k extra RAM banks, the more 48k base memory you have to write more rooms, more history, more texts, more conditions, etc. Anyway, you still can have images at the 48k base memory, no problem at all. 
 
-7. It is able to generate the English and Spanish version of the engine messages,
-so you can create the English and Spanish versions of your game if you whish. 
+7. It is able to generate the English and Spanish version of the engine messages, so you can create the English and Spanish versions of your game if you whish. 
 
+8. Kempston and Sinclair 1 joystick support.
+   
 Ok, I think I do not forget anything, so let go one by one.
 
 --------------------------------------------------------------------------
