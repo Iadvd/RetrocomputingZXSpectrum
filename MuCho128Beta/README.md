@@ -610,10 +610,11 @@ Please do not remove this folder or delete or rename any file inside here, the e
 
 #
 
-# SPANISH MANUAL
+# MANUAL EN CASTELLANO
 MuCho 128k versión Beta
 
 Manual ver. 1.0
+
 por IADVD (Furillo Productions)
 
 https://furilloproductions.itch.io/
@@ -642,8 +643,7 @@ MuCho 128k es una extensión del motor MuCho Multiple Choice de Jari Komppa para
 
 https://github.com/jarikomppa/speccy
 
-Permitirá crear juegos para ZX Spectrum 128k utilizando el motor MuCho. No podrá crear juegos para 48k. Si quieres crear juegos para 48k, necesitarás utilizar el motor 
-original estándar.
+Permitirá crear juegos para ZX Spectrum 128k utilizando el motor MuCho. No podrá crear juegos para 48k. Si quieres crear juegos para 48k, necesitarás utilizar el motor original estándar.
 
 La extensión ha sido posible gracias a las bibliotecas y el framework del motor MK1 La Churrera de los Mojon Twins:
 
@@ -661,8 +661,7 @@ Licencia GPL-2.0
 
 Por favor, revisa los enlaces de arriba para obtener más información sobre cada licencia.
 
-Mensaje de IADVD: queridos todos, esta es una versión BETA y probablemente lo será para siempre, ya que desafortunadamente no tengo mucho tiempo últimamente para el mantenimiento.
-Cualquiera puede modificar el código fuente y hacer mejores versiones, así que por favor, no dudes en mejorar el motor.
+Mensaje de IADVD: queridos todos, esta es una versión BETA y probablemente lo será para siempre, ya que desafortunadamente no tengo mucho tiempo últimamente para el mantenimiento. Cualquiera puede modificar el código fuente y hacer mejores versiones, así que por favor, no dudes en mejorar el motor.
 
 --------------------------------------------------------------------------
 
@@ -672,62 +671,47 @@ Estimado lector, aquí encontrarás toda la información relativa al motor MuCho
 
 Así que lo primero es lo primero :)
 
-Este motor está dirigido a aquellos amigos que ya están familiarizados con el motor original MuCho 48k de Jari Komppa. Así que si quieres obtener resultados con esta versión 128k, 
-primero tienes que aprender a usar la versión 48k. Intentar usar la versión 128k sin saber cómo hacer juegos con la versión 48k te llevará a la frustración. Así que mi humilde 
-sugerencia es que empieces haciendo un buen juego de MuCho 48k para entender cómo funciona.
+Este motor está dirigido a aquellos amigos que ya están familiarizados con el motor original MuCho 48k de Jari Komppa. Así que si quieres obtener resultados con esta versión 128k, primero tienes que aprender a usar la versión 48k. Intentar usar la versión 128k sin saber cómo hacer juegos con la versión 48k te llevará a la frustración. Así que mi humilde sugerencia es que empieces haciendo un buen juego de MuCho 48k para entender cómo funciona.
 
-Las reglas para hacer un juego de 128k son una extensión de las que hay que seguir para hacer un juego original de MuCho 48k, por lo que tendrás que entender/jugar con el motor 
-original antes de intentar obtener un buen resultado con la versión de MuCho 128k.
+Las reglas para hacer un juego de 128k son una extensión de las que hay que seguir para hacer un juego original de MuCho 48k, por lo que tendrás que entender/jugar con el motor original antes de intentar obtener un buen resultado con la versión de MuCho 128k.
 
 Así que mi primera sugerencia es visitar la página web oficial de MuCho 48k y hacer un juego con el motor 48k, siguiendo las reglas estándar del motor:
 
 https://solhsa.com/mucho/mucho.html
 
-Una vez que hagas un pequeño juego de MuCho 48k, y te sientas cómodo con el motor, mi sugerencia sería migrar ese juego al motor 128k para aprender paso a paso cómo funciona.
-En general, recomiendo hacer primero la versión 48k del juego y luego migrarla al motor 128k.
+Una vez que hagas un pequeño juego de MuCho 48k, y te sientas cómodo con el motor, mi sugerencia sería migrar ese juego al motor 128k para aprender paso a paso cómo funciona. En general, recomiendo hacer primero la versión 48k del juego y luego migrarla al motor 128k.
 
 --------------------------------------------------------------------------
 
 Capítulo 3: ¿Qué puedo hacer con el motor 128k?
 
-1. He añadido el framework del motor MK1 capaz de gestionar la música y los bancos de RAM del Spectrum 128k, por lo que tendrás el banco extra RAM1 disponible para 
-añadir la música del juego (hasta 6 melodías) y el resto de bancos extra de RAM para añadir más imágenes al juego.
+1. He añadido el framework del motor MK1 capaz de gestionar la música y los bancos de RAM del Spectrum 128k, por lo que tendrás el banco extra RAM1 disponible para añadir la música del juego (hasta 6 melodías) y el resto de bancos extra de RAM para añadir más imágenes al juego.
 
-2. La música del juego se realiza con el tracker WYZ, pero no es la última versión, es la misma versión que utiliza el motor MK1 (al menos hasta 2023). Añadiré esa versión en ZIP 
-al repositorio de Github para que no haya ningún error posible. También incluye sonidos para las acciones del menú (subir, bajar, seleccionar) y un sonido configurable para que
-suene en aquellas habitaciones donde queremos expresar que se ha encontrado algo importante.
+2. La música del juego se realiza con el tracker WYZ, pero no es la última versión, es la misma versión que utiliza el motor MK1 (al menos hasta 2023). Añadiré esa versión en ZIP al repositorio de Github para que no haya ningún error posible. También incluye sonidos para las acciones del menú (subir, bajar, seleccionar) y un sonido configurable para que suene en aquellas habitaciones donde queremos expresar que se ha encontrado algo importante.
 
-3. El motor 128k añade la posibilidad de tener dos imágenes de introducción a pantalla completa (visibles hasta que se pulse una tecla) y también tener lo que llamo 
-"pantallas flash", que son pantallas completas que se muestran cuando el jugador entra en una determinada habitación. No hay límite de pantallas flash, siempre que tengas suficiente 
-espacio en los bancos de RAM, por supuesto.
+3. El motor 128k añade la posibilidad de tener dos imágenes de introducción a pantalla completa (visibles hasta que se pulse una tecla) y también tener lo que llamo "pantallas flash", que son pantallas completas que se muestran cuando el jugador entra en una determinada habitación. No hay límite de pantallas flash, siempre que tengas suficiente espacio en los bancos de RAM, por supuesto.
 
-4. Hay otras pequeñas características, relacionadas con las imágenes que se almacenan en los bancos. Por ejemplo, hay una función de "no recargar" para cierto tipo de imágenes, 
-que mantiene la imagen que ya está visible en la parte superior de la pantalla cuando estamos en una habitación en la que los textos son más largos que el espacio actual de la 
-pantalla. Así, cuando pulsas para continuar leyendo el resto del texto, la imagen no se vuelve a cargar (porque es la misma, por lo que evitamos el parpadeo del proceso de recarga).
+4. Hay otras pequeñas características, relacionadas con las imágenes que se almacenan en los bancos. Por ejemplo, hay una función de "no recargar" para cierto tipo de imágenes, que mantiene la imagen que ya está visible en la parte superior de la pantalla cuando estamos en una habitación en la que los textos son más largos que el espacio actual de la pantalla. Así, cuando pulsas para continuar leyendo el resto del texto, la imagen no se vuelve a cargar (porque es la misma, por lo que evitamos el parpadeo del proceso de recarga).
 
-5. La aplicación mc.exe tiene un nuevo parámetro para decidir la cantidad de bytes reservados para el diccionario de optimización (de 512 bytes a 1k). En el motor original de 48k es de 
-1k fijo, pero los resultados varían mucho dependiendo de ese valor, así que he añadido ese parámetro como una opción de línea de comandos, para que si lo necesitas, puedas jugar 
-con él para ahorrar alrededor de 50 a 100 bytes (¡a veces eso significa mucho, especialmente cuando estás usando toda la memoria base de 48k!).
-Además después de una coma no hay que introducir espacio, el motor lo hace por defecto, ahorrando a veces hasta 100 bytes de memoria. 
+5. La aplicación mc.exe tiene un nuevo parámetro para decidir la cantidad de bytes reservados para el diccionario de optimización (de 512 bytes a 1k). En el motor original de 48k es de 1k fijo, pero los resultados varían mucho dependiendo de ese valor, así que he añadido ese parámetro como una opción de línea de comandos, para que si lo necesitas, puedas jugar con él para ahorrar alrededor de 50 a 100 bytes (¡a veces eso significa mucho, especialmente cuando estás usando toda la memoria base de 48k!). Además después de una coma no hay que introducir espacio, el motor lo hace por defecto, ahorrando a veces hasta 100 bytes de memoria. 
 
-6. Básicamente, cuantas más imágenes pongas en los bancos de RAM extra del ZX Spectrum 128k, más memoria base de 48k tendrás para escribir más habitaciones, más historia, más textos, 
-más condiciones, etc. De todos modos, todavía puedes tener imágenes en la memoria base de 48k, no hay ningún problema.
+6. Básicamente, cuantas más imágenes pongas en los bancos de RAM extra del ZX Spectrum 128k, más memoria base de 48k tendrás para escribir más habitaciones, más historia, más textos, más condiciones, etc. De todos modos, todavía puedes tener imágenes en la memoria base de 48k, no hay ningún problema.
 
 7. Es capaz de generar la versión en inglés y español de los mensajes del motor, por lo que puedes crear las versiones en inglés y español de tu juego si lo deseas.
 
+8. Soporte para Kempston y Sinclair-1 joysticks.
+   
 Ok, creo que no me olvido de nada, así que vamos uno por uno.
 
 --------------------------------------------------------------------------
 
 Capítulo 4: Migremos un juego
 
-REGLA DE ORO: solo modifica los archivos que se indican a continuación. No cambies ni elimines ningún otro archivo existente, ya que forman parte del proceso de automatización. 
-Si eliminas o cambias el nombre de uno de esos archivos, todo el proceso no funcionará como se espera.
+REGLA DE ORO: solo modifica los archivos que se indican a continuación. No cambies ni elimines ningún otro archivo existente, ya que forman parte del proceso de automatización. Si eliminas o cambias el nombre de uno de esos archivos, todo el proceso no funcionará como se espera.
 
 Supongamos que has hecho un juego de MuCho 48k y quieres migrarlo a la versión 128k para poder añadir música en el juego y habitaciones y textos adicionales.
 
-Lo primero es migrar el contenido actual, luego adaptarlo a las reglas de la versión 128k y finalmente, una vez que sea estable y puedas crear un archivo tap básico de 128k, 
-ampliar el juego añadiendo más imágenes, más textos, etc.
+Lo primero es migrar el contenido actual, luego adaptarlo a las reglas de la versión 128k y finalmente, una vez que sea estable y puedas crear un archivo tap básico de 128k, ampliar el juego añadiendo más imágenes, más textos, etc.
 
 PASO 1:
 
@@ -735,8 +719,7 @@ Edita el archivo:
 
 [MUCHO128k_MK1boost/dev/NAME_OF_THE_GAME.bat]
 
-para añadir el nombre del juego, con un máximo de 10 caracteres (este es el nombre que aparece cuando se realiza un LOAD "", por lo que el máximo es de 8 caracteres). 
-Usaremos este nombre para crear los archivos .tap también.
+para añadir el nombre del juego, con un máximo de 10 caracteres (este es el nombre que aparece cuando se realiza un LOAD "", por lo que el máximo es de 8 caracteres). Usaremos este nombre para crear los archivos .tap también.
 
 A continuación, copia el contenido del archivo de texto de tu juego MuCho 48k dentro de:
 
@@ -766,44 +749,46 @@ y
 
 MUCHO128k_MK1boost\dev\MuCho_engine_v3_mod\YOUR_MUCHO_GAME_HERE\buildES.bat
 
-para personalizar las fuentes, la imagen del selector y el divisor, como haces normalmente para un juego de MuCho 48k. Por favor, no cambies ningún otro contenido de estos 
-archivos, todo es necesario tal y como está, o los scripts no funcionarán correctamente.
+para personalizar las fuentes, la imagen del selector y el divisor, como haces normalmente para un juego de MuCho 48k. Por favor, no cambies ningún otro contenido de estos archivos, todo es necesario tal y como está, o los scripts no funcionarán correctamente.
 
 PASO 3: Lo primero que debemos adaptar
 
 REGLA DE LA PRIMERA IMAGEN: Debido a la naturaleza del motor, es necesario que el primer $Q del juego tenga una imagen de 10 celdas de altura al principio del juego.
 
-Por lo tanto, es necesario comenzar el juego con algo como una primera habitación (o lugar) $Q que contenga SOLO una imagen de 80 píxeles 
-(10 celdas de archivo de pantalla del ZX Spectrum) de altura y se escribirá de esta manera (esta forma de escribir las etiquetas es una característica de MuCho 128k):
+Por lo tanto, es necesario comenzar el juego con algo como una primera habitación (o lugar) $Q que contenga SOLO una imagen de 80 píxeles (10 celdas de archivo de pantalla del ZX Spectrum) de altura y se escribirá de esta manera (esta forma de escribir las etiquetas es una característica de MuCho 128k):
 
 $Q startingroom
+
 #I yourstartingroomimage.scr
+
 $I libraries.scr
 
 ...luego el resto del contenido de $Q como de costumbre...
 
 Este es el único requisito obligatorio para poder utilizar MuCho 128k. Se requiere una primera imagen en la primera pantalla.
-[yourstartingroomimage.scr] es una imagen (el nombre puede ser el que quieras) que funcionará como una imagen de "bienvenida al menú principal", y está cubriendo la carga de 
-varias bibliotecas que son necesarias para gestionar la música y las imágenes almacenadas en los bancos de RAM extra, que están dentro de la falsa imagen llamada "libraries.scr".
+
+[yourstartingroomimage.scr] es una imagen (el nombre puede ser el que quieras) que funcionará como una imagen de "bienvenida al menú principal", y está cubriendo la carga de varias bibliotecas que son necesarias para gestionar la música y las imágenes almacenadas en los bancos de RAM extra, que están dentro de la falsa imagen llamada "libraries.scr".
 
 El archivo [yourstartingroomimage.scr] debe estar ubicado en la carpeta [MUCHO128k_MK1boost/gfx/], ya no es necesario que esté ubicado en la carpeta 
 [MUCHO128k_MK1boost\dev\MuCho_engine_v3_mod\YOUR_MUCHO_GAME_HERE], porque esta imagen se almacenará en los bancos de RAM extra del ZX Spectrum 128k.
 
 Veremos esto más adelante, pero básicamente:
 
-a) Las imágenes que NO estarán en los bancos de RAM extra del ZX Spectrum 128k permanecerán en la carpeta [MUCHO128k_MK1boost\dev\MuCho_engine_v3_mod\YOUR_MUCHO_GAME_HERE] 
+a) Las imágenes que NO estarán en los bancos de RAM extra del ZX Spectrum 128k permanecerán en la carpeta 
+
+[MUCHO128k_MK1boost\dev\MuCho_engine_v3_mod\YOUR_MUCHO_GAME_HERE] 
+
 como los archivos de imagen estándar de MuCho 48k. Y se escribirán como una etiqueta $I normal de MuCho 48k, por ejemplo:
 
 $I your_room_image.scr
 
-b) Las imágenes que estarán en los bancos de RAM extra del ZX Spectrum 128k se ubicarán/moverán a la carpeta [MUCHO128k_MK1boost/gfx/], y se escribirán de la siguiente manera 
-en el archivo de texto del juego, para que MuCho 128k sepa que esta pantalla se almacenará en los bancos de RAM extra del ZX Spectrum 128k, por ejemplo:
+b) Las imágenes que estarán en los bancos de RAM extra del ZX Spectrum 128k se ubicarán/moverán a la carpeta [MUCHO128k_MK1boost/gfx/], y se escribirán de la siguiente manera en el archivo de texto del juego, para que MuCho 128k sepa que esta pantalla se almacenará en los bancos de RAM extra del ZX Spectrum 128k, por ejemplo:
 
 #I your_room_image.scr
+
 $I libraries.scr
 
-La línea fija [$I libraries.scr] siempre aparecerá tal cual, el motor la utiliza para detectar que la imagen actual que se va a mostrar debe ser tomada de los bancos de RAM 
-extra y no de la memoria base de 48k.
+La línea fija [$I libraries.scr] siempre aparecerá tal cual, el motor la utiliza para detectar que la imagen actual que se va a mostrar debe ser tomada de los bancos de RAM extra y no de la memoria base de 48k.
 
 Parece un poco complicado al principio, pero una vez te acostumbras créeme: ¡merece la pena! ;)
 
@@ -817,9 +802,7 @@ para entender cómo gestionar las imágenes de pantalla de los juegos de MuCho 1
 
 PASO 4: añade tus melodías
 
-MuCho 128k es capaz de reproducir hasta 6 melodías diferentes en el juego. Tendrás que crearlas utilizando la versión 0.5.0.2 del tracker XYZ (las versiones más recientes 
-NO son compatibles). Hay una plantilla que puedes utilizar como base en la carpeta [MUCHO128k_MK1boost\mus] (template.wyz). La forma de crear y añadir las imágenes 
-es exactamente la misma que la del motor MK1 La Churrera.
+MuCho 128k es capaz de reproducir hasta 6 melodías diferentes en el juego. Tendrás que crearlas utilizando la versión 0.5.0.2 del tracker XYZ (las versiones más recientes NO son compatibles). Hay una plantilla que puedes utilizar como base en la carpeta [MUCHO128k_MK1boost\mus] (template.wyz). La forma de crear y añadir las imágenes es exactamente la misma que la del motor MK1 La Churrera.
 
 Por favor, revisa:
 
@@ -839,19 +822,20 @@ o
 
 para crear el archivo .tap en español
 
-El proceso tarda unos 25 segundos, aparece una pantalla negra de cmd de Windows y los scripts construyen el archivo .tap. Si todo va bien, el archivo .tap 
-(en inglés o español) estará listo en la carpeta [dev\GAME_TAP_IS_HERE].
+El proceso tarda unos 25 segundos, aparece una pantalla negra de cmd de Windows y los scripts construyen el archivo .tap. Si todo va bien, el archivo .tap (en inglés o español) estará listo en la carpeta [dev\GAME_TAP_IS_HERE].
 
 --------------------------------------------------------------------------
 
 Capítulo 5: Cómo configurar las imágenes (archivos .scr)
 
-Los archivos .scr pueden almacenarse en la memoria base de 48k, como si fueran imágenes estándar de MuCho 48k, o pueden almacenarse en los bancos de RAM extra del 
-ZX Spectrum 128k utilizando las nuevas características de MuCho 128k.
+Los archivos .scr pueden almacenarse en la memoria base de 48k, como si fueran imágenes estándar de MuCho 48k, o pueden almacenarse en los bancos de RAM extra del ZX Spectrum 128k utilizando las nuevas características de MuCho 128k.
 
 Como mencionamos en el capítulo anterior:
 
-a) Las imágenes .scr que NO estarán en los bancos de RAM extra del ZX Spectrum 128k permanecerán en la carpeta [MUCHO128k_MK1boost\dev\MuCho_engine_v3_mod\YOUR_MUCHO_GAME_HERE] 
+a) Las imágenes .scr que NO estarán en los bancos de RAM extra del ZX Spectrum 128k permanecerán en la carpeta 
+
+[MUCHO128k_MK1boost\dev\MuCho_engine_v3_mod\YOUR_MUCHO_GAME_HERE] 
+
 como los archivos de imagen estándar de MuCho 48k.
 
 Y se escribirán como una etiqueta $I normal de MuCho 48k, por ejemplo:
@@ -860,14 +844,13 @@ $I yourstartingroomimage.scr
 
 Esto es como el motor habitual de MuCho 48k.
 
-b) Las imágenes que estarán en los bancos de RAM extra del ZX Spectrum 128k se ubicarán/moverán a la carpeta [MUCHO128k_MK1boost/gfx/], y se escribirán de la siguiente 
-manera en el archivo de texto del juego, para que MuCho 128k sepa que esta pantalla se almacenará en los bancos de RAM extra del ZX Spectrum 128k:
+b) Las imágenes que estarán en los bancos de RAM extra del ZX Spectrum 128k se ubicarán/moverán a la carpeta [MUCHO128k_MK1boost/gfx/], y se escribirán de la siguiente manera en el archivo de texto del juego, para que MuCho 128k sepa que esta pantalla se almacenará en los bancos de RAM extra del ZX Spectrum 128k:
 
 #I yourstartingroomimage.scr
+
 $I libraries.scr
 
-La línea fija [$I libraries.scr] siempre aparecerá tal cual, el motor la utiliza para detectar que la imagen actual que se va a mostrar debe ser tomada de los bancos de 
-RAM extra y no de la memoria base de 48k.
+La línea fija [$I libraries.scr] siempre aparecerá tal cual, el motor la utiliza para detectar que la imagen actual que se va a mostrar debe ser tomada de los bancos de RAM extra y no de la memoria base de 48k.
 
 Parece inicialmente un poco complicado, pero créeme: ¡merece la pena! ;)
 
@@ -895,10 +878,10 @@ $I nameofmyscreenimage.scr
 B) Si la imagen se ubicará en los bancos de RAM extra, aparecerá de la siguiente manera:
 
 #I nameofmyscreenimage.scr
+
 $I libraries.scr
 
-Como mencionamos antes, la línea fija [$I libraries.scr] siempre aparecerá tal cual, el motor la utiliza para detectar que la imagen actual que se va a mostrar 
-debe ser tomada de los bancos de RAM extra y no de la memoria base de 48k.
+Como mencionamos antes, la línea fija [$I libraries.scr] siempre aparecerá tal cual, el motor la utiliza para detectar que la imagen actual que se va a mostrar debe ser tomada de los bancos de RAM extra y no de la memoria base de 48k.
 
 Como esta es una versión BETA de MuCho 128k, hay algunas reglas con respecto a las imágenes que hay que tener en cuenta. Aquí están ;)
 
@@ -906,37 +889,32 @@ A) REGLA DE LA PRIMERA IMAGEN:
 
 Como mencionamos en el capítulo anterior, debido a la naturaleza del motor, es necesario que el primer $Q del juego tenga una imagen de 10 celdas de altura al principio del juego.
 
-Por lo tanto, es necesario comenzar el juego con algo como una primera habitación (o lugar) $Q que contenga SOLO una imagen de 80 píxeles (10 celdas de archivo de pantalla 
-del ZX Spectrum) de altura y se escribirá de esta manera (esta forma de escribir las etiquetas es una característica de MuCho 128k):
+Por lo tanto, es necesario comenzar el juego con algo como una primera habitación (o lugar) $Q que contenga SOLO una imagen de 80 píxeles (10 celdas de archivo de pantalla del ZX Spectrum) de altura y se escribirá de esta manera (esta forma de escribir las etiquetas es una característica de MuCho 128k):
 
 $Q startingroom
 
 #I yourstartingroomimage.scr
+
 $I libraries.scr
 
 ...luego el resto del contenido de $Q como de costumbre...
 
 Este es el único requisito obligatorio para poder utilizar MuCho 128k. Se requiere una primera imagen en la primera pantalla.
 
-[yourstartingroomimage.scr] es una imagen (el nombre puede ser el que quieras) que funcionará como una imagen de "bienvenida al menú principal", y está cubriendo la carga 
-de varias bibliotecas que son necesarias para gestionar la música y las imágenes almacenadas en los bancos de RAM extra, que están dentro de la falsa imagen llamada "libraries.scr".
+[yourstartingroomimage.scr] es una imagen (el nombre puede ser el que quieras) que funcionará como una imagen de "bienvenida al menú principal", y está cubriendo la carga de varias bibliotecas que son necesarias para gestionar la música y las imágenes almacenadas en los bancos de RAM extra, que están dentro de la falsa imagen llamada "libraries.scr".
 
 El archivo [yourstartingroomimage.scr] debe estar ubicado en la carpeta [MUCHO128k_MK1boost/gfx/], ya no es necesario que esté ubicado en la carpeta 
 [MUCHO128k_MK1boost\dev\MuCho_engine_v3_mod\YOUR_MUCHO_GAME_HERE], porque esta imagen se almacenará en los bancos de RAM extra del ZX Spectrum 128k.
 
 B) REGLA DE LA IMAGEN ÚNICA:
 
-Si tienes un $Q que utiliza una imagen de pantalla que está almacenada en los bancos de RAM extra, por lo que está en la carpeta [MUCHO128k_MK1boost/gfx/], ese 
-$Q NO PUEDE TENER MÁS imágenes que esa. La buena noticia es que podemos mantener la imagen visible a través de una habitación $Q de varias páginas de texto en la parte superior 
-hasta que salgamos de la habitación (esta es una característica de MuCho 128k).
+Si tienes un $Q que utiliza una imagen de pantalla que está almacenada en los bancos de RAM extra, por lo que está en la carpeta [MUCHO128k_MK1boost/gfx/], ese $Q NO PUEDE TENER MÁS imágenes que esa. La buena noticia es que podemos mantener la imagen visible a través de una habitación $Q de varias páginas de texto en la parte superior hasta que salgamos de la habitación (esta es una característica de MuCho 128k).
 
-Y, por otro lado, un $Q puede tener tantas etiquetas $I como quieras siempre que estén almacenadas de la forma estándar de MuCho 48k, en la memoria base de 48k, 
-pero en ese caso no puedes tener ninguna imagen de banco de RAM extra en el mismo $Q.
+Y, por otro lado, un $Q puede tener tantas etiquetas $I como quieras siempre que estén almacenadas de la forma estándar de MuCho 48k, en la memoria base de 48k, pero en ese caso no puedes tener ninguna imagen de banco de RAM extra en el mismo $Q.
 
 C) REGLA DE LA BARRA DIVISORA:
 
-Si estás utilizando una barra divisora entre los textos del juego y el menú de selección, debe estar escrita fija dentro de las imágenes que se almacenan en los bancos de 
-RAM extra. Si la imagen es una imagen normal de MuCho 48k no importa, esta regla es solo para aquellas imágenes en los bancos de RAM extra que aparecerán dentro de un $Q.
+Si estás utilizando una barra divisora entre los textos del juego y el menú de selección, debe estar escrita fija dentro de las imágenes que se almacenan en los bancos de RAM extra. Si la imagen es una imagen normal de MuCho 48k no importa, esta regla es solo para aquellas imágenes en los bancos de RAM extra que aparecerán dentro de un $Q.
 
 Dibuja la barra divisora en la fila 20 de la imagen de pantalla .scr.
 
@@ -947,50 +925,41 @@ D) REGLA DEL VACÍO:
 Es importante que las celdas de la pantalla del ZX Spectrum almacenadas en tus archivos de pantalla .scr estén TOTALMENTE VACÍAS (paper 0, ink 0, bright 0) 
 en aquellos lugares donde no estés mostrando una imagen. Por ejemplo, imaginemos que tienes una bonita imagen de un edificio y el dibujo llega hasta la fila 15 de la pantalla (contando desde arriba). 
 
-En ese caso, debes tener cuidado y borrar cualquier píxel en otras celdas debajo de la fila 15 hasta la fila 20 si estás utilizando un divisor, o hasta la fila 24 
--fondo de la pantalla- si no estás utilizando una barra divisoria. El motor MuCho 128k busca la primera fila de la imagen comenzando desde abajo que tenga 
-píxeles y color, y eso determinará la última fila de la imagen en la pantalla, para que el motor pueda decidir dónde se escribirán los textos debajo del final de la imagen.
+En ese caso, debes tener cuidado y borrar cualquier píxel en otras celdas debajo de la fila 15 hasta la fila 20 si estás utilizando un divisor, o hasta la fila 24 -fondo de la pantalla- si no estás utilizando una barra divisoria. El motor MuCho 128k busca la primera fila de la imagen comenzando desde abajo que tenga píxeles y color, y eso determinará la última fila de la imagen en la pantalla, para que el motor pueda decidir dónde se escribirán los textos debajo del final de la imagen.
 
 Y eso es todo en cuanto a la gestión de las imágenes. Ahora vamos a revisar las nuevas características:
 
-CARACTERÍSTICA 1: Puedes añadir hasta 2 imágenes de introducción a pantalla completa al comienzo del juego. Aparecerán a pantalla completa y desaparecerán cuando se presione 
-una tecla. La música del juego configurada para el primer $Q sonará como música de fondo de las pantallas de introducción.
+CARACTERÍSTICA 1: Puedes añadir hasta 2 imágenes de introducción a pantalla completa al comienzo del juego. Aparecerán a pantalla completa y desaparecerán cuando se presione una tecla. La música del juego configurada para el primer $Q sonará como música de fondo de las pantallas de introducción.
 
 ¿Cómo usar esta característica? Al principio del archivo de texto del juego escribe:
 
 #INTRO1 intro1.scr
+
 #INTRO2 intro2.scr
 
-Estos comandos indican que deseas que aparezcan pantallas de introducción cuando termine la carga del juego. La primera se llama intro1.scr y la segunda intro2.scr, pero 
-los nombres pueden ser los que desees.
+Estos comandos indican que deseas que aparezcan pantallas de introducción cuando termine la carga del juego. La primera se llama intro1.scr y la segunda intro2.scr, pero los nombres pueden ser los que desees.
 
 Esos archivos DEBEN ESTAR UBICADOS en la carpeta [MUCHO128k_MK1boost/gfx/].
 
-CARACTERÍSTICA 2: Puedes añadir imágenes a pantalla completa que aparecerán hasta que se presione una tecla al entrar en un lugar o habitación $Q. Esto funciona para 
-cualquier $Q excepto el primer $Q del juego (para el primer $Q puedes usar las nuevas características INTRO1 e INTRO2). La imagen aparecerá y luego, al presionar una tecla, 
-se desvanecerá y aparecerá el contenido habitual de $Q.
+CARACTERÍSTICA 2: Puedes añadir imágenes a pantalla completa que aparecerán hasta que se presione una tecla al entrar en un lugar o habitación $Q. Esto funciona para cualquier $Q excepto el primer $Q del juego (para el primer $Q puedes usar las nuevas características INTRO1 e INTRO2). La imagen aparecerá y luego, al presionar una tecla, se desvanecerá y aparecerá el contenido habitual de $Q.
 
 ¿Cómo usar esta característica? Debajo de la etiqueta $Q escribe lo siguiente:
 
 $Q nombre_del_identificador_de_la_q
+
 #F nombre_de_la_pantalla_flash.scr
 
 Estos archivos DEBEN ESTAR UBICADOS en la carpeta [MUCHO128k_MK1boost/gfx/].
 
-CARACTERÍSTICA 3: Las imágenes de los bancos de RAM extra pueden tener la altura deseada sin límite, no importa si tienes una imagen de 15, 17, 18 celdas de pantalla de 
-altura (es decir, 15 celdas = 15*8 píxeles de longitud). El texto se ubicará en la posición adecuada debajo de la imagen. Solo ten en cuenta que si la imagen es demasiado 
-larga, romperás el menú, pero te darás cuenta cuando pruebes el archivo .tap. Si eso sucede, simplemente reduce la altura de la imagen. Solo cuida la [REGLA DEL VACÍO] que 
-mencioné antes.
+CARACTERÍSTICA 3: Las imágenes de los bancos de RAM extra pueden tener la altura deseada sin límite, no importa si tienes una imagen de 15, 17, 18 celdas de pantalla de altura (es decir, 15 celdas = 15*8 píxeles de longitud). El texto se ubicará en la posición adecuada debajo de la imagen. Solo ten en cuenta que si la imagen es demasiado larga, romperás el menú, pero te darás cuenta cuando pruebes el archivo .tap. Si eso sucede, simplemente reduce la altura de la imagen. Solo cuida la [REGLA DEL VACÍO] que mencioné antes.
 
-Y eso es todo, haciendo un buen uso de las imágenes en los bancos de RAM y las imágenes liberarás una buena cantidad de bytes de la memoria base de 48k, y eso significa más 
-textos, más condiciones, un juego más largo.
+Y eso es todo, haciendo un buen uso de las imágenes en los bancos de RAM y las imágenes liberarás una buena cantidad de bytes de la memoria base de 48k, y eso significa más textos, más condiciones, un juego más largo.
 
 --------------------------------------------------------------------------
 
 Capítulo 6: Cómo configurar la música.
 
-Como mencionamos antes, se pueden agregar hasta 6 melodías dentro del juego al juego. También hay sonidos fijos de menú para las opciones del menú (arriba, abajo y seleccionar) 
-y un sonido fijo #S que se puede utilizar para expresar que algo importante ha sucedido al entrar en un $Q o que se ha encontrado algo, etc.
+Como mencionamos antes, se pueden agregar hasta 6 melodías dentro del juego al juego. También hay sonidos fijos de menú para las opciones del menú (arriba, abajo y seleccionar) y un sonido fijo #S que se puede utilizar para expresar que algo importante ha sucedido al entrar en un $Q o que se ha encontrado algo, etc.
 
 La gestión de la música de chiptune dentro del juego se realiza como un proyecto estándar MK1 La Churrera. Por lo tanto, todo lo explicado para el MK1 se aplica aquí:
 
@@ -1002,8 +971,7 @@ La versión del tracker debe ser la que puse en la carpeta \mus\WYZtracker. Las 
 
 Los pasos básicos para agregar música son:
 
-1. Crea hasta 6 canciones con el tracker WYZ utilizando nuestra plantilla. No puedes cambiar los instrumentos o sonidos predeterminados. Si lo haces, tendrás que modificar 
-el archivo .asm, lo que también se recomienda para desarrolladores avanzados.
+1. Crea hasta 6 canciones con el tracker WYZ utilizando nuestra plantilla. No puedes cambiar los instrumentos o sonidos predeterminados. Si lo haces, tendrás que modificar el archivo .asm, lo que también se recomienda para desarrolladores avanzados.
 
 2. Coloca los archivos wyx en la carpeta \mus.
 
@@ -1014,14 +982,23 @@ el archivo .asm, lo que también se recomienda para desarrolladores avanzados.
 5. Edita el [WYZproPlay47aZXc.ASM] busca alrededor de la fila 1129 y encontrarás algo como esto (los nombres son ejemplos):
 
 SONG_0:
+
 	INCBIN "SAMPLE.bin"
+
 SONG_1:
+
     INCBIN "NOMBRE_DE_OTRA_CANCION_SI_EXISTE_1.bin"
+
 SONG_2:
+
     INCBIN "NOMBRE_DE_OTRA_CANCION_SI_EXISTE_2.bin"
+
 SONG_3:
+
     INCBIN "NOMBRE_DE_OTRA_CANCION_SI_EXISTE_3.bin"
+
 SONG_4:
+
     INCBIN "NOMBRE_DE_OTRA_CANCION_SI_EXISTE_4.bin"
 
 y más adelante una línea como esta
@@ -1030,12 +1007,12 @@ makefile
 
 TABLA_SONG:     DW      SONG_0, SONG_1, SONG_2, SONG_3, SONG_4
 
-Reemplaza los nombres de archivo .bin por el nombre de tus archivos de música. Puedes tener hasta 6 melodías dentro del juego, así que como la primera música se 
-numera como 0, significa que puedes tener hasta SONG_5:
+Reemplaza los nombres de archivo .bin por el nombre de tus archivos de música. Puedes tener hasta 6 melodías dentro del juego, así que como la primera música se numera como 0, significa que puedes tener hasta SONG_5:
 
 makefile
 
 SONG_5:
+
     INCBIN "nombre_del_sexto_archivo.bin"
 
 Puedes tener solo 1 si quieres... pero es obligatorio tener al menos uno. Puede estar VACÍO, por lo que no habrá música en absoluto, pero debe existir.
@@ -1077,14 +1054,17 @@ Capítulo 7: Archivo de configuración.
 Existen dos pequeños archivos de configuración en
 
 "\dev\Scripts\configEN.txt"
+
 (para la versión inglesa)
 
 "\dev\Scripts\configES.txt"
+
 (para la versión en castellano)
 
 Por ahora se pueden configurar tres acciones, sólo se pueden cambiar los valores, por favor no borres o cambies de orden el contenio del archivo o dejará de funcionar.
 
 1. Idioma del menu de Mucho128k (los mensajes del motor de la parte inferior)
+
 Por defecto está configurado el del idioma adecuado, pero puedes forzar el idioma que quieras.
 
 #LANGUAGE / DO NOT MODIFY (ENGLISH=0, SPANISH=1)
@@ -1092,25 +1072,26 @@ Por defecto está configurado el del idioma adecuado, pero puedes forzar el idio
 2. Waitkey / Tecla de espera. Si pones un carácter distinto de 0, por ejemplo un punto y coma ; entonces cada vez que aparezca un punto y coma en los textos del juego, la pantalla se quedara en pausa hasta que el jugador pulse una tecla.
 
 Ejemplo:
+
 WAITKEY: SI ES UN CARACTER DISTINTO DE 0 SE USARA PARA DETENER EL TEXTO HASTA QUE SE PULSA UNA TECLA (0 SI NO SE USA WAITKEY)
+
 ;
 
 3. Efecto de flash sobre la barra divisora del menú. Hace que el divisor entre los textos y el menú inferior de selección tenga un efecto de parpadeo suave, es un pequeño fx.
 
 #FLASHBAR: HACE QUE LA BARRA DE SEPARACION DE LA PANTALLA DE LECTURA Y EL MENU CAMBIE DE BRILLO (0 SI NO SE USA)
+
 1
 
 --------------------------------------------------------------------------
 
 ANEXO 1: Estructura del directorio.
 
-MuCho 128k tiene muchos directorios, pero no te preocupes, solo necesitas modificar dos o tres lugares. El resto de los directorios están allí porque son parte de 
-la automatización. Así que no te preocupes por el contenido.
+MuCho 128k tiene muchos directorios, pero no te preocupes, solo necesitas modificar dos o tres lugares. El resto de los directorios están allí porque son parte de la automatización. Así que no te preocupes por el contenido.
 
 Hay una regla de oro:
 
-No modifiques el nombre de ningún archivo existente, no elimines ningún archivo existente, son necesarios tal como están ahora. Si eliminas algo, es probable que 
-los scripts no funcionen.
+No modifiques el nombre de ningún archivo existente, no elimines ningún archivo existente, son necesarios tal como están ahora. Si eliminas algo, es probable que los scripts no funcionen.
 
 Esta es la estructura del directorio:
 
@@ -1120,26 +1101,19 @@ MUCHO128k_MK1boost/
 
 MUCHO128k_MK1boost/bin
 
-Esta carpeta se utiliza automáticamente para crear los archivos binarios de la música e imágenes que se almacenan en los bancos de RAM extra de 128k. Esta carpeta es parte 
-del framework MK1. No necesitas hacer nada aquí, ¡solo déjala así! :)
+Esta carpeta se utiliza automáticamente para crear los archivos binarios de la música e imágenes que se almacenan en los bancos de RAM extra de 128k. Esta carpeta es parte del framework MK1. No necesitas hacer nada aquí, ¡solo déjala así! :)
 
 MUCHO128k_MK1boost/gfx
 
-Aquí colocarás todos los archivos de pantalla .scr de tu juego que desees poner en los bancos de RAM extra de ZX Spectrum 128k. Las imágenes que se colocan en esta carpeta 
-no utilizan parte de la memoria base de 48k. Así que cuanto más pongas aquí, más podrás añadir más habitaciones, textos, condiciones al juego (los textos se almacenan en la 
-memoria base de 48k, como lo hace el motor estándar MuCho 48k). Básicamente añadirás aquí los archivos .scr de las pantallas. ¡Puedes modificar el contenido! :)
+Aquí colocarás todos los archivos de pantalla .scr de tu juego que desees poner en los bancos de RAM extra de ZX Spectrum 128k. Las imágenes que se colocan en esta carpeta no utilizan parte de la memoria base de 48k. Así que cuanto más pongas aquí, más podrás añadir más habitaciones, textos, condiciones al juego (los textos se almacenan en la memoria base de 48k, como lo hace el motor estándar MuCho 48k). Básicamente añadirás aquí los archivos .scr de las pantallas. ¡Puedes modificar el contenido! :)
 
 MUCHO128k_MK1boost/mus
 
-Aquí colocarás los archivos del tracker WYZ que utilizarás como música dentro del juego. Hay una plantilla que puedes usar para crear tus propias melodías. Esta carpeta es 
-del framework estándar MK1 128k, así que necesitas aprender a agregar las canciones en esta carpeta de la misma manera que lo hace MK1. Explicaré más tarde los detalles aquí, 
-pero para cualquier duda, debe hacerse como para el motor MK1 (consulta el manual de MK1 en Github). Básicamente puedes añadir aquí los archivos .wyx y los archivos .mus 
-exportados, y necesitarás modificar algunos archivos para añadir las melodías. Lo explicaré más tarde.
+Aquí colocarás los archivos del tracker WYZ que utilizarás como música dentro del juego. Hay una plantilla que puedes usar para crear tus propias melodías. Esta carpeta es del framework estándar MK1 128k, así que necesitas aprender a agregar las canciones en esta carpeta de la misma manera que lo hace MK1. Explicaré más tarde los detalles aquí, pero para cualquier duda, debe hacerse como para el motor MK1 (consulta el manual de MK1 en Github). Básicamente puedes añadir aquí los archivos .wyx y los archivos .mus exportados, y necesitarás modificar algunos archivos para añadir las melodías. Lo explicaré más tarde.
 
 MUCHO128k_MK1boost/utils
 
-Esto es estándar MK1 128k. Estas herramientas son utilizadas por los scripts para crear el archivo .tap. Así que no necesitas hacer nada en esta carpeta. ¡Solo déjala como 
-está ahora! Todo lo que hay dentro es necesario.
+Esto es estándar MK1 128k. Estas herramientas son utilizadas por los scripts para crear el archivo .tap. Así que no necesitas hacer nada en esta carpeta. ¡Solo déjala como está ahora! Todo lo que hay dentro es necesario.
 
 MUCHO128k_MK1boost/dev
 
@@ -1149,22 +1123,21 @@ Este es el contenido:
 
 MUCHO128k_MK1boost/dev/NAME_OF_THE_GAME.bat
 
-Edita este archivo para añadir el nombre del juego, máximo 8 caracteres (este es el nombre que aparece cuando se hace LOAD ""). Usaremos este nombre para crear los 
-archivos .tap también.
+Edita este archivo para añadir el nombre del juego, máximo 8 caracteres (este es el nombre que aparece cuando se hace LOAD ""). Usaremos este nombre para crear los archivos .tap también.
 
 MUCHO128k_MK1boost/dev/GAME_TAP_IS_HERE
 
-Como su nombre indica, una vez que se genera el archivo .tap mediante los scripts, aparecerá aquí. Habrá uno para la versión en inglés y otro para la versión en español, 
-dependiendo de qué script ejecutes. El nombre usará los 8 caracteres que escribiste en el archivo NAME_OF_THE_GAME.bat.
+Como su nombre indica, una vez que se genera el archivo .tap mediante los scripts, aparecerá aquí. Habrá uno para la versión en inglés y otro para la versión en español, dependiendo de qué script ejecutes. El nombre usará los 8 caracteres que escribiste en el archivo NAME_OF_THE_GAME.bat.
 
 Una vez generado, puedes renombrar el archivo como quieras. Sin problema alguno.
 
 MUCHO128k_MK1boost/dev/CREATE_GAME_TAP_ES.bat
+
 MUCHO128k_MK1boost/dev/CREATE_GAME_TAP_EN.bat
 
 Los dos archivos son los scripts PRINCIPALES.
-Una vez que hayas colocado todos los archivos requeridos del juego en inglés en sus lugares correctos, al hacer doble clic en [CREATE_GAME_TAP_EN.bat], se generará el 
-archivo .tap en la carpeta [GAME_TAP_IS_HERE]. Lo mismo para el juego en español si usas [CREATE_GAME_TAP_ES.bat].
+
+Una vez que hayas colocado todos los archivos requeridos del juego en inglés en sus lugares correctos, al hacer doble clic en [CREATE_GAME_TAP_EN.bat], se generará el archivo .tap en la carpeta [GAME_TAP_IS_HERE]. Lo mismo para el juego en español si usas [CREATE_GAME_TAP_ES.bat].
 
 MUCHO128k_MK1boost/dev/Scripts
 
@@ -1176,21 +1149,22 @@ MUCHO128k_MK1boost/dev/MuCho_engine_v3_mod
 
 Encontrarás aquí los archivos .exe del motor MuCho. Por favor, como siempre, no modifiques los nombres ni elimines estos archivos.
 
-El contenido de esta carpeta será familiar para aquellos que ya hayan utilizado el motor estándar MuCho 48k. Dentro de esta carpeta está la estructura habitual del 
-motor MuCho 48k, que contiene las carpetas habituales:
+El contenido de esta carpeta será familiar para aquellos que ya hayan utilizado el motor estándar MuCho 48k. Dentro de esta carpeta está la estructura habitual del motor MuCho 48k, que contiene las carpetas habituales:
 
 MUCHO128k_MK1boost/dev/MuCho_engine_v3_mod/dividers
+
 MUCHO128k_MK1boost/dev/MuCho_engine_v3_mod/fonts
+
 MUCHO128k_MK1boost/dev/MuCho_engine_v3_mod/manual
+
 MUCHO128k_MK1boost/dev/MuCho_engine_v3_mod/selectors
 
 El propósito de estas cuatro carpetas es exactamente el mismo que en el motor MuCho 48k. Así que no agregaré más explicaciones.
 
 MUCHO128k_MK1boost/dev/MuCho_engine_v3_mod/github_author128kProject
 
-Este es el código fuente del motor de 128k. Incluye el código fuente del núcleo del motor MuCho 48k modificado, el mc.exe y el mackarel.exe, todos ellos modificados 
-para poder trabajar con el ZX Spectrum 128k. Si eres un desarrollador de C, C++, adelante, siéntete libre de usarlos y mejorarlos según lo requieras. Si no eres un programador 
-y solo quieres hacer un juego, no utilizarás esta carpeta en absoluto. Pero si quieres hacer tu propia versión del motor, necesitarás compilar nuevamente los ejecutables. 
+Este es el código fuente del motor de 128k. Incluye el código fuente del núcleo del motor MuCho 48k modificado, el mc.exe y el mackarel.exe, todos ellos modificados para poder trabajar con el ZX Spectrum 128k. Si eres un desarrollador de C, C++, adelante, siéntete libre de usarlos y mejorarlos según lo requieras. Si no eres un programador y solo quieres hacer un juego, no utilizarás esta carpeta en absoluto. Pero si quieres hacer tu propia versión del motor, necesitarás compilar nuevamente los ejecutables. 
+
 Desafortunadamente, no tengo mucho tiempo para ayudar con mejoras adicionales, pero está abierto y listo para tus nuevas ideas.
 
 Aviso: al compilar los ejecutables ten cuidado con las versiones .exe de Windows 32 y 64... ¡a veces dan problemas de compatibilidad!
@@ -1199,15 +1173,13 @@ Aviso: al compilar los ejecutables ten cuidado con las versiones .exe de Windows
 
 MUCHO128k_MK1boost/dev/MuCho_engine_v3_mod/YOUR_MUCHO_GAME_HERE
 
-Esta es la carpeta donde está el juego estándar de MuCho. Aquí encontrarás esas pantallas .scr que NO colocarás en los bancos de RAM extra de ZX Spectrum 128k y 
-el texto del juego (esto es como el motor MuCho 48k). Aquí puedes añadir o eliminar tus archivos .scr y modificar el CONTENIDO de los archivos
+Esta es la carpeta donde está el juego estándar de MuCho. Aquí encontrarás esas pantallas .scr que NO colocarás en los bancos de RAM extra de ZX Spectrum 128k y el texto del juego (esto es como el motor MuCho 48k). Aquí puedes añadir o eliminar tus archivos .scr y modificar el CONTENIDO de los archivos
 
 your_game_in_english.txt
 
 your_game_in_spanish.txt
 
-Por favor, esto es importante: NO modifiques el NOMBRE de los archivos. Es un proceso automatizado, por lo que los scripts están buscando 
-esos dos archivos con esos nombres.
+Por favor, esto es importante: NO modifiques el NOMBRE de los archivos. Es un proceso automatizado, por lo que los scripts están buscando esos dos archivos con esos nombres.
 
 Básicamente, los textos de tu juego MuCho 48k se copian y pegan en los archivos
 
