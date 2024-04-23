@@ -1,4 +1,4 @@
-*MuCho 128k Beta version.
+# MuCho 128k Beta version.
 
 Spanish manual after English manual (below)
 
@@ -6,7 +6,7 @@ Download the zip file and after unzipping it, move it to the c:\ root or another
 
 Descarga el archivo zip y tras descomprimir pon la carpeta principal del motor en la raíz de c:\ o en otro lugar sencillo de encontrar. Cada juego que hagas tendrá su propia carpeta, de hecho puedes cambiar el nombre de la carpeta principal de MuCho 128k por el nombre que desees, por ejemplo el nombre del juego. Para las demás cosas por favor revisa el manual, espero que sea de ayuda. ¡Buena suerte!
 
-ENGLISH MANUAL
+# ENGLISH MANUAL
 
 --------------------------------------------------------------------------
 
@@ -808,7 +808,7 @@ Please do not remove this folder or delete or rename any file inside here, the e
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-SPANISH MANUAL
+# SPANISH MANUAL
 
 --------------------------------------------------------------------------
 
