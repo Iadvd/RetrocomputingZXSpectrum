@@ -8,8 +8,6 @@ Descarga el archivo zip y tras descomprimir pon la carpeta principal del motor e
 
 # ENGLISH MANUAL
 
---------------------------------------------------------------------------
-
 MuCho 128k Beta version
 manual ver. 1.0
 
@@ -809,9 +807,6 @@ Please do not remove this folder or delete or rename any file inside here, the e
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 # SPANISH MANUAL
-
---------------------------------------------------------------------------
-
 MuCho 128k versión Beta
 
 Manual ver. 1.0
