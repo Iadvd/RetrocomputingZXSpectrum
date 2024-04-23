@@ -15,11 +15,17 @@ by IADVD (Furillo Productions)
 https://furilloproductions.itch.io/
 
 Chapter 1. Foreword.
+
 Chapter 2: Welcome to the MuCho 128k -MK1 Boosted- manual!
+
 Chapter 3. What can I do with the 128k engine?
+
 Chapter 4: Let's migrate a game.
+
 Chapter 5: How to configure the images (.scr files)
+
 Chapter 6: How to configure the music.
+
 Chapter 7: Config File.
 
 ANNEX 1: the directory structure.
@@ -815,11 +821,17 @@ por IADVD (Furillo Productions)
 https://furilloproductions.itch.io/
 
 Capítulo 1. Prólogo.
+
 Capítulo 2: ¡Bienvenido al manual de MuCho 128k -MK1 Boosted-!
+
 Capítulo 3. ¿Qué puedo hacer con el motor 128k?
+
 Capítulo 4. Migremos un juego.
+
 Capítulo 5: Cómo configurar las imágenes (archivos .scr)
+
 Capítulo 6: Cómo configurar la música.
+
 Capítulo 7: Archivo de configuración.
 
 ANEXO 1: La estructura de directorios.
