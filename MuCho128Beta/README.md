@@ -503,11 +503,13 @@ Example:
 4. Talkkey / conversation text. If you write a char different from 0, for instance @ and you put that char at the beginning of a paragraph, the whole text of the paragraph will appear character by character.
 
 #TALKKEY: IF THIS CHAR APPEARS IN THE TEXTS THE CHARACTERS OF THE PARAGRAPHS WILL APPEAR ONE BY ONE (CONVERSATION EFFECT, 0=OFF)
+
 @
 
 5. Showtalkkey: If it is activated (1) when Talkkey is in use it will replace the Talkkey char (e.g. it was @ in the previous example) with a space, so it is not visible.
 
 #SHOWTALKKEY: WHEN ACTIVATED, THE TALKKEY WILL BE REPLACED BY A SPACE (0=NOT REPLACED, 1=REPLACED)
+
 1
 
 --------------------------------------------------------------------------
@@ -1121,11 +1123,13 @@ WAITKEY: SI ES UN CARACTER DISTINTO DE 0 SE USARA PARA DETENER EL TEXTO HASTA QU
 4. Talkkey / Texto de conversación. Si pones un carácter distinto de 0, por ejemplo un @ y colocas dicho carácter al principio de un parráfo, el texto de dicho párrafo aparecerá en pantalla carácter a carácter.
 
 #TALKKEY: SI ES UN CARACTER DISTINTO DE 0 SE USARA PARA HACER APARECER EN PANTALLA LOS TEXTOS CARACTER A CARACTER COMO SI FUESE UNA CONVERSACION (0 SI NO SE USA)
+
 @
 
 5. Showtalkkey: Si se activa (1) cuando se use Talkkey reemplazará el carácter que activa Talkkey por un espacio para que no sea visible (en el ejemplo anterior era @).
 
 #SHOWTALKKEY: REEMPLAZA EL CARACTER TALKKEY POR UN ESPACIO (0=NO LO REMPLAZA Y SALE EN PANTALLA, 1=LO REEMPLAZA)
+
 1
 
 --------------------------------------------------------------------------
