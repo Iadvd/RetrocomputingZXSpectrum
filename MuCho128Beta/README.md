@@ -101,7 +101,9 @@ Chapter 3: What can I do with the 128k engine?
 7. It is able to generate the English and Spanish version of the engine messages, so you can create the English and Spanish versions of your game if you whish. 
 
 8. Kempston and Sinclair-1 joystick support.
-   
+
+9. IMPORTANT! MuCho 128k can create games tha have a maximum of 150 places $Q due to the code that controls the location of the images. Usually is highly unusual a game with more than 100 locations. 100 locations in a game is complex enough to fully use the whole available memory, but anyway, you can extend the game up to 150 $Q locations. If you have more than 150 locations $Q, the game will not work properly, so be careful.
+    
 Ok, I think I do not forget anything, so let's go one by one.
 
 --------------------------------------------------------------------------
@@ -316,7 +318,11 @@ folder anymore, because this image will be stored at the ZX Spectrum 128k extra 
 
 B) RULE OF THE SINGLE IMAGE:
 
-If you have a $Q that uses a screen image that is stored at the extra RAM banks, so it is at the [MUCHO128k_MK1boost/gfx/] folder, that $Q CANNOT HAVE MORE images than that one. Good news are: we can keep the image visible through a multiple text pages room $Q at the top until we leave the room (this is a MuCho 128k feature).
+If you have a $Q that uses a screen image that is stored at the extra RAM banks, so it is at the [MUCHO128k_MK1boost/gfx/] folder, that $Q CANNOT HAVE MORE images than that one. Good news are: we can keep the image visible through a multiple text pages room $Q at the top until we leave the room (this is a MuCho 128k feature) by adding #K inside the desired $Q.
+
+$Q myroom
+#K
+... the rest of the room content or whatever place is being described ...
 
 And, in the other hand, a $Q can have as much $I tags as you whish as long as they are stored in the MuCho 48k standard way, at the 48k base memory, but in that case you cannot have any extra RAM bank image at the same $Q.
 
@@ -365,6 +371,8 @@ Those files MUST BE LOCATED at the [MUCHO128k_MK1boost/gfx/] folder
 FEATURE 3: The extra RAM bank images can have the desired height without limit, it does not matter if you have an image of 15,17,18 screen cells of height (that is 15 cells = 15*8 pixels of length). The text will be located at the proper position under the image. Just have in mind that if the image is way too long you will break the menu, but you will notice that when you test the .tap file. If happens, just reduce the height of the image. Just take care of the [RULE OF THE EMPTINESS] I mentiond before.
 
 And that is all, making a good use of the images at the RAM banks and images you will liberate a good amount of bytes of the 48k base memory, and that means, more texts, more conditions, a longer game.
+
+Important: MuCho 128k engine,apart from its own engine space which is fixed, reserves around 2k of base memory to be able to call the assembly routines that are able to active musics, load images frombanks etc. For that reason, the "free" available space that MuCho states that is still available to create a game (this is inside the standard MuCho 48k messages that appear when the game is created) must be always over (or around) 2k. If it is less than that space, probably the tap file will not work at all.
 
 --------------------------------------------------------------------------
 
@@ -453,6 +461,9 @@ The scripts will add the music to the extra RAM 1 bank. And they will sound foll
 
 Well, initially that's all. Good luck!
 
+Advice: if you want a place $Q without music, just add to your project the file /mus/EMPTY_MUSIC.wyz following the instructions to add a new music to the game. This music archive is an empty track, so if 
+you set that music for an specific $Q, when you enter that place the music will stop. The sound effect will still work, it will stop only the music.
+
 --------------------------------------------------------------------------
 
 Capítulo 7: Config File.
@@ -485,6 +496,16 @@ Example:
 
 #FLASHBAR: WILL INCREASE/DECREASE THE BRIGHT PARAMETER OF THE MENU SEPARATOR BAR (0=OFF)
 
+1
+
+4. Talkkey / conversation text. If you write a char different from 0, for instance @ and you put that char at the beginning of a paragraph, the whole text of the paragraph will appear character by character.
+
+#TALKKEY: IF THIS CHAR APPEARS IN THE TEXTS THE CHARACTERS OF THE PARAGRAPHS WILL APPEAR ONE BY ONE (CONVERSATION EFFECT, 0=OFF)
+@
+
+5. Showtalkkey: If it is activated (1) when Talkkey is in use it will replace the Talkkey char (e.g. it was @ in the previous example) with a space, so it is not visible.
+
+#SHOWTALKKEY: WHEN ACTIVATED, THE TALKKEY WILL BE REPLACED BY A SPACE (0=NOT REPLACED, 1=REPLACED)
 1
 
 --------------------------------------------------------------------------
@@ -700,7 +721,9 @@ Capítulo 3: ¿Qué puedo hacer con el motor 128k?
 7. Es capaz de generar la versión en inglés y español de los mensajes del motor, por lo que puedes crear las versiones en inglés y español de tu juego si lo deseas.
 
 8. Soporte para Kempston y Sinclair-1 joysticks.
-   
+
+9. IMPORTANTE: MuCho 128k puede gestionar juegos de hasta un total de 150 lugares $Q, debido al espacio requerido de control para gestionar la localizacion de las imágenes. No es posible crear juegos con mas lugares $Q de un total de 150. Normalente un juego que posee unas 100 localizaciones $Q ya es extremadamente complejo y esta usando al máximo las posibilidades de un ZX Spectrum 128k, pero por si acaso hemos extendido hasta 150 localizaciones $Q el código de control. Ten cuidado porque si tu juego tiene más de 150 localizaciones no funcionará bien. 
+
 Ok, creo que no me olvido de nada, así que vamos uno por uno.
 
 --------------------------------------------------------------------------
@@ -908,7 +931,11 @@ El archivo [yourstartingroomimage.scr] debe estar ubicado en la carpeta [MUCHO12
 
 B) REGLA DE LA IMAGEN ÚNICA:
 
-Si tienes un $Q que utiliza una imagen de pantalla que está almacenada en los bancos de RAM extra, por lo que está en la carpeta [MUCHO128k_MK1boost/gfx/], ese $Q NO PUEDE TENER MÁS imágenes que esa. La buena noticia es que podemos mantener la imagen visible a través de una habitación $Q de varias páginas de texto en la parte superior hasta que salgamos de la habitación (esta es una característica de MuCho 128k).
+Si tienes un $Q que utiliza una imagen de pantalla que está almacenada en los bancos de RAM extra, por lo que está en la carpeta [MUCHO128k_MK1boost/gfx/], ese $Q NO PUEDE TENER MÁS imágenes que esa. La buena noticia es que podemos mantener la imagen visible a través de una habitación $Q de varias páginas de texto en la parte superior hasta que salgamos de la habitación (esta es una característica de MuCho 128k)  usando el nuevo comando #K.
+
+$Q unahabitacion
+#K
+... el contenido de la habitacion o lugar que se esta describiendo en este momento ...
 
 Y, por otro lado, un $Q puede tener tantas etiquetas $I como quieras siempre que estén almacenadas de la forma estándar de MuCho 48k, en la memoria base de 48k, pero en ese caso no puedes tener ninguna imagen de banco de RAM extra en el mismo $Q.
 
@@ -954,6 +981,8 @@ Estos archivos DEBEN ESTAR UBICADOS en la carpeta [MUCHO128k_MK1boost/gfx/].
 CARACTERÍSTICA 3: Las imágenes de los bancos de RAM extra pueden tener la altura deseada sin límite, no importa si tienes una imagen de 15, 17, 18 celdas de pantalla de altura (es decir, 15 celdas = 15*8 píxeles de longitud). El texto se ubicará en la posición adecuada debajo de la imagen. Solo ten en cuenta que si la imagen es demasiado larga, romperás el menú, pero te darás cuenta cuando pruebes el archivo .tap. Si eso sucede, simplemente reduce la altura de la imagen. Solo cuida la [REGLA DEL VACÍO] que mencioné antes.
 
 Y eso es todo, haciendo un buen uso de las imágenes en los bancos de RAM y las imágenes liberarás una buena cantidad de bytes de la memoria base de 48k, y eso significa más textos, más condiciones, un juego más largo.
+
+Importante: el motor de MuCho 128k, aparte del espacio fijo que ocupa el motor, se reserva unos 2k de memoria de lo 48k base para rutinas de ensamblador que permiten las llamadas a la música, o leer imágenes de los bancos de memoria. Por ese motivo, la memoria que MuCho 48k al crear el juego indica como "free" debe estar por encima de 2k. Si está por debajo, el archivo tap no sera generado, o no funcionará correctamente. 
 
 --------------------------------------------------------------------------
 
@@ -1047,6 +1076,8 @@ Los scripts agregarán la música al banco de RAM extra 1. Y sonarán siguiendo 
 
 Bueno, inicialmente eso es todo. ¡Buena suerte!
 
+Consejo: si quieres que haya lugares $Q sin música, incluye en tu proyecto el archivo /mus/EMPTY_MUSIC.wyz siguiendo las instrucciones para incluir música nueva. Este archivo de música está vacío, así que si indicas en un lugar $Q que use esta música, como está vacía el efecto es que no habrá música en ese lugar $Q. Los efectos de sonido sí seguirán funcionando, solo afecta a la música.
+
 --------------------------------------------------------------------------
 
 Capítulo 7: Archivo de configuración.
@@ -1081,6 +1112,16 @@ WAITKEY: SI ES UN CARACTER DISTINTO DE 0 SE USARA PARA DETENER EL TEXTO HASTA QU
 
 #FLASHBAR: HACE QUE LA BARRA DE SEPARACION DE LA PANTALLA DE LECTURA Y EL MENU CAMBIE DE BRILLO (0 SI NO SE USA)
 
+1
+
+4. Talkkey / Texto de conversación. Si pones un carácter distinto de 0, por ejemplo un @ y colocas dicho carácter al principio de un parráfo, el texto de dicho párrafo aparecerá en pantalla carácter a carácter.
+
+#TALKKEY: SI ES UN CARACTER DISTINTO DE 0 SE USARA PARA HACER APARECER EN PANTALLA LOS TEXTOS CARACTER A CARACTER COMO SI FUESE UNA CONVERSACION (0 SI NO SE USA)
+@
+
+5. Showtalkkey: Si se activa (1) cuando se use Talkkey reemplazará el carácter que activa Talkkey por un espacio para que no sea visible (en el ejemplo anterior era @).
+
+#SHOWTALKKEY: REEMPLAZA EL CARACTER TALKKEY POR UN ESPACIO (0=NO LO REMPLAZA Y SALE EN PANTALLA, 1=LO REEMPLAZA)
 1
 
 --------------------------------------------------------------------------
