@@ -321,7 +321,9 @@ B) RULE OF THE SINGLE IMAGE:
 If you have a $Q that uses a screen image that is stored at the extra RAM banks, so it is at the [MUCHO128k_MK1boost/gfx/] folder, that $Q CANNOT HAVE MORE images than that one. Good news are: we can keep the image visible through a multiple text pages room $Q at the top until we leave the room (this is a MuCho 128k feature) by adding #K inside the desired $Q.
 
 $Q myroom
+
 #K
+
 ... the rest of the room content or whatever place is being described ...
 
 And, in the other hand, a $Q can have as much $I tags as you whish as long as they are stored in the MuCho 48k standard way, at the 48k base memory, but in that case you cannot have any extra RAM bank image at the same $Q.
@@ -934,7 +936,9 @@ B) REGLA DE LA IMAGEN ÚNICA:
 Si tienes un $Q que utiliza una imagen de pantalla que está almacenada en los bancos de RAM extra, por lo que está en la carpeta [MUCHO128k_MK1boost/gfx/], ese $Q NO PUEDE TENER MÁS imágenes que esa. La buena noticia es que podemos mantener la imagen visible a través de una habitación $Q de varias páginas de texto en la parte superior hasta que salgamos de la habitación (esta es una característica de MuCho 128k)  usando el nuevo comando #K.
 
 $Q unahabitacion
+
 #K
+
 ... el contenido de la habitacion o lugar que se esta describiendo en este momento ...
 
 Y, por otro lado, un $Q puede tener tantas etiquetas $I como quieras siempre que estén almacenadas de la forma estándar de MuCho 48k, en la memoria base de 48k, pero en ese caso no puedes tener ninguna imagen de banco de RAM extra en el mismo $Q.
